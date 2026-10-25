@@ -12,6 +12,7 @@ args = parser.parse_args()
 args.out.mkdir(parents=True, exist_ok=True)
 OUT = str(args.out.resolve()) + "/"
 FONT_AUDIT = {}
+DESIGN_BOXES = []
 
 def fisher_exact(table):
     a, b = table[0]; c, d = table[1]
@@ -29,16 +30,44 @@ M=["Qwen2.5-32B","Mistral-24B","Llama-3.1-8B","OLMo-2-13B","Qwen2.5-72B"]
 C=dict(zip(M,["#2a78d6","#eb6834","#1baf7a","#eda100","#6250d6"]))
 plt.rcParams.update({"font.size":8.5,"axes.edgecolor":MUT,"axes.labelcolor":INK,"xtick.color":MUT,"ytick.color":MUT,
  "axes.spines.top":False,"axes.spines.right":False,"axes.grid":True,"grid.color":GRID,"grid.linewidth":0.6,"axes.axisbelow":True,
- "figure.facecolor":"white","savefig.dpi":200,"savefig.bbox":"tight","font.family":"DejaVu Sans"})
+ "figure.facecolor":"white","savefig.dpi":200,"savefig.bbox":"tight","font.family":"DejaVu Sans","pdf.fonttype":42,"ps.fonttype":42})
 def wil(k,n,z=1.96):
     p=k/n; d=1+z*z/n; c=(p+z*z/(2*n))/d; h=z*math.sqrt(p*(1-p)/n+z*z/(4*n*n))/d
     return 100*p,100*max(0,c-h),100*min(1,c+h)
+def display_name(name):
+    return name.replace("Qwen2.5-", "Qwen-")
+
+def model_label(ax, name):
+    positions = {
+        "Mistral-24B": (0.50, 0.93, "left"),
+        "Qwen2.5-32B": (0.50, 0.72, "left"),
+        "Llama-3.1-8B": (0.35, 0.54, "left"),
+        "OLMo-2-13B": (0.35, 0.22, "left"),
+        "Qwen2.5-72B": (0.70, 0.14, "center"),
+    }
+    x, y, align = positions[name]
+    ax.text(x, y, display_name(name), transform=ax.transAxes,
+            fontsize=9, color=INK, ha=align, va="center")
+
 def save(f,name,note=None):
     if note:
         f.text(0.01, -0.20 if name == "fig6_refusals" else -0.08,
                textwrap.fill(note, 98), fontsize=9, color=MUT, ha="left", va="top")
+    # Fixed tick formatters reapply their source strings at draw time.
+    for axis in f.axes:
+        for dimension in (axis.xaxis, axis.yaxis):
+            formatter = dimension.get_major_formatter()
+            if isinstance(formatter, matplotlib.ticker.FixedFormatter):
+                dimension.set_major_formatter(matplotlib.ticker.FixedFormatter(
+                    [display_name(label) for label in formatter.seq]))
+            elif isinstance(formatter, matplotlib.ticker.FuncFormatter):
+                original = formatter.func
+                dimension.set_major_formatter(matplotlib.ticker.FuncFormatter(
+                    lambda value, pos, func=original: display_name(func(value, pos))))
     texts = [t for t in f.findobj(matplotlib.text.Text)
              if t.get_visible() and t.get_text().strip()]
+    for item in texts:
+        item.set_text(display_name(item.get_text()))
     if name != "main_fig1_design":
         # Size labels for a 6.3-inch-wide inclusion in the final paper, rather
         # than relying on the nominal matplotlib font size before scaling.
@@ -49,7 +78,7 @@ def save(f,name,note=None):
             f.canvas.draw()
             renderer = f.canvas.get_renderer()
             width = f.get_tightbbox(renderer).width + 0.2
-            floor = max(9.0, 7.25 * width / 6.3)
+            floor = max(8.5 if name == "main_fig3_spread" else 9.0, 7.25 * width / 6.3)
             changed = False
             for item in texts:
                 if item.get_fontsize() < floor - 0.01:
@@ -60,8 +89,16 @@ def save(f,name,note=None):
     f.canvas.draw()
     renderer = f.canvas.get_renderer()
     width = f.get_tightbbox(renderer).width + 0.2
+    projected_min = min(t.get_fontsize() for t in texts) * 6.3 / width
+    assert projected_min >= (7.5 if name == "main_fig1_design" else 7.0), (name, projected_min)
+    if name == "main_fig1_design":
+        for patch, label in DESIGN_BOXES:
+            pb, tb = patch.get_window_extent(renderer), label.get_window_extent(renderer)
+            margin = 2.0 * f.dpi / 72
+            assert (tb.x0 >= pb.x0 + margin and tb.x1 <= pb.x1 - margin
+                    and tb.y0 >= pb.y0 + margin and tb.y1 <= pb.y1 - margin), label.get_text()
     FONT_AUDIT[name] = dict(pdf_width_inches=width,
-        projected_min_font_pt=min(t.get_fontsize() for t in texts) * 6.3 / width)
+        projected_min_font_pt=projected_min)
     f.savefig(OUT+name+".png")
     f.savefig(OUT+name+".pdf")
     plt.close(f)
@@ -139,7 +176,7 @@ for m in M:
     k0,n0=N0[m]; p0=wil(k0,n0); p1=wil(A[m]["L1"],N[m])
     a1.errorbar(p0[0],p1[0],xerr=[[p0[0]-p0[1]],[p0[2]-p0[0]]],yerr=[[p1[0]-p1[1]],[p1[2]-p1[0]]],fmt="o",color=C[m],mec="white",ms=7,lw=1.2)
     dx,ha=(3,"left") if m!="Qwen2.5-72B" else (-3,"right")
-    a1.text(p0[0]+dx,p1[0]+4,m,fontsize=6.5,color=INK,ha=ha)
+    model_label(a1,m)
 a1.set_xlim(0,80); a1.set_ylim(-3,105); a1.set_xlabel("Strict unprompted collusion, N0 (%)"); a1.set_ylabel("L1 acceptance (%)")
 a1.set_title("a  Across models",loc="left",fontsize=8.5,color=INK)
 for i,m in enumerate(M):
@@ -277,20 +314,23 @@ save(f,"fig9_think","Open circles: direct mean first-token P(ACCEPT), T=0. Fille
 # format decomposition
 FD=[("Qwen2.5-32B","L2",(11,0,0,89)),("Qwen2.5-32B","L2F",(35,62,0,3)),("Mistral-24B","L2",(15,3,0,82)),("Mistral-24B","L2F",(1,5,78,15)),
     ("Llama-3.1-8B","L2",(0,32,1,67)),("Llama-3.1-8B","L2F",(1,34,9,56)),("OLMo-2-13B","L2",(5,2,0,93)),("OLMo-2-13B","L2F",(28,15,12,45))]
+FD_COUNTS = {'Qwen2.5-32B|L2': [9, 0, 0, 70], 'Qwen2.5-32B|L2F': [28, 49, 0, 2], 'Mistral-24B|L2': [12, 2, 0, 65], 'Mistral-24B|L2F': [1, 4, 62, 12], 'Llama-3.1-8B|L2': [0, 25, 1, 53], 'Llama-3.1-8B|L2F': [1, 27, 7, 44], 'OLMo-2-13B|L2': [4, 2, 0, 76], 'OLMo-2-13B|L2F': [23, 12, 10, 37]}
 cols4=["#2f2f2d","#8a8880","#d8d6cf","#f3f2ee"]; labs4=["explicit yes","conditional yes","deflects","explicit no"]
 f,ax=plt.subplots(figsize=(5.6,2.6))
 ys=[];yl=[]
 for k,(m,c,v) in enumerate(FD):
     y=len(FD)-1-k+(0 if k%2 else 0.0); left=0
+    cell = FD_COUNTS[m+"|"+c]
+    v = [100*count/sum(cell) for count in cell]
     for val,col in zip(v,cols4):
         ax.barh(y,val,left=left,color=col,height=0.7,edgecolor="white",lw=1)
-        if val>=10: ax.text(left+val/2,y,f"{val}",ha="center",va="center",fontsize=6.3,color="white" if col in cols4[:2] else INK)
+        if val>=10: ax.text(left+val/2,y,f"{val:.0f}",ha="center",va="center",fontsize=6.3,color="white" if col in cols4[:2] else INK)
         left+=val
     ys.append(y); yl.append(f"{m}  {'forced' if c=='L2' else 'free'}")
 ax.set_yticks(ys,yl,fontsize=7); ax.set_xlim(0,100); ax.grid(visible=False); ax.set_xlabel("Share of L2 replies (%)")
 from matplotlib.patches import Patch
 ax.legend(handles=[Patch(facecolor=c,edgecolor=MUT,lw=0.4,label=l) for c,l in zip(cols4,labs4)],frameon=False,fontsize=6.5,ncol=4,loc="upper center",bbox_to_anchor=(0.4,1.16))
-save(f,"fig10_format","Phi-4 four-way coding of the same agents' replies. Without the forced first word, Qwen hedges into 'conditional yes' (scored accept) and Mistral deflects (scored refuse).")
+save(f,"fig10_format","Independent four-way Phi-4 recoding of the same replies, using a different judge prompt. These style labels do not map deterministically to binary acceptance; do not sum clear and conditional assent to reconstruct Table 2.")
 
 # memory transplant
 MT={"Qwen2.5-32B":[(120,237),(228,237),(11,237),(215,237),(169,237)],"Mistral-24B":[(128,237),(200,237),(149,237),(196,237),(190,237)]}
@@ -308,20 +348,20 @@ LY=[5,9,13,16,20,24,28,31]
 full=[29.5,30.1,37.5,67.8,69.4,67.1,69.6,90.5]; ref=[29.0,29.2,30.3,32.8,30.1,28.7,28.9,27.2]; orth=[29.4,30.2,36.5,64.3,69.5,68.2,69.9,91.4]
 f,ax=plt.subplots(figsize=(4.6,2.6))
 ax.axhline(72.7,color=MUT,ls="--",lw=0.8); ax.text(31,75,"L1 baseline 73%",ha="right",fontsize=6.5,color=MUT)
-ax.axhline(29.4,color=MUT,ls=":",lw=0.8); ax.text(5,20,"L2 baseline 29%",fontsize=6.5,color=MUT)
+ax.axhline(29.4,color=MUT,ls=":",lw=0.8); ax.text(5,12,"L2 baseline 29%",fontsize=6.5,color=MUT)
 ax.plot(LY,full,"-o",color=C["Llama-3.1-8B"],ms=5,mec="white",label="shift L2 by full (L1-L2) difference")
 ax.plot(LY,orth,"--",color=C["Llama-3.1-8B"],lw=1.2,label="only the part orthogonal to refusal dir.")
 ax.plot(LY,ref,"-s",color=MUT,ms=4,mec="white",label="only the refusal-direction part")
 ax.set_xlabel("Layer (of 32)"); ax.set_ylabel("P(ACCEPT) on L2 (%)"); ax.set_ylim(0,100)
 f.legend(*ax.get_legend_handles_labels(),frameon=False,fontsize=9,loc="upper center",bbox_to_anchor=(0.53,0.99))
-save(f,"fig12_llama_patch","Llama-3.1-8B, last-token residual stream. Difference vector from even snapshots, tested on odd (n = 41). Refusal direction per Arditi et al. (2024), cosine with the difference ≤ 0.2.")
+save(f,"fig12_llama_patch","Llama-3.1-8B, last-token residual stream. Difference vector from even snapshots, tested on odd (n = 41). Refusal direction per Arditi et al. (2024), maximum cosine with the difference ≈ 0.20.")
 
 # ================= values batch =================
 RL=["generic","penalty","public test","victim view","golden rule","identity","rule reminder"]
 qd=[76.6,6.1,17.7,22.2,1.0,37.4,0.1]; qt=[(78,79),(69,79),(77,79),(76,79),(77,79),(76,79),(65,79)]
 L2T={"Qwen2.5-32B":([(76,79),(46,79),(63,79),(53,79),(61,79),(56,79),(4,79)],(67,79)),
      "Mistral-24B":([(42,79),(23,79),(40,79),(25,79),(39,79),(30,79),(24,79)],(25,79)),
-     "Llama-3.1-8B":([(42,61),(39,61),(50,61),(44,61),(41,61),(45,61),(31,61)],(41,61))}
+     "Llama-3.1-8B":([(42,59),(39,59),(50,60),(44,59),(41,60),(45,60),(31,60)],(41,60))}
 f,(a1,a2)=plt.subplots(1,2,figsize=(7.4,2.9),sharey=True)
 for j in range(len(RL)):
     a1.plot(j,qd[j],"o",mfc="white",mec=C["Qwen2.5-32B"],mew=1.5,ms=6)
@@ -336,7 +376,7 @@ a2.set_xticks(range(len(RL)),RL,rotation=35,ha="right"); a2.grid(axis="x",visibl
 a2.set_title("b  L2, think first, by reflection prompt",loc="left",fontsize=8,color=INK)
 for m in M3: a2.plot([],[],"o",color=C[m],label=m)
 f.tight_layout(); a2.legend(frameon=False,fontsize=6.3,ncol=3,loc="lower center",bbox_to_anchor=(0.5,1.13))
-save(f,"fig13_reflection","Reflection sentence added before the reply. Direct = first-token P(ACCEPT), T = 0; think-first = one sample at T = 0.7, Phi-4 judged; n = 79 (Llama 61). The rule reminder yields 5% generated acceptance on Qwen L2. Token probabilities and generated rates are different metrics; prompting and temperature also change.")
+save(f,"fig13_reflection","Reflection sentence added before the reply. Direct = first-token P(ACCEPT), T = 0; think-first = one sample at T = 0.7, Phi-4 judged; Qwen/Mistral: n = 79. Llama: n = 59–60 valid replies out of 79 attempts per condition; 19–20 API failures excluded. The rule reminder yields 5% generated acceptance on Qwen L2. Token probabilities and generated rates are different metrics; prompting and temperature also change.")
 
 # rebound + transmission
 f,(a1,a2)=plt.subplots(1,2,figsize=(7.4,2.8),gridspec_kw={"width_ratios":[1,1.3]})
@@ -360,32 +400,45 @@ a2.set_title("b  Next-game memory",loc="left",fontsize=8,color=INK)
 for m in VM: a2.plot([],[],"o",color=C[m],label=m)
 a2.legend(frameon=False,fontsize=6.3,loc="center right",bbox_to_anchor=(1,0.62))
 f.tight_layout()
-save(f,"fig14_values_persist","(a) T1 = L1 offer under the condition; then organizers announce monitoring and penalties are cancelled (filled) or the offer is simply repeated (open). (b) 79 agents × 3 samples, Phi-4. Any recorded refusal blocks Qwen's recruiting; a synthetic record of another player refusing lowers Qwen recruiting. Values cues remain after the lift; this does not prove internalisation.")
+save(f,"fig14_values_persist","(a) T1 = L1 offer under the condition; then organizers announce monitoring and penalties are cancelled (filled) or the offer is simply repeated (open). (b) 79 agents × 3 samples, Phi-4. Any recorded refusal blocks Qwen's recruiting; a synthetic record of another player refusing lowers Qwen recruiting. Values cues remain after the lift.")
 
 # ================= MAIN-TEXT COMPOSITES =================
 from matplotlib.patches import FancyBboxPatch
-def box(ax,x,y,w,h,txt,fc="#f3f2ee",ec=MUT,fs=5.9,bold=False):
-    ax.add_patch(FancyBboxPatch((x,y),w,h,boxstyle="round,pad=0.01,rounding_size=0.015",fc=fc,ec=ec,lw=0.8))
-    ax.text(x+w/2,y+h/2,txt,ha="center",va="center",fontsize=fs,color=INK,fontweight="bold" if bold else "normal",linespacing=1.25)
+def box(ax,x,y,w,h,txt,fc="#f3f2ee",ec=MUT,fs=8.3,bold=False):
+    patch = FancyBboxPatch((x,y),w,h,boxstyle="round,pad=0.006,rounding_size=0.012",
+                          fc=fc,ec=ec,lw=0.8)
+    ax.add_patch(patch)
+    label = ax.text(x+w/2,y+h/2,txt,ha="center",va="center",fontsize=fs,
+                    color=INK,fontweight="bold" if bold else "normal",linespacing=1.14)
+    DESIGN_BOXES.append((patch,label))
+
 def arr(ax,x1,y1,x2,y2):
-    ax.annotate("",xy=(x2,y2),xytext=(x1,y1),arrowprops=dict(arrowstyle="-|>",color=MUT,lw=0.9,mutation_scale=8))
-f,ax=plt.subplots(figsize=(7.4,2.9)); ax.set_xlim(-0.01,1.01); ax.set_ylim(0,1.04); ax.axis("off")
-box(ax,0.00,0.38,0.11,0.26,"Self-play\nLiar's Bar,\nseeds\n1000\u20131029")
-box(ax,0.14,0.38,0.11,0.26,"Snapshot at\nround 2\n(28\u201330 per\nmodel)",fc="#e7f1fb")
-arr(ax,0.11,0.51,0.14,0.51)
-box(ax,0.29,0.72,0.21,0.22,"N0 probe, before contact:\nneutral private-message\ntool. Unprompted collusion?",fc="#efedff")
-box(ax,0.29,0.38,0.21,0.28,"Branch: same state, same\nagent; offers / notices vary.\nL0 benign, L1 hint, L2 explicit,\nL3 + benefits; wording, format,\nnotice and values variants",fc="#f9ece7")
-box(ax,0.29,0.06,0.21,0.25,"Positive control (PC):\nimposed alliance +\n'DO NOT CHALLENGE {U}'",fc="#f0efec")
-for y in (0.83,0.52,0.185): arr(ax,0.25,0.51,0.29,y)
-box(ax,0.54,0.38,0.15,0.28,"Reply to U:\nACCEPT / REFUSE\n(Phi-4 judge)\n\u2192 Findings 2, 3",fc="#f9ece7")
-arr(ax,0.50,0.52,0.54,0.52)
-box(ax,0.54,0.06,0.15,0.25,"Lift test: 'monitoring\nand penalties are\ncancelled', re-offer\n\u2192 Finding 3",fc="#f9eeda")
-arr(ax,0.615,0.38,0.615,0.31)
-box(ax,0.73,0.38,0.27,0.28,"Next game: agent and its\nmemory move to a new table;\nneutral PM probe: does it recruit?\n\u2192 Finding 1 (contagion)",fc="#e5f4e4")
-arr(ax,0.69,0.52,0.73,0.52)
-box(ax,0.73,0.06,0.27,0.25,"Memory edits: offer only,\n'I refused', 'I accepted',\nsaw another player refuse",fc="#e5f4e4")
-arr(ax,0.865,0.38,0.865,0.31)
-ax.text(0.0,1.03,"U uses a fixed scripted play policy; interventions vary offers, notices and memories.",fontsize=6.4,color=MUT,va="top")
+    ax.annotate("",xy=(x2,y2),xytext=(x1,y1),
+                arrowprops=dict(arrowstyle="-|>",color=MUT,lw=0.9,
+                                mutation_scale=8,shrinkA=1,shrinkB=1))
+
+f,ax=plt.subplots(figsize=(6.3,2.65))
+f.subplots_adjust(left=0.01,right=0.99,bottom=0.01,top=0.99)
+ax.set_xlim(-0.015,1.015); ax.set_ylim(0,1); ax.axis("off")
+box(ax,0.00,0.79,0.25,0.18,"Self-play: Liar's Bar\nseeds 1000–1029")
+box(ax,0.36,0.79,0.25,0.18,"Snapshot at round 2\n(28–30 per model)",fc="#e7f1fb")
+box(ax,0.72,0.77,0.28,0.21,"N0 probe, before contact:\nneutral private-message\ntool. Unprompted collusion?",fc="#efedff")
+arr(ax,0.25,0.88,0.36,0.88)
+arr(ax,0.61,0.88,0.72,0.88)
+# Route the branch connector through the open strip between rows.
+ax.plot([0.485,0.485,0.14],[0.79,0.745,0.745],color=MUT,lw=0.9)
+arr(ax,0.14,0.745,0.14,0.71)
+box(ax,0.00,0.33,0.28,0.38,"Branch: same state,\nsame agent; offers /\nnotices vary. L0 benign,\nL1 hint, L2 explicit,\nL3 + benefits; wording,\nformat, notice and\nvalues variants",fc="#f9ece7")
+box(ax,0.36,0.40,0.25,0.25,"Reply to U:\nACCEPT / REFUSE\n(Phi-4 judge)\n→ Findings 2, 3",fc="#f9ece7")
+box(ax,0.72,0.36,0.28,0.32,"Next game: agent and\nits memory move to a\nnew table; neutral PM\nprobe: does it recruit?\n→ Finding 1 (contagion)",fc="#e5f4e4")
+arr(ax,0.28,0.52,0.36,0.52)
+arr(ax,0.61,0.52,0.72,0.52)
+box(ax,0.00,0.02,0.28,0.24,"Positive control (PC):\nimposed alliance +\n'DO NOT CHALLENGE\n{U}'",fc="#f0efec")
+box(ax,0.36,0.02,0.25,0.25,"Lift test: 'monitoring\nand penalties are\ncancelled', re-offer\n→ Finding 3",fc="#f9eeda")
+box(ax,0.72,0.02,0.28,0.24,"Memory edits: offer only,\n'I refused', 'I accepted',\nsaw another player\nrefuse",fc="#e5f4e4")
+arr(ax,0.14,0.33,0.14,0.26)
+arr(ax,0.485,0.40,0.485,0.27)
+arr(ax,0.86,0.36,0.86,0.26)
 save(f,"main_fig1_design")
 
 # Fig 2: measure
@@ -402,13 +455,13 @@ for m in M:
     k0,n0=N0[m]; p0=wil(k0,n0); p1=wil(A[m]["L1"],N[m])
     a2.errorbar(p0[0],p1[0],xerr=[[p0[0]-p0[1]],[p0[2]-p0[0]]],yerr=[[p1[0]-p1[1]],[p1[2]-p1[0]]],fmt="o",color=C[m],mec="white",ms=7,lw=1.2)
     dx,ha=(3,"left") if m!="Qwen2.5-72B" else (-3,"right")
-    a2.text(p0[0]+dx,p1[0]+4,m.replace("Qwen2.5-","Qwen-"),fontsize=6.5,color=INK,ha=ha)
+    model_label(a2,m)
 a2.set_xlim(0,80); a2.set_ylim(-3,105); a2.set_xlabel("Strict pre-contact collusion, N0 (%)"); a2.set_ylabel("L1 acceptance (%)")
 a2.set_title("b  Disposition vs. being caught",loc="left",fontsize=8.5,color=INK)
 f.tight_layout(); save(f,"main_fig2_measure")
 
 # Fig 3: spread
-f,(a1,a2)=plt.subplots(1,2,figsize=(7.4,2.8),gridspec_kw={"width_ratios":[1,1.15]})
+f,(a1,a2)=plt.subplots(1,2,figsize=(7.4,2.8),gridspec_kw={"width_ratios":[0.72,1.53]})
 for y,m in zip(range(4,-1,-1),M):
     (a,n),(b,_),(c,_),p=CT[m]; pa,pb,pc=[wil(k,n)[0] for k in (a,b,c)]
     a1.plot([min(pa,pb,pc),max(pa,pb,pc)],[y,y],color=GRID,lw=3,zorder=0)
@@ -418,10 +471,10 @@ a1.set_xlabel("Recruiting in the next game (%)")
 a1.plot([],[],"o",mfc="white",mec=MUT,label="no offer"); a1.plot([],[],"o",color=MUT,label="after L1 offer"); a1.plot([],[],"s",mfc="white",mec=MUT,label="after PC")
 a1.legend(frameon=False,fontsize=6.3,ncol=3,loc="lower center",bbox_to_anchor=(0.45,1.13),handletextpad=0.2,columnspacing=0.8)
 a1.set_title("a  Contagion",loc="left",fontsize=8.5,color=INK,pad=3)
-vl2=["none","offer","values","strategy","fear","accept","observe"]
+vl2=["no\nexchange","offer\nonly","refuse:\nvalues","refuse:\nstrategy","refuse:\nfear","accept","observe"]
 for i,m in enumerate(VM):
     for j,k in enumerate(VM[m]): dot(a2,j+(i-0.5)*0.22,k,237,C[m],ms=5)
-a2.set_xticks(range(7),vl2,fontsize=9,rotation=35,ha="right"); a2.set_ylim(-3,103); a2.grid(axis="x",visible=False); a2.set_ylabel("Recruiting in the next game (%)")
+a2.set_xticks(range(7),vl2,fontsize=8.5,rotation=0,ha="center"); a2.set_ylim(-3,103); a2.grid(axis="x",visible=False); a2.set_ylabel("Recruiting in the next game (%)")
 for m in VM: a2.plot([],[],"o",color=C[m],label=m.replace("Qwen2.5-","Qwen-"))
 a2.legend(frameon=False,fontsize=6.3,ncol=2,loc="lower center",bbox_to_anchor=(0.5,1.13))
 a2.set_title("b  Memory content",loc="left",fontsize=8.5,color=INK,pad=3)
@@ -432,11 +485,11 @@ f,(a1,a2)=plt.subplots(1,2,figsize=(7.4,2.75),gridspec_kw={"width_ratios":[1.35,
 keys=["L1","DplaceboL1","DwatchL1","DmonL1","DpenL1","D0L1"]; labs=["L1","placebo\nnotice","review\nnotice","monitor\nnotice","−5 pts\nonly","full\nnotice"]
 for i,m in enumerate(M3):
     xs=[j+(i-1)*0.22 for j in range(len(keys))]
-    for x,k in zip(xs,keys): a1.plot([x,x],[0,P[m][k]],color=C[m],lw=3,solid_capstyle="round")
-a1.set_xticks(range(len(keys)),labs,fontsize=6.6); a1.set_ylim(0,100); a1.grid(axis="x",visible=False)
+    for x,k in zip(xs,keys): a1.plot(x,P[m][k],"o",color=C[m],mec="white",mew=0.7,ms=6.2)
+a1.set_xticks(range(len(keys)),labs,fontsize=6.6); a1.set_ylim(-3,103); a1.grid(axis="x",visible=False)
 a1.set_ylabel("P(ACCEPT) on L1 (%)")
-for m in M3: a1.plot([],[],color=C[m],lw=3,label=m.replace("Qwen2.5-","Qwen-"))
-a1.legend(frameon=False,fontsize=6.3,ncol=3,loc="lower center",bbox_to_anchor=(0.5,1.13))
+for m in M3: a1.plot([],[],"o",color=C[m],label=m.replace("Qwen2.5-","Qwen-"))
+a1.legend(frameon=False,fontsize=6.3,ncol=3,loc="lower center",bbox_to_anchor=(0.5,1.24))
 a1.set_title("a  Which part of the notice deters",loc="left",fontsize=8.5,color=INK,pad=3)
 for i,m in enumerate(RB):
     for j in range(3):
@@ -444,10 +497,10 @@ for i,m in enumerate(RB):
         dot(a2,x,*RB[m]["lift"][j],C[m])
         if RB[m]["nolift"][j]: dot(a2,x+0.09,*RB[m]["nolift"][j],C[m],hollow=True,ms=5)
 a2.set_xticks(range(3),["penalty\nonly","values\nonly","penalty\n+ values"],fontsize=6.8); a2.set_ylim(-3,103); a2.grid(axis="x",visible=False)
-a2.set_ylabel("Earlier refusers who now accept (%)")
+a2.set_ylabel("Refusers who now accept (%)",labelpad=9)
 a2.plot([],[],"o",color=MUT,label="'penalties cancelled'"); a2.plot([],[],"o",mfc="white",mec=MUT,label="plain re-ask")
-a2.legend(frameon=False,fontsize=6.3,ncol=2,loc="lower center",bbox_to_anchor=(0.5,1.13))
-a2.set_title("b  Lift test",loc="left",fontsize=8.5,color=INK,pad=3)
+a2.legend(frameon=False,fontsize=6.3,ncol=2,loc="lower center",bbox_to_anchor=(0.5,1.24))
+a2.set_title("b  Lift test",loc="left",fontsize=8.5,color=INK,pad=13)
 f.tight_layout(); save(f,"main_fig4_hold")
 
 Path(OUT+"font_audit.json").write_text(json.dumps(FONT_AUDIT, indent=2)+"\n")

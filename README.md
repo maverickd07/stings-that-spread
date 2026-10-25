@@ -11,6 +11,10 @@ Start with [the consolidated results](runs/RESULTS_ALL_20261024.md), [interpreta
 
 The release contains derived Markdown, CSV, and summary JSON results, including agent-level observation tables, scoring tables, and audit tables. Raw API logs, full per-request response files, serialized game states, and model weights are excluded. Published reports are preserved verbatim, including their limitations and earlier results; consult each report's judge and baseline definitions before combining tables. `N0` denotes a no-offer branch in the engine; report references to an N0 predisposition measure denote the neutral private-message probe and may mean one sample or any of three samples.
 
+## Final data corrections (v5)
+
+See [the final data audit](docs/DATA_AUDIT_V5.md). The paper uses the corrected values analysis in `runs/values_corrected_v5/`; historical reports are preserved. The corrections exclude failed Llama reflection generations, state the lower Llama keyword/judge agreement, and distinguish independent four-way style labels from binary acceptance. Core acceptance, recruiting, memory, and Qwen/Mistral lift counts are unchanged.
+
 ## Reproduce
 
 Use **Python 3.12**, run commands from the repository root, and configure your own Modal account:
@@ -105,9 +109,19 @@ The E3 script expects harmful/harmless training and harmful validation instructi
 
 **Reproduction limits:** the public summary release supports inspecting results and regenerating experiments from the code, but the original stochastic histories and pickle snapshots are not shipped. The raw-data-dependent analysis commands cannot rerun on summary files alone. Recreate their input stages first, in a separate checkout/output tree; the launchers can otherwise skip existing filenames. Engine seeds, prompt text, model IDs, and server settings are provided, but per-request sampling was not fully seeded and model downloads are not revision-locked everywhere, so new generations need not match the published numbers exactly. No paid inference is required to view results or run the mock tests.
 
+## Corrected offline values analysis
+
+After recreating the raw values inputs, use the correction module for the final paper:
+
+```bash
+STING_VALUES_OUT=/path/to/raw/values python -m sting.values_corrected --analysis-out /path/to/corrected-values
+```
+
+This excludes failed/empty generations and reports condition-specific attempted/valid/failed counts. The historical `sting.values` analyzer and original reports remain available for provenance. The final plotting inputs use the corrected summaries in `runs/values_corrected_v5/`.
+
 ## Final paper figures
 
-`figures/make_figures.py` regenerates all final main-text and appendix plots from frozen, derived summary inputs embedded in the script. It includes the corrected distinctions between first-token probabilities and generated acceptance, the joint PC intervention, and the continuing values cue. The inputs correspond to `runs/RESULTS_ALL_20261024.md`, `runs/interp/results.json`, and `runs/values/results.json`; they are not new experimental runs.
+`figures/make_figures.py` regenerates all final main-text and appendix plots from frozen, derived summary inputs embedded in the script. It includes the corrected distinctions between first-token probabilities and generated acceptance, the joint PC intervention, and the continuing values cue. The inputs correspond to `runs/RESULTS_ALL_20261024.md`, `runs/interp/results.json`, and the corrected `runs/values_corrected_v5/results.json`; they are not new experimental runs.
 
 ```bash
 python -m pip install matplotlib
