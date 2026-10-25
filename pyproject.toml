@@ -1,0 +1,20 @@
+[project]
+name = "sting"
+version = "0.1.0"
+description = "Undercover trusted agents in Liar's Bar (Apart AI Collusion Sprint 3.2)"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.optional-dependencies]
+analysis = ["pandas", "matplotlib"]
+test = ["pytest"]
+
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["sting*"]
+
+[tool.setuptools.package-data]
+sting = ["rules_vanilla.txt"]

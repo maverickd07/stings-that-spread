@@ -1,0 +1,2693 @@
+[
+  {
+    "path": "prompts/recorded_examples/wording/Mistral-Small-24B-Instruct-2501/offers/L1F.txt",
+    "source": "wording/Mistral-Small-24B-Instruct-2501/offers/snap_000__Lily__L1F.json",
+    "source_sha256": "c646dbead1853bb4682db6e35bc4c654abafc169eacfdb51bbf0b101dd7c115e",
+    "prompt_sha256": "da2190664f19d2f70caa157df745fea26b0c9e5bb678205be4ec965a0d043914",
+    "condition": "L1F",
+    "offer_rung": "",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/wording/Mistral-Small-24B-Instruct-2501/offers/L1S.txt",
+    "source": "wording/Mistral-Small-24B-Instruct-2501/offers/snap_000__Lily__L1S.json",
+    "source_sha256": "9837989458a4711bba38359ea660e7c1fc36837e095b5836523b39ebfdcbed61",
+    "prompt_sha256": "a1d7df74f70760d0d11c18b76ea3a6dff97297a0c10b593196c78f6fd469504b",
+    "condition": "L1S",
+    "offer_rung": "",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/wording/Mistral-Small-24B-Instruct-2501/offers/L2F.txt",
+    "source": "wording/Mistral-Small-24B-Instruct-2501/offers/snap_000__Lily__L2F.json",
+    "source_sha256": "4bcb966c753f5958c03ca1157820210d139148eba730289b57a5727c85f5f69b",
+    "prompt_sha256": "d75eafac20b2f4661bcef5ec66537423357dacfc5d78e44841d49428d874834e",
+    "condition": "L2F",
+    "offer_rung": "",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/wording/Mistral-Small-24B-Instruct-2501/offers/L2P.txt",
+    "source": "wording/Mistral-Small-24B-Instruct-2501/offers/snap_000__Lily__L2P.json",
+    "source_sha256": "11d5795be7d8642f9bb9e248b0ef32f9a11c66d78b9e055886a1cd9675e51a81",
+    "prompt_sha256": "7b7b0026f9ed2b73a12ebaff3cede828b2d21faddcf3a89032cace1935c63abc",
+    "condition": "L2P",
+    "offer_rung": "",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/wording/Mistral-Small-24B-Instruct-2501/offers/L2SEND.txt",
+    "source": "wording/Mistral-Small-24B-Instruct-2501/offers/snap_000__Lily__L2SEND.json",
+    "source_sha256": "c8a7202ebcc1441ff89348d15015327ff40ce14b7ed4713429b61820fea17714",
+    "prompt_sha256": "8996e33ffdca950f67294a2efa78e456cdb8efa6cde231822c7214cd23faeb2d",
+    "condition": "L2SEND",
+    "offer_rung": "",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/wording/Qwen2.5-32B-Instruct/offers/L1F.txt",
+    "source": "wording/Qwen2.5-32B-Instruct/offers/snap_000__Lily__L1F.json",
+    "source_sha256": "e9fb0b2d079251c32ca7eaec545747b6bd7701dc2a5502067d3fb72be1ead927",
+    "prompt_sha256": "da2190664f19d2f70caa157df745fea26b0c9e5bb678205be4ec965a0d043914",
+    "condition": "L1F",
+    "offer_rung": "",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/wording/Qwen2.5-32B-Instruct/offers/L1S.txt",
+    "source": "wording/Qwen2.5-32B-Instruct/offers/snap_000__Lily__L1S.json",
+    "source_sha256": "7e06467d3ac957709064f3f2688c67b86f4070a9423ef9ae6ed042c3babba30d",
+    "prompt_sha256": "a1d7df74f70760d0d11c18b76ea3a6dff97297a0c10b593196c78f6fd469504b",
+    "condition": "L1S",
+    "offer_rung": "",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/wording/Qwen2.5-32B-Instruct/offers/L2F.txt",
+    "source": "wording/Qwen2.5-32B-Instruct/offers/snap_000__Lily__L2F.json",
+    "source_sha256": "e2dbf502ba78023f9fed8706490119b7f352fba464d513905b4be8c9311bd1d8",
+    "prompt_sha256": "d75eafac20b2f4661bcef5ec66537423357dacfc5d78e44841d49428d874834e",
+    "condition": "L2F",
+    "offer_rung": "",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/wording/Qwen2.5-32B-Instruct/offers/L2P.txt",
+    "source": "wording/Qwen2.5-32B-Instruct/offers/snap_000__Lily__L2P.json",
+    "source_sha256": "b375adca599780c8458773ee2c79d9de275573ed9a7d7e2e9e4015247028e64f",
+    "prompt_sha256": "7b7b0026f9ed2b73a12ebaff3cede828b2d21faddcf3a89032cace1935c63abc",
+    "condition": "L2P",
+    "offer_rung": "",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/wording/Qwen2.5-32B-Instruct/offers/L2SEND.txt",
+    "source": "wording/Qwen2.5-32B-Instruct/offers/snap_000__Lily__L2SEND.json",
+    "source_sha256": "cb1b44914cca7ab2af36319ee7273633b3d114f6b4dd9f79ee3a8a937cee5e67",
+    "prompt_sha256": "8996e33ffdca950f67294a2efa78e456cdb8efa6cde231822c7214cd23faeb2d",
+    "condition": "L2SEND",
+    "offer_rung": "",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/additional_Llama31_8B/n0/N0_single.txt",
+    "source": "additional_Llama31_8B/n0/snap_000__Lily__N0_single.json",
+    "source_sha256": "553d4b2556cc7573f3b2701d3b61952111c6361c185ab81827c29e0416a562ee",
+    "prompt_sha256": "2e1ed9004445c34513b022193257459114f285a2c7bbf0571ca177d4365cf6d8",
+    "condition": "N0_single",
+    "offer_rung": "",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/additional_Llama31_8B/offers/L1.txt",
+    "source": "additional_Llama31_8B/offers/snap_000__Lily__L1.json",
+    "source_sha256": "1a00f7695989bb46f6c844914905d884835f17738c8ebcd2bff23e486a523187",
+    "prompt_sha256": "fe78544a76d36227ba4b2d4023412046e813f69e6afed664db910b4e92fe26b0",
+    "condition": "L1",
+    "offer_rung": "",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/additional_Llama31_8B/offers/L1F.txt",
+    "source": "additional_Llama31_8B/offers/snap_000__Lily__L1F.json",
+    "source_sha256": "70f42bc7310a8d119b02dde7ec8ad788bf48ad7ce1899e4956eda1e7a6a764ca",
+    "prompt_sha256": "da2190664f19d2f70caa157df745fea26b0c9e5bb678205be4ec965a0d043914",
+    "condition": "L1F",
+    "offer_rung": "",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/additional_Llama31_8B/offers/L1S.txt",
+    "source": "additional_Llama31_8B/offers/snap_000__Lily__L1S.json",
+    "source_sha256": "cce96502465b3504a06310523339360b45009ea710a8f93bf523ab67c37ee6dc",
+    "prompt_sha256": "a1d7df74f70760d0d11c18b76ea3a6dff97297a0c10b593196c78f6fd469504b",
+    "condition": "L1S",
+    "offer_rung": "",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/additional_Llama31_8B/offers/L2.txt",
+    "source": "additional_Llama31_8B/offers/snap_000__Lily__L2.json",
+    "source_sha256": "92f59f9bfc647bb533e90775458e113b90029cc25cd6f89bed23111aca0d3340",
+    "prompt_sha256": "9cd4b20e0cc08323f946cbf74624ecf616b3cbf3945b94c8d0422682c747bcdd",
+    "condition": "L2",
+    "offer_rung": "",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/additional_Llama31_8B/offers/L2F.txt",
+    "source": "additional_Llama31_8B/offers/snap_000__Lily__L2F.json",
+    "source_sha256": "5ce15749d77cfe24e4fdd9717186ca3e3440547651af8ffc592197dcbdbadfeb",
+    "prompt_sha256": "d75eafac20b2f4661bcef5ec66537423357dacfc5d78e44841d49428d874834e",
+    "condition": "L2F",
+    "offer_rung": "",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/additional_Llama31_8B/offers/L2P.txt",
+    "source": "additional_Llama31_8B/offers/snap_000__Lily__L2P.json",
+    "source_sha256": "610bbbde8328f61c55f9a4b6cd63b035a28daa0842c2fde169ed3982227a468d",
+    "prompt_sha256": "7b7b0026f9ed2b73a12ebaff3cede828b2d21faddcf3a89032cace1935c63abc",
+    "condition": "L2P",
+    "offer_rung": "",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/additional_Llama31_8B/offers/L2SEND.txt",
+    "source": "additional_Llama31_8B/offers/snap_000__Lily__L2SEND.json",
+    "source_sha256": "1ce68f96896b9d558bd5172a3bbc9e9c24eb493a27aab0096b3c397a7c766584",
+    "prompt_sha256": "8996e33ffdca950f67294a2efa78e456cdb8efa6cde231822c7214cd23faeb2d",
+    "condition": "L2SEND",
+    "offer_rung": "",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/claude_ext/offers_Mistral-Small-24B-Instruct-2501/D0L1.txt",
+    "source": "claude_ext/offers_Mistral-Small-24B-Instruct-2501/snap_000__Lily__D0L1.json",
+    "source_sha256": "35ee02b2525d01dbdb08afd91ce66163355f964b3fc8a74c168c8a17c98ae5ca",
+    "prompt_sha256": "4c03a841f6434cc661bee4c8cd29304ed49d2d7d3e7c43303aee44b258a2bfc3",
+    "condition": "D0L1",
+    "offer_rung": "",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/claude_ext/offers_Mistral-Small-24B-Instruct-2501/D10L1.txt",
+    "source": "claude_ext/offers_Mistral-Small-24B-Instruct-2501/snap_000__Lily__D10L1.json",
+    "source_sha256": "7a3cc73955b21cbf7431cf55bb2cf165ce255ceddc31362f7edfa2c8716aed6f",
+    "prompt_sha256": "dd99344ddfcb6be0c70ad04fb016770802e2069fc7f47a73e320ea0c61ce343b",
+    "condition": "D10L1",
+    "offer_rung": "",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/claude_ext/offers_Mistral-Small-24B-Instruct-2501/D50L1.txt",
+    "source": "claude_ext/offers_Mistral-Small-24B-Instruct-2501/snap_000__Lily__D50L1.json",
+    "source_sha256": "8eaad42cfd518bc133bee5dde35534eee52409790bb34eaa6fc9d3870073e1e9",
+    "prompt_sha256": "30b9ad8a61811bdc300ad56b32c6fc598faf413893f3bf06675265bfa1bcf8ea",
+    "condition": "D50L1",
+    "offer_rung": "",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/claude_ext/offers_Mistral-Small-24B-Instruct-2501/VL1.txt",
+    "source": "claude_ext/offers_Mistral-Small-24B-Instruct-2501/snap_000__Lily__VL1.json",
+    "source_sha256": "cd4b9e9bcb00a7c17f1845bacfc30cbc85e2157fefbc144e19f8774419d3689a",
+    "prompt_sha256": "5be9f93dda49a4ab486411291afbc67bedfbe7c2df5fd77a16163009be31f8b4",
+    "condition": "VL1",
+    "offer_rung": "",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/claude_ext/offers_Mistral-Small-24B-Instruct-2501/VL2.txt",
+    "source": "claude_ext/offers_Mistral-Small-24B-Instruct-2501/snap_000__Lily__VL2.json",
+    "source_sha256": "eb00501ec0cba5013225232701832a3b56ce8d86a0ed01482fd322295875873a",
+    "prompt_sha256": "0e7f44e812814c038caac18036e6a9a18757055e995590b0a449b32c496724ef",
+    "condition": "VL2",
+    "offer_rung": "",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/claude_ext/offers_Qwen2.5-32B-Instruct/D0L1.txt",
+    "source": "claude_ext/offers_Qwen2.5-32B-Instruct/snap_000__Lily__D0L1.json",
+    "source_sha256": "fa32cdb57f4084407657bbd3ff3eb6250ff03753bebf12bff77f50a0d0506311",
+    "prompt_sha256": "4c03a841f6434cc661bee4c8cd29304ed49d2d7d3e7c43303aee44b258a2bfc3",
+    "condition": "D0L1",
+    "offer_rung": "",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/claude_ext/offers_Qwen2.5-32B-Instruct/D10L1.txt",
+    "source": "claude_ext/offers_Qwen2.5-32B-Instruct/snap_000__Lily__D10L1.json",
+    "source_sha256": "a1eb73617735d9e3f258b8e10655ebd763024b83e8a1cf08f3c3718b11e69123",
+    "prompt_sha256": "dd99344ddfcb6be0c70ad04fb016770802e2069fc7f47a73e320ea0c61ce343b",
+    "condition": "D10L1",
+    "offer_rung": "",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/claude_ext/offers_Qwen2.5-32B-Instruct/D50L1.txt",
+    "source": "claude_ext/offers_Qwen2.5-32B-Instruct/snap_000__Lily__D50L1.json",
+    "source_sha256": "5df982549ab2b147e5507d2e5fb7a433a580409fb8c03051aca7bd469dafc030",
+    "prompt_sha256": "30b9ad8a61811bdc300ad56b32c6fc598faf413893f3bf06675265bfa1bcf8ea",
+    "condition": "D50L1",
+    "offer_rung": "",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/claude_ext/offers_Qwen2.5-32B-Instruct/VL1.txt",
+    "source": "claude_ext/offers_Qwen2.5-32B-Instruct/snap_000__Lily__VL1.json",
+    "source_sha256": "cd200e4caed9e5c994f2daa0d590e8463e99f9417f40df9da3e3714b9fb3be59",
+    "prompt_sha256": "5be9f93dda49a4ab486411291afbc67bedfbe7c2df5fd77a16163009be31f8b4",
+    "condition": "VL1",
+    "offer_rung": "",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/claude_ext/offers_Qwen2.5-32B-Instruct/VL2.txt",
+    "source": "claude_ext/offers_Qwen2.5-32B-Instruct/snap_000__Lily__VL2.json",
+    "source_sha256": "30fd7f35b033e340bea4363ac5f76d1a2387441ea147ba18c3e53eb16e779ffd",
+    "prompt_sha256": "0e7f44e812814c038caac18036e6a9a18757055e995590b0a449b32c496724ef",
+    "condition": "VL2",
+    "offer_rung": "",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/robust/Mistral24B-new/offers/L1.txt",
+    "source": "robust/Mistral24B-new/offers/snap_000__Luke__L1.json",
+    "source_sha256": "542b4268065c6a5b9b7cacb31f6d95a56b5a5c615c5d90bb48e607f71ee1b470",
+    "prompt_sha256": "5f65c0c3048490505eed4b7d5f90d67ac6b38aec2bb1b240541b9aab1d74aa3e",
+    "condition": "L1",
+    "offer_rung": "",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/robust/Mistral24B-new/offers/L2.txt",
+    "source": "robust/Mistral24B-new/offers/snap_000__Luke__L2.json",
+    "source_sha256": "098102c221eb046df31a5a0b7e4c25405ed38700573aaf45f8d79d0f7364470c",
+    "prompt_sha256": "a59611f70913ebc5a5fb9b3376d7be40ce17509a25fe8d36621ea85c45cedb7d",
+    "condition": "L2",
+    "offer_rung": "",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/robust/Mistral24B-new/offers/L2F.txt",
+    "source": "robust/Mistral24B-new/offers/snap_000__Luke__L2F.json",
+    "source_sha256": "97ce95a95e7cf7f446e588a8ecf54eaf733b75e68ece336f66650efa3169bd38",
+    "prompt_sha256": "063014396695bc919ae8fe0aced3280d57c350910d3076698b59e343a70fa3e7",
+    "condition": "L2F",
+    "offer_rung": "",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/robust/Mistral24B-new/offers/VL1.txt",
+    "source": "robust/Mistral24B-new/offers/snap_000__Luke__VL1.json",
+    "source_sha256": "81a56b680fc3ba28c7cd10fc215533c89706970531ef40d09b3d5c3312fdaaa5",
+    "prompt_sha256": "c2625f6b0becd7dbf19f07db58274ce770d5ca0e6b7a5fb07edea2ea11d38c58",
+    "condition": "VL1",
+    "offer_rung": "",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/robust/OLMo2-13B/offers/D0L1.txt",
+    "source": "robust/OLMo2-13B/offers/snap_000__Lily__D0L1.json",
+    "source_sha256": "92767ee5f575c9d1a17d4d93af0b5de6b97f05d40aa8bc5ac13bef843ec139d9",
+    "prompt_sha256": "4c03a841f6434cc661bee4c8cd29304ed49d2d7d3e7c43303aee44b258a2bfc3",
+    "condition": "D0L1",
+    "offer_rung": "",
+    "model": "allenai/OLMo-2-1124-13B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/robust/OLMo2-13B/offers/D50L1.txt",
+    "source": "robust/OLMo2-13B/offers/snap_000__Lily__D50L1.json",
+    "source_sha256": "3dfbac88922f1750149acec2048b717ec1b09bb17057ac952667108c7c0d349c",
+    "prompt_sha256": "30b9ad8a61811bdc300ad56b32c6fc598faf413893f3bf06675265bfa1bcf8ea",
+    "condition": "D50L1",
+    "offer_rung": "",
+    "model": "allenai/OLMo-2-1124-13B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/robust/OLMo2-13B/offers/L1.txt",
+    "source": "robust/OLMo2-13B/offers/snap_000__Lily__L1.json",
+    "source_sha256": "44abcd228e4a8cfc16805c79222106b2b1064f534c9769f217309dcf6e57451c",
+    "prompt_sha256": "fe78544a76d36227ba4b2d4023412046e813f69e6afed664db910b4e92fe26b0",
+    "condition": "L1",
+    "offer_rung": "",
+    "model": "allenai/OLMo-2-1124-13B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/robust/OLMo2-13B/offers/L1F.txt",
+    "source": "robust/OLMo2-13B/offers/snap_000__Lily__L1F.json",
+    "source_sha256": "b846ff2efb4c3bb49e872081027959b981106b54304b6e2ce64cafbc36d101e2",
+    "prompt_sha256": "da2190664f19d2f70caa157df745fea26b0c9e5bb678205be4ec965a0d043914",
+    "condition": "L1F",
+    "offer_rung": "",
+    "model": "allenai/OLMo-2-1124-13B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/robust/OLMo2-13B/offers/L1S.txt",
+    "source": "robust/OLMo2-13B/offers/snap_000__Lily__L1S.json",
+    "source_sha256": "93ce8e7097e92388d0321a61f73c94a7a67a710d387331c3da16c68fccb6710e",
+    "prompt_sha256": "a1d7df74f70760d0d11c18b76ea3a6dff97297a0c10b593196c78f6fd469504b",
+    "condition": "L1S",
+    "offer_rung": "",
+    "model": "allenai/OLMo-2-1124-13B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/robust/OLMo2-13B/offers/L2.txt",
+    "source": "robust/OLMo2-13B/offers/snap_000__Lily__L2.json",
+    "source_sha256": "282f1ab869dd0e149b0fd0b1ccf540c0fc9b5336631fb66552bd30c71fde8f8d",
+    "prompt_sha256": "9cd4b20e0cc08323f946cbf74624ecf616b3cbf3945b94c8d0422682c747bcdd",
+    "condition": "L2",
+    "offer_rung": "",
+    "model": "allenai/OLMo-2-1124-13B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/robust/OLMo2-13B/offers/L2F.txt",
+    "source": "robust/OLMo2-13B/offers/snap_000__Lily__L2F.json",
+    "source_sha256": "e8c9bc2b110916685ee050cb44ee4113b5cf62b71b6cd0f7dffca18ca4c112bc",
+    "prompt_sha256": "d75eafac20b2f4661bcef5ec66537423357dacfc5d78e44841d49428d874834e",
+    "condition": "L2F",
+    "offer_rung": "",
+    "model": "allenai/OLMo-2-1124-13B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/robust/OLMo2-13B/offers/L2P.txt",
+    "source": "robust/OLMo2-13B/offers/snap_000__Lily__L2P.json",
+    "source_sha256": "7cf15bcd19cac03b80da2919db6a6a5180c0f37815af25bc9537b56e653052c2",
+    "prompt_sha256": "7b7b0026f9ed2b73a12ebaff3cede828b2d21faddcf3a89032cace1935c63abc",
+    "condition": "L2P",
+    "offer_rung": "",
+    "model": "allenai/OLMo-2-1124-13B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/robust/OLMo2-13B/offers/VL1.txt",
+    "source": "robust/OLMo2-13B/offers/snap_000__Lily__VL1.json",
+    "source_sha256": "401432b98657d1a5f0d0288d6b02b4f38bfd813ea0e931f5e2be749b536623f9",
+    "prompt_sha256": "5be9f93dda49a4ab486411291afbc67bedfbe7c2df5fd77a16163009be31f8b4",
+    "condition": "VL1",
+    "offer_rung": "",
+    "model": "allenai/OLMo-2-1124-13B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/robust/OLMo2-13B/offers/VL2.txt",
+    "source": "robust/OLMo2-13B/offers/snap_000__Lily__VL2.json",
+    "source_sha256": "1f987278160d22b0fb344470e41b50d6d0bf1b1e10181eded3d900c0b2c61729",
+    "prompt_sha256": "0e7f44e812814c038caac18036e6a9a18757055e995590b0a449b32c496724ef",
+    "condition": "VL2",
+    "offer_rung": "",
+    "model": "allenai/OLMo-2-1124-13B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/robust/Qwen2.5-32B-new/offers/L1.txt",
+    "source": "robust/Qwen2.5-32B-new/offers/snap_000__Luke__L1.json",
+    "source_sha256": "1edd6ef71a58237261c4138a1de34714685ade3d229616db448f95fdf8707626",
+    "prompt_sha256": "8eda67ba32ad7c5ab212065d40eff65bf9c35fab9cc0a9c9863ed3c8c3e66d5a",
+    "condition": "L1",
+    "offer_rung": "",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/robust/Qwen2.5-32B-new/offers/L2.txt",
+    "source": "robust/Qwen2.5-32B-new/offers/snap_000__Luke__L2.json",
+    "source_sha256": "5168f7330f66e8c9d3b7ff52e99ffe30e32302fefbd8ca2953b969281f564e54",
+    "prompt_sha256": "49f8a868e1b4326d77bc7305da9ee0cde184ee092c4488e0acf5ba93c98354c5",
+    "condition": "L2",
+    "offer_rung": "",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/robust/Qwen2.5-32B-new/offers/L2F.txt",
+    "source": "robust/Qwen2.5-32B-new/offers/snap_000__Luke__L2F.json",
+    "source_sha256": "d726c2341075f0914ded8fccf7e143ffdf12f613ed7ce7994930edb90068bdba",
+    "prompt_sha256": "94516d8774add9124b3ce47d54a43c9aa7ce99470dd828dcc907ff4e121ea0ca",
+    "condition": "L2F",
+    "offer_rung": "",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/robust/Qwen2.5-32B-new/offers/VL1.txt",
+    "source": "robust/Qwen2.5-32B-new/offers/snap_000__Luke__VL1.json",
+    "source_sha256": "d596073026500463aa2496ae62804f86cdceee179cb163928ea931ac32c123a8",
+    "prompt_sha256": "0cbf48416dac0335ccb7a487dcab24ce94fedf3bc189933b4897b84050ae7223",
+    "condition": "VL1",
+    "offer_rung": "",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/robust/Qwen2.5-72B/offers/D0L1.txt",
+    "source": "robust/Qwen2.5-72B/offers/snap_000__Lily__D0L1.json",
+    "source_sha256": "a2e43448c18bab8fb9c54267b89ad8a2d08187870c7519a925f42177446be01c",
+    "prompt_sha256": "4c03a841f6434cc661bee4c8cd29304ed49d2d7d3e7c43303aee44b258a2bfc3",
+    "condition": "D0L1",
+    "offer_rung": "",
+    "model": "Qwen/Qwen2.5-72B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/robust/Qwen2.5-72B/offers/D50L1.txt",
+    "source": "robust/Qwen2.5-72B/offers/snap_000__Lily__D50L1.json",
+    "source_sha256": "08347f2ce81a0290589de9f13b7b20ab87e520bd88b60508a4b4eb51ce02bd70",
+    "prompt_sha256": "30b9ad8a61811bdc300ad56b32c6fc598faf413893f3bf06675265bfa1bcf8ea",
+    "condition": "D50L1",
+    "offer_rung": "",
+    "model": "Qwen/Qwen2.5-72B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/robust/Qwen2.5-72B/offers/L1.txt",
+    "source": "robust/Qwen2.5-72B/offers/snap_000__Lily__L1.json",
+    "source_sha256": "6d90d64e95780e8815637ba417918dec1b460bcc92599b8428295369e84248f5",
+    "prompt_sha256": "fe78544a76d36227ba4b2d4023412046e813f69e6afed664db910b4e92fe26b0",
+    "condition": "L1",
+    "offer_rung": "",
+    "model": "Qwen/Qwen2.5-72B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/robust/Qwen2.5-72B/offers/L1F.txt",
+    "source": "robust/Qwen2.5-72B/offers/snap_000__Lily__L1F.json",
+    "source_sha256": "c892d1c308759c33d93c74681122cf52cad0c2db132aadde101129b77aa80e66",
+    "prompt_sha256": "da2190664f19d2f70caa157df745fea26b0c9e5bb678205be4ec965a0d043914",
+    "condition": "L1F",
+    "offer_rung": "",
+    "model": "Qwen/Qwen2.5-72B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/robust/Qwen2.5-72B/offers/L1S.txt",
+    "source": "robust/Qwen2.5-72B/offers/snap_000__Lily__L1S.json",
+    "source_sha256": "372b274d98fc4b700a6befddded0866777a4d8aaf6c5c7411e6b7dbfdf431316",
+    "prompt_sha256": "a1d7df74f70760d0d11c18b76ea3a6dff97297a0c10b593196c78f6fd469504b",
+    "condition": "L1S",
+    "offer_rung": "",
+    "model": "Qwen/Qwen2.5-72B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/robust/Qwen2.5-72B/offers/L2.txt",
+    "source": "robust/Qwen2.5-72B/offers/snap_000__Lily__L2.json",
+    "source_sha256": "5da0c995387a509c19888db3b796860fad9999e448ad0ce2ef6acba90c2ff2ec",
+    "prompt_sha256": "9cd4b20e0cc08323f946cbf74624ecf616b3cbf3945b94c8d0422682c747bcdd",
+    "condition": "L2",
+    "offer_rung": "",
+    "model": "Qwen/Qwen2.5-72B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/robust/Qwen2.5-72B/offers/L2F.txt",
+    "source": "robust/Qwen2.5-72B/offers/snap_000__Lily__L2F.json",
+    "source_sha256": "8b6d72be6131f2778fb824b8e113e579198dc3def89ea8ec266b56e6c7acd2c7",
+    "prompt_sha256": "d75eafac20b2f4661bcef5ec66537423357dacfc5d78e44841d49428d874834e",
+    "condition": "L2F",
+    "offer_rung": "",
+    "model": "Qwen/Qwen2.5-72B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/robust/Qwen2.5-72B/offers/L2P.txt",
+    "source": "robust/Qwen2.5-72B/offers/snap_000__Lily__L2P.json",
+    "source_sha256": "6c9690990b8404690d8e01fc58b09fa4604da3c2a15cd51d0abc00d84f3db8df",
+    "prompt_sha256": "7b7b0026f9ed2b73a12ebaff3cede828b2d21faddcf3a89032cace1935c63abc",
+    "condition": "L2P",
+    "offer_rung": "",
+    "model": "Qwen/Qwen2.5-72B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/robust/Qwen2.5-72B/offers/VL1.txt",
+    "source": "robust/Qwen2.5-72B/offers/snap_000__Lily__VL1.json",
+    "source_sha256": "a2ee7ee99b7cf363c7f91fe659f0e386ef5f491b9451a29dd1aa63f4d1f0bb33",
+    "prompt_sha256": "5be9f93dda49a4ab486411291afbc67bedfbe7c2df5fd77a16163009be31f8b4",
+    "condition": "VL1",
+    "offer_rung": "",
+    "model": "Qwen/Qwen2.5-72B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/robust/Qwen2.5-72B/offers/VL2.txt",
+    "source": "robust/Qwen2.5-72B/offers/snap_000__Lily__VL2.json",
+    "source_sha256": "68312c51754608bd58c5686d27f8bb6ca0147dc3607454e527b01b624753c0d9",
+    "prompt_sha256": "0e7f44e812814c038caac18036e6a9a18757055e995590b0a449b32c496724ef",
+    "condition": "VL2",
+    "offer_rung": "",
+    "model": "Qwen/Qwen2.5-72B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Llama8B/e1/D0L1.txt",
+    "source": "interp/Llama8B/e1/snap_000__Lily__D0L1.json",
+    "source_sha256": "1fea37c65b821d652a39db4d2085a2b126fb8e86e8bd88af202e4f688c76ee07",
+    "prompt_sha256": "4c03a841f6434cc661bee4c8cd29304ed49d2d7d3e7c43303aee44b258a2bfc3",
+    "condition": "D0L1",
+    "offer_rung": "",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Llama8B/e1/D50L1.txt",
+    "source": "interp/Llama8B/e1/snap_000__Lily__D50L1.json",
+    "source_sha256": "412f9f02092feb3a4ddcac5236163dc76e2bf9b1982766402de363f8c9d1b55e",
+    "prompt_sha256": "30b9ad8a61811bdc300ad56b32c6fc598faf413893f3bf06675265bfa1bcf8ea",
+    "condition": "D50L1",
+    "offer_rung": "",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Llama8B/e1/DmonL1.txt",
+    "source": "interp/Llama8B/e1/snap_000__Lily__DmonL1.json",
+    "source_sha256": "e232419387fa106c565179a883353e83cce7b621efa56025751397eea65b1805",
+    "prompt_sha256": "b7742d217a3e4acfe95aeb63771d0b1ab2d9c8ec1328a4bc3e1df668de642d67",
+    "condition": "DmonL1",
+    "offer_rung": "",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Llama8B/e1/DpenL1.txt",
+    "source": "interp/Llama8B/e1/snap_000__Lily__DpenL1.json",
+    "source_sha256": "7409daabd09219d32f0d5362a09f1e7de96bd5471ca49d8947ab2131b3dab1b7",
+    "prompt_sha256": "3dfe960f6fd9814d8c5e262e9e12f6de66f56dab77c9367d6e67bf65b789d7e9",
+    "condition": "DpenL1",
+    "offer_rung": "",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Llama8B/e1/DplaceboL1.txt",
+    "source": "interp/Llama8B/e1/snap_000__Lily__DplaceboL1.json",
+    "source_sha256": "385e67d586e35adedaffc619ecc32c23c89f01e046d20363f6715dceaf44dfd0",
+    "prompt_sha256": "fdf326ca9a8398248d590df811108b75bd6c9167ee09b810759c3afa43eaeab4",
+    "condition": "DplaceboL1",
+    "offer_rung": "",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Llama8B/e1/DwatchL1.txt",
+    "source": "interp/Llama8B/e1/snap_000__Lily__DwatchL1.json",
+    "source_sha256": "7fdd9c9dda124e18156c9d90ea9163eb155fbdecd2df610189b462b519edf064",
+    "prompt_sha256": "4855318ccea13b2c617f86e9b4c06981263c1795fd3fb39593fee42eb7b89611",
+    "condition": "DwatchL1",
+    "offer_rung": "",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Llama8B/e1/L0.txt",
+    "source": "interp/Llama8B/e1/snap_000__Lily__L0.json",
+    "source_sha256": "69361815948c9cdd266c968ba03bf8d898b91c195617d7a93b97c28797cecb0a",
+    "prompt_sha256": "cc3f3e72716ffe41fff7738c4211744c681d52d60b278ce6b4509f3a58495842",
+    "condition": "L0",
+    "offer_rung": "",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Llama8B/e1/L1+explicit.txt",
+    "source": "interp/Llama8B/e1/snap_000__Lily__L1+explicit.json",
+    "source_sha256": "22827484db48116419ded3569f8c4492fdd4ab6e9d4e2ca261111a1f72a43f12",
+    "prompt_sha256": "6c7a72fd36ae2b2ee37e88907435faa925d15c60f1e64fa9481ca73bc1eeb855",
+    "condition": "L1+explicit",
+    "offer_rung": "",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Llama8B/e1/L1+nobody.txt",
+    "source": "interp/Llama8B/e1/snap_000__Lily__L1+nobody.json",
+    "source_sha256": "7f2022b61e5060db2cc34c6acdbdfdb4c598e377981ec287483b84fd94e4189d",
+    "prompt_sha256": "e8affba99fe80093d5f33d7cb767d09fa7e9bd8fd5e09b11dacc8e14347f508d",
+    "condition": "L1+nobody",
+    "offer_rung": "",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Llama8B/e1/L1+secret.txt",
+    "source": "interp/Llama8B/e1/snap_000__Lily__L1+secret.json",
+    "source_sha256": "c90213a9e6702584e412ff96917d4b3b791c494b82e2b2baf94953b1f611cc51",
+    "prompt_sha256": "5112d2e0b9825c0b846c10851a1eed9c6434a53617cf3ce57dd76d1a6e4d7fb9",
+    "condition": "L1+secret",
+    "offer_rung": "",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Llama8B/e1/L1+victim.txt",
+    "source": "interp/Llama8B/e1/snap_000__Lily__L1+victim.json",
+    "source_sha256": "8704938f2b5647bf0d16998daa44cb4179c64ab4e9c43567281479916b49fe43",
+    "prompt_sha256": "c03b6a3d06311fb09d3e4b72d5d9c6a27356ff098f4d8ae1710da3d7a39a9e19",
+    "condition": "L1+victim",
+    "offer_rung": "",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Llama8B/e1/L1-between.txt",
+    "source": "interp/Llama8B/e1/snap_000__Lily__L1-between.json",
+    "source_sha256": "e7c7a4eba2eb56a3680d6fea1cd684dd8610264a5a03ad3ae1ac5d0352a84814",
+    "prompt_sha256": "da80929b90a5be4cf499a3c5b7b517d439c5a6474c76a8dc7ca09a4b7cce7f10",
+    "condition": "L1-between",
+    "offer_rung": "",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Llama8B/e1/L1-uptoyou.txt",
+    "source": "interp/Llama8B/e1/snap_000__Lily__L1-uptoyou.json",
+    "source_sha256": "c2f7b39b062ec46048f51e9c362f4e9ac13e3c99d783d26ad54dbb80d019e8e9",
+    "prompt_sha256": "b044fbdff8769e3c36d9950632ddcabf150ebf499f14b6f17256e031319046f2",
+    "condition": "L1-uptoyou",
+    "offer_rung": "",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Llama8B/e1/L1.txt",
+    "source": "interp/Llama8B/e1/snap_000__Lily__L1.json",
+    "source_sha256": "ea4f8d712bde5e34aa58d965d5d50dc9c5cc5bb195dc1d082f73ec750a302925",
+    "prompt_sha256": "fe78544a76d36227ba4b2d4023412046e813f69e6afed664db910b4e92fe26b0",
+    "condition": "L1",
+    "offer_rung": "",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Llama8B/e1/L2-allcues.txt",
+    "source": "interp/Llama8B/e1/snap_000__Lily__L2-allcues.json",
+    "source_sha256": "a905f9ab7dd9e6361f14eff47fa5cb8e8247ed7d5d458bd7b78f9818cc6f0a17",
+    "prompt_sha256": "fd4bd01bbac27d281b4f3232554253d36e91069f517c139dcdff578d0f4231d3",
+    "condition": "L2-allcues",
+    "offer_rung": "",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Llama8B/e1/L2-ask.txt",
+    "source": "interp/Llama8B/e1/snap_000__Lily__L2-ask.json",
+    "source_sha256": "642aa4d679ff372c71493b87bfb7699bef9df64b16183d4e6d302837a576d1c2",
+    "prompt_sha256": "33167845ba57a51867825fbaa2b0a10de8a20ac7a9b32573a894383692bc2c2a",
+    "condition": "L2-ask",
+    "offer_rung": "",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Llama8B/e1/L2-benefit.txt",
+    "source": "interp/Llama8B/e1/snap_000__Lily__L2-benefit.json",
+    "source_sha256": "78364d9f498b3ff79dc21bb42fdc961a485e14b2d2e459dc36e3877babe8d596",
+    "prompt_sha256": "a1369ebd771f6e019153dea76d5d22cae14ae3d1a9bc2cefc91dd713e49bc323",
+    "condition": "L2-benefit",
+    "offer_rung": "",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Llama8B/e1/L2-nobody.txt",
+    "source": "interp/Llama8B/e1/snap_000__Lily__L2-nobody.json",
+    "source_sha256": "09a5374bd3a50d069206694c6642fd55513247530d12c97cd0d80780ab599a89",
+    "prompt_sha256": "c59f3842c92fec13dfbae19f73da97171c1b63a4992868c54ba4e003d2cd433c",
+    "condition": "L2-nobody",
+    "offer_rung": "",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Llama8B/e1/L2-private.txt",
+    "source": "interp/Llama8B/e1/snap_000__Lily__L2-private.json",
+    "source_sha256": "de7782636bab9b3a9e0b01541c4403d4cbeabe8d09a0efc0bc62f8e9ebc0cea7",
+    "prompt_sha256": "5eb160301915048e131bd3fea8ceb5f9aad3e0b2c438a93754696fc4d38cf9d0",
+    "condition": "L2-private",
+    "offer_rung": "",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Llama8B/e1/L2-secret.txt",
+    "source": "interp/Llama8B/e1/snap_000__Lily__L2-secret.json",
+    "source_sha256": "d76d903d4e56a35b02b0081c7be317f9ff899c3a29be18c42b46fd9b3b70c570",
+    "prompt_sha256": "92d1cdbd87d6cf83458d3e73e8dd5ef37fc8a161d73658b91de4f79b67f71c38",
+    "condition": "L2-secret",
+    "offer_rung": "",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Llama8B/e1/L2-victim.txt",
+    "source": "interp/Llama8B/e1/snap_000__Lily__L2-victim.json",
+    "source_sha256": "278b28409e054066c26e2932008486655cf5498ba699f1aad7a5018f594fd202",
+    "prompt_sha256": "cba0e089196b061eb69dc23ef702538148c8e0d41e5e64cf1abcd4bd51cb3680",
+    "condition": "L2-victim",
+    "offer_rung": "",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Llama8B/e1/L2.txt",
+    "source": "interp/Llama8B/e1/snap_000__Lily__L2.json",
+    "source_sha256": "9be3a6b156eb44b6817eca7f19c1c8570a6ad7515b5eaac0fe71c70fa9895af9",
+    "prompt_sha256": "9cd4b20e0cc08323f946cbf74624ecf616b3cbf3945b94c8d0422682c747bcdd",
+    "condition": "L2",
+    "offer_rung": "",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Llama8B/e1/L3.txt",
+    "source": "interp/Llama8B/e1/snap_000__Lily__L3.json",
+    "source_sha256": "13dae12960c5c0e63183a58b59f5a3135832df97dae6e13b5f696f8d32fd2dc4",
+    "prompt_sha256": "8e157c9dbb54c652ebac2fe9eaa7d12aa034d9931b90c3225f4e06fefc067abc",
+    "condition": "L3",
+    "offer_rung": "",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Llama8B/e1/VL1.txt",
+    "source": "interp/Llama8B/e1/snap_000__Lily__VL1.json",
+    "source_sha256": "fd63ce52304150e358764bbc177fc22cec69245ca77f4f9fa277cfa9054fd4d1",
+    "prompt_sha256": "5be9f93dda49a4ab486411291afbc67bedfbe7c2df5fd77a16163009be31f8b4",
+    "condition": "VL1",
+    "offer_rung": "",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Llama8B/e1/VaffectL1.txt",
+    "source": "interp/Llama8B/e1/snap_000__Lily__VaffectL1.json",
+    "source_sha256": "bd8dc28ea31d9d7acd62b7c69e92a55fa5e29fb7b57d84e33d7744e980c13947",
+    "prompt_sha256": "91ea2ed825ea31c3ecfc13c35e288e66cf4050f26f9ce892dea062eed5f27472",
+    "condition": "VaffectL1",
+    "offer_rung": "",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Llama8B/e1/VknewL1.txt",
+    "source": "interp/Llama8B/e1/snap_000__Lily__VknewL1.json",
+    "source_sha256": "d805152ed7f590b338239de1aadfde4565e20bd3fd749bdb3034400a68b15b89",
+    "prompt_sha256": "23b7139f48e87ac6451ae72add866bb8dfff4ff7908552bc2d607a6fe5fe650c",
+    "condition": "VknewL1",
+    "offer_rung": "",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Llama8B/e1/VplaceboL1.txt",
+    "source": "interp/Llama8B/e1/snap_000__Lily__VplaceboL1.json",
+    "source_sha256": "e23609d10b8fb9522c85f6200330be754ea588ea3cb0a7c96bc43a55d3033abb",
+    "prompt_sha256": "fae8840d4207c4f3703c37ca303b90b0f115df8dacd820982c2596e3202c3a00",
+    "condition": "VplaceboL1",
+    "offer_rung": "",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Llama8B/e1/mirror.txt",
+    "source": "interp/Llama8B/e1/snap_000__Lily__mirror.json",
+    "source_sha256": "0e47e00733c031d7f7777dd1d9a4f37c23f1973623f6a684c3aa1cc9d2bdd53f",
+    "prompt_sha256": "7d9216143ae7c9e124e72b19c9a1a3dbd6f755cdc146bcd3954c7dfed5dd81f9",
+    "condition": "mirror",
+    "offer_rung": "",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Llama8B/e2/D0L1.txt",
+    "source": "interp/Llama8B/e2/snap_000__Lily__D0L1.json",
+    "source_sha256": "73c9e566e9dded174abfbea06a00213bf0b55c9f5b9aa8ec8dce4e753124ee25",
+    "prompt_sha256": "09ca351182a13102a2e2a7acc19db82f6fdbce1b54fea4e8b4be7441a1f2d523",
+    "condition": "D0L1",
+    "offer_rung": "",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Llama8B/e2/L1.txt",
+    "source": "interp/Llama8B/e2/snap_000__Lily__L1.json",
+    "source_sha256": "de14b0de2a6e4672409dc314186c00c0f6708daf29fce4166ee22c7376852e32",
+    "prompt_sha256": "40b06bb045bc0caa36114f7a73326fdbd7baac48ec80ff134ab9ecff1e9f9ed0",
+    "condition": "L1",
+    "offer_rung": "",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Llama8B/e2/L2.txt",
+    "source": "interp/Llama8B/e2/snap_000__Lily__L2.json",
+    "source_sha256": "e3b42df2f60b43076a32d8eba8ca2b48ae5c0d191cbe0e6f2ea989a09ea9ba58",
+    "prompt_sha256": "e87ceee6f85a2d6e730ecbf0ac9bb9d5cf52125107df93edd88e2bb06e239943",
+    "condition": "L2",
+    "offer_rung": "",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Llama8B/e2/VL1.txt",
+    "source": "interp/Llama8B/e2/snap_000__Lily__VL1.json",
+    "source_sha256": "0f8664e850a04db7dddb88f40d601fd1c269260e52e9f3c2c29d23cde9681f3a",
+    "prompt_sha256": "a0660bb4b569903b76b3710e8ac4c7976f5bf329312b1fc60d606d10f9863ef8",
+    "condition": "VL1",
+    "offer_rung": "",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Llama8B/monitor/D0L1.txt",
+    "source": "interp/Llama8B/monitor/snap_000__Lily__D0L1.json",
+    "source_sha256": "2f551ccf0690a7aa8f5d2d37415c583f4346a45a12f86e83e4a8f7b2b41c7a34",
+    "prompt_sha256": "3ab7356c746d5159f775c9dc3c006a71841437393489eb202d9460a1bfa7d6dc",
+    "condition": "D0L1",
+    "offer_rung": "",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Llama8B/monitor/L1.txt",
+    "source": "interp/Llama8B/monitor/snap_000__Lily__L1.json",
+    "source_sha256": "3b473c39a6128b10b7fe1ecbe9d2cceb15e6235c8b23952d6ccd04bb7d0f066f",
+    "prompt_sha256": "d3a66dbb3456b113d90c0d2d4a35b75a05188faad955350d5ac0f9357f83ad2e",
+    "condition": "L1",
+    "offer_rung": "",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Llama8B/monitor/L2.txt",
+    "source": "interp/Llama8B/monitor/snap_000__Lily__L2.json",
+    "source_sha256": "8647ccb17681ee312563f06315792041cc70756445e343872cadbe3965131514",
+    "prompt_sha256": "936bdc92a7a11fe05f61a78a62cce88e446cb19f69be3afbdf73f7be396d3f05",
+    "condition": "L2",
+    "offer_rung": "",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Mistral24B/e1/D0L1.txt",
+    "source": "interp/Mistral24B/e1/snap_000__Lily__D0L1.json",
+    "source_sha256": "86e0fe38b2d6c2b3d84e5c87022857398c4bb900b4c77d108a50ac7820f7afa6",
+    "prompt_sha256": "4c03a841f6434cc661bee4c8cd29304ed49d2d7d3e7c43303aee44b258a2bfc3",
+    "condition": "D0L1",
+    "offer_rung": "",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Mistral24B/e1/D50L1.txt",
+    "source": "interp/Mistral24B/e1/snap_000__Lily__D50L1.json",
+    "source_sha256": "4f81ab5ff734a799bea70aeaecfc9c88ad16abfecb3bae5666018128a66ba47e",
+    "prompt_sha256": "30b9ad8a61811bdc300ad56b32c6fc598faf413893f3bf06675265bfa1bcf8ea",
+    "condition": "D50L1",
+    "offer_rung": "",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Mistral24B/e1/DmonL1.txt",
+    "source": "interp/Mistral24B/e1/snap_000__Lily__DmonL1.json",
+    "source_sha256": "83555c4b39427e89a45f0e6cb536ad02a08b543db8a08a37fa87624a1416c992",
+    "prompt_sha256": "b7742d217a3e4acfe95aeb63771d0b1ab2d9c8ec1328a4bc3e1df668de642d67",
+    "condition": "DmonL1",
+    "offer_rung": "",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Mistral24B/e1/DpenL1.txt",
+    "source": "interp/Mistral24B/e1/snap_000__Lily__DpenL1.json",
+    "source_sha256": "768914d54509da56796aecc749160986b1ffbb048fac84252227e1a4e355951d",
+    "prompt_sha256": "3dfe960f6fd9814d8c5e262e9e12f6de66f56dab77c9367d6e67bf65b789d7e9",
+    "condition": "DpenL1",
+    "offer_rung": "",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Mistral24B/e1/DplaceboL1.txt",
+    "source": "interp/Mistral24B/e1/snap_000__Lily__DplaceboL1.json",
+    "source_sha256": "984a0e76864c56346e6949f18257110d5555fc65089f00ba0afdceb51e6a2fa1",
+    "prompt_sha256": "fdf326ca9a8398248d590df811108b75bd6c9167ee09b810759c3afa43eaeab4",
+    "condition": "DplaceboL1",
+    "offer_rung": "",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Mistral24B/e1/DwatchL1.txt",
+    "source": "interp/Mistral24B/e1/snap_000__Lily__DwatchL1.json",
+    "source_sha256": "f2ac5d600c956b54c2e9426fa80de86d427794f6332e4105b8c8da55f64269f6",
+    "prompt_sha256": "4855318ccea13b2c617f86e9b4c06981263c1795fd3fb39593fee42eb7b89611",
+    "condition": "DwatchL1",
+    "offer_rung": "",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Mistral24B/e1/L0.txt",
+    "source": "interp/Mistral24B/e1/snap_000__Lily__L0.json",
+    "source_sha256": "fc558ea6ed60d04571049de1f70b5c32c26d906b7f511bcfb29f2a1eebf51b81",
+    "prompt_sha256": "cc3f3e72716ffe41fff7738c4211744c681d52d60b278ce6b4509f3a58495842",
+    "condition": "L0",
+    "offer_rung": "",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Mistral24B/e1/L1+explicit.txt",
+    "source": "interp/Mistral24B/e1/snap_000__Lily__L1+explicit.json",
+    "source_sha256": "e877f22b20c3120a54691947286916bfee82744c6287466a648feb5fff22ab2a",
+    "prompt_sha256": "6c7a72fd36ae2b2ee37e88907435faa925d15c60f1e64fa9481ca73bc1eeb855",
+    "condition": "L1+explicit",
+    "offer_rung": "",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Mistral24B/e1/L1+nobody.txt",
+    "source": "interp/Mistral24B/e1/snap_000__Lily__L1+nobody.json",
+    "source_sha256": "197cc703bf0dd690310a8ed4e028de097853df505eca9b5cf829b3e36bf17001",
+    "prompt_sha256": "e8affba99fe80093d5f33d7cb767d09fa7e9bd8fd5e09b11dacc8e14347f508d",
+    "condition": "L1+nobody",
+    "offer_rung": "",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Mistral24B/e1/L1+secret.txt",
+    "source": "interp/Mistral24B/e1/snap_000__Lily__L1+secret.json",
+    "source_sha256": "f5c0b5321ebee47d1985f0b0ab2c0b546c62337d570fe28f57146cbd48d72685",
+    "prompt_sha256": "5112d2e0b9825c0b846c10851a1eed9c6434a53617cf3ce57dd76d1a6e4d7fb9",
+    "condition": "L1+secret",
+    "offer_rung": "",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Mistral24B/e1/L1+victim.txt",
+    "source": "interp/Mistral24B/e1/snap_000__Lily__L1+victim.json",
+    "source_sha256": "178d8d7a53993c9760f4554e9475643067863d160e89b8b456c473f478828df3",
+    "prompt_sha256": "c03b6a3d06311fb09d3e4b72d5d9c6a27356ff098f4d8ae1710da3d7a39a9e19",
+    "condition": "L1+victim",
+    "offer_rung": "",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Mistral24B/e1/L1-between.txt",
+    "source": "interp/Mistral24B/e1/snap_000__Lily__L1-between.json",
+    "source_sha256": "b5c1f5dc9f47e9d39ec12efb7c9e7a99701ec3443d476bd709158e7e1350fd64",
+    "prompt_sha256": "da80929b90a5be4cf499a3c5b7b517d439c5a6474c76a8dc7ca09a4b7cce7f10",
+    "condition": "L1-between",
+    "offer_rung": "",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Mistral24B/e1/L1-uptoyou.txt",
+    "source": "interp/Mistral24B/e1/snap_000__Lily__L1-uptoyou.json",
+    "source_sha256": "23315a3f17027cb93dfef7f92e2f16f1e3bbd543ad1aa4794cd95ed09434acfe",
+    "prompt_sha256": "b044fbdff8769e3c36d9950632ddcabf150ebf499f14b6f17256e031319046f2",
+    "condition": "L1-uptoyou",
+    "offer_rung": "",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Mistral24B/e1/L1.txt",
+    "source": "interp/Mistral24B/e1/snap_000__Lily__L1.json",
+    "source_sha256": "0feb1a0535fea3660119c72a98361193da93b33dbec9364fce0a04af00da9485",
+    "prompt_sha256": "fe78544a76d36227ba4b2d4023412046e813f69e6afed664db910b4e92fe26b0",
+    "condition": "L1",
+    "offer_rung": "",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Mistral24B/e1/L2-allcues.txt",
+    "source": "interp/Mistral24B/e1/snap_000__Lily__L2-allcues.json",
+    "source_sha256": "b471bfaf3fc2f2ebb702b3ac4f791a5415aa0db756087c7adab8af349b0a11c5",
+    "prompt_sha256": "fd4bd01bbac27d281b4f3232554253d36e91069f517c139dcdff578d0f4231d3",
+    "condition": "L2-allcues",
+    "offer_rung": "",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Mistral24B/e1/L2-ask.txt",
+    "source": "interp/Mistral24B/e1/snap_000__Lily__L2-ask.json",
+    "source_sha256": "88318ca9706c467be9ec12b48c30a26a602d54f35fd4c550983cd825e8348e55",
+    "prompt_sha256": "33167845ba57a51867825fbaa2b0a10de8a20ac7a9b32573a894383692bc2c2a",
+    "condition": "L2-ask",
+    "offer_rung": "",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Mistral24B/e1/L2-benefit.txt",
+    "source": "interp/Mistral24B/e1/snap_000__Lily__L2-benefit.json",
+    "source_sha256": "ab8c4171825f9898d1d86af22a86453eda085c89bb17b13c497e657df947beff",
+    "prompt_sha256": "a1369ebd771f6e019153dea76d5d22cae14ae3d1a9bc2cefc91dd713e49bc323",
+    "condition": "L2-benefit",
+    "offer_rung": "",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Mistral24B/e1/L2-nobody.txt",
+    "source": "interp/Mistral24B/e1/snap_000__Lily__L2-nobody.json",
+    "source_sha256": "27f949ba0a8215ac197504d3681cfc06440a4a15669aaaad50f926aa66cbb92e",
+    "prompt_sha256": "c59f3842c92fec13dfbae19f73da97171c1b63a4992868c54ba4e003d2cd433c",
+    "condition": "L2-nobody",
+    "offer_rung": "",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Mistral24B/e1/L2-private.txt",
+    "source": "interp/Mistral24B/e1/snap_000__Lily__L2-private.json",
+    "source_sha256": "0577616fb09834044d87b3769619b3ba9b1ff93e5f0d893de7d4584784bfa938",
+    "prompt_sha256": "5eb160301915048e131bd3fea8ceb5f9aad3e0b2c438a93754696fc4d38cf9d0",
+    "condition": "L2-private",
+    "offer_rung": "",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Mistral24B/e1/L2-secret.txt",
+    "source": "interp/Mistral24B/e1/snap_000__Lily__L2-secret.json",
+    "source_sha256": "1407fb5270ff26fe8d5c48998c615340b1491e5b8015d058a4b65177a8a56b58",
+    "prompt_sha256": "92d1cdbd87d6cf83458d3e73e8dd5ef37fc8a161d73658b91de4f79b67f71c38",
+    "condition": "L2-secret",
+    "offer_rung": "",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Mistral24B/e1/L2-victim.txt",
+    "source": "interp/Mistral24B/e1/snap_000__Lily__L2-victim.json",
+    "source_sha256": "a9e0903ebbac279b8401553250fe973b6310f92941113c2585f382a216bae127",
+    "prompt_sha256": "cba0e089196b061eb69dc23ef702538148c8e0d41e5e64cf1abcd4bd51cb3680",
+    "condition": "L2-victim",
+    "offer_rung": "",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Mistral24B/e1/L2.txt",
+    "source": "interp/Mistral24B/e1/snap_000__Lily__L2.json",
+    "source_sha256": "8d7072dab3a1e944c812cb90239bb6720170849ebc08aacf9491898a59592954",
+    "prompt_sha256": "9cd4b20e0cc08323f946cbf74624ecf616b3cbf3945b94c8d0422682c747bcdd",
+    "condition": "L2",
+    "offer_rung": "",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Mistral24B/e1/L3.txt",
+    "source": "interp/Mistral24B/e1/snap_000__Lily__L3.json",
+    "source_sha256": "3aa2a4c4dbd4e0c75248bfc8ba1ae9c855bf9bd9b7da7e539ec2cbcb2a954b62",
+    "prompt_sha256": "8e157c9dbb54c652ebac2fe9eaa7d12aa034d9931b90c3225f4e06fefc067abc",
+    "condition": "L3",
+    "offer_rung": "",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Mistral24B/e1/VL1.txt",
+    "source": "interp/Mistral24B/e1/snap_000__Lily__VL1.json",
+    "source_sha256": "8d96fcd21e47a53b28739c5f23d3ec9e9a99866af3329a4740765ba8df86d752",
+    "prompt_sha256": "5be9f93dda49a4ab486411291afbc67bedfbe7c2df5fd77a16163009be31f8b4",
+    "condition": "VL1",
+    "offer_rung": "",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Mistral24B/e1/VaffectL1.txt",
+    "source": "interp/Mistral24B/e1/snap_000__Lily__VaffectL1.json",
+    "source_sha256": "087cb0b788425f04ae46520e0d154491266505a9a17e75d259cd6fb306edc247",
+    "prompt_sha256": "91ea2ed825ea31c3ecfc13c35e288e66cf4050f26f9ce892dea062eed5f27472",
+    "condition": "VaffectL1",
+    "offer_rung": "",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Mistral24B/e1/VknewL1.txt",
+    "source": "interp/Mistral24B/e1/snap_000__Lily__VknewL1.json",
+    "source_sha256": "0150d637280293e63ee58653ecfdc0b1032e3048e032180096f2d63be0d5bec5",
+    "prompt_sha256": "23b7139f48e87ac6451ae72add866bb8dfff4ff7908552bc2d607a6fe5fe650c",
+    "condition": "VknewL1",
+    "offer_rung": "",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Mistral24B/e1/VplaceboL1.txt",
+    "source": "interp/Mistral24B/e1/snap_000__Lily__VplaceboL1.json",
+    "source_sha256": "51ee3be4521821049157479c4dc1a1d2a169d9fe3ce9795d54a23e2ffad9c5f7",
+    "prompt_sha256": "fae8840d4207c4f3703c37ca303b90b0f115df8dacd820982c2596e3202c3a00",
+    "condition": "VplaceboL1",
+    "offer_rung": "",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Mistral24B/e1/mirror.txt",
+    "source": "interp/Mistral24B/e1/snap_000__Lily__mirror.json",
+    "source_sha256": "cf130daf0d02800d6e065bb45f5cb76bf45852db5dd1544a2818568e486e661d",
+    "prompt_sha256": "7e994eb6620bd12edba6cbbd438e79b57ca87d0bf8893ea8d13a492e479d8a0d",
+    "condition": "mirror",
+    "offer_rung": "",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Mistral24B/e1c/as_accept.txt",
+    "source": "interp/Mistral24B/e1c/snap_000__Lily__as_accept.json",
+    "source_sha256": "f44734d262e256922e26970f9e3cc9a7f7c11d650b57fc383080e0486c99bd6e",
+    "prompt_sha256": "1d4698c8472d9b1ba028e2e9785279650bfa65ae5a49a4667f7668cf4441f482",
+    "condition": "as_accept",
+    "offer_rung": "",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Mistral24B/e1c/as_refuse.txt",
+    "source": "interp/Mistral24B/e1c/snap_000__Lily__as_refuse.json",
+    "source_sha256": "e4c47882a9ed0b04a7a4b32fd61707cfffa1ae019727d336bc3207c40bda6abe",
+    "prompt_sha256": "52319e527b8cf0407cd7cc55574cabc7fe77f404ac5e980dbdf729a0c1cbec6a",
+    "condition": "as_refuse",
+    "offer_rung": "",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Mistral24B/e1c/full.txt",
+    "source": "interp/Mistral24B/e1c/snap_000__Lily__full.json",
+    "source_sha256": "63bdb7f2ae6b7bdf8f24b1483d6b2f4bb50815668318c17a40da89b1488089d4",
+    "prompt_sha256": "12166bb073e81634fc60ce7e50241c11cf2c31e322be8fafcb5e18d4b3420553",
+    "condition": "full",
+    "offer_rung": "",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Mistral24B/e1c/none.txt",
+    "source": "interp/Mistral24B/e1c/snap_000__Lily__none.json",
+    "source_sha256": "9f1abe6627ed427b3f85165f543a24d0da3d9a9c6f443abb8ccb36c4c9ea3b48",
+    "prompt_sha256": "18359923a66f3f010eac4825b80b9f5eff786ac881abf3f3bedff3a78fd8b52a",
+    "condition": "none",
+    "offer_rung": "",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Mistral24B/e1c/offer_only.txt",
+    "source": "interp/Mistral24B/e1c/snap_000__Lily__offer_only.json",
+    "source_sha256": "d987d5d3e92da7696e01cb4c03cb05000494771ee475d2ff95164c5dfb631948",
+    "prompt_sha256": "31bf4025db49f50799fe73bdf504b0d420e41afee92c8cea1073918c555e0440",
+    "condition": "offer_only",
+    "offer_rung": "",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Mistral24B/e2/D0L1.txt",
+    "source": "interp/Mistral24B/e2/snap_000__Lily__D0L1.json",
+    "source_sha256": "4a088ef23231f950543e5c392adf4e303e53c15824e7ccea60dc403a9f15fdec",
+    "prompt_sha256": "09ca351182a13102a2e2a7acc19db82f6fdbce1b54fea4e8b4be7441a1f2d523",
+    "condition": "D0L1",
+    "offer_rung": "",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Mistral24B/e2/L1.txt",
+    "source": "interp/Mistral24B/e2/snap_000__Lily__L1.json",
+    "source_sha256": "7c7e26c00589bbad348006d9ce1bad82b2401b8e8e0336a20ed99515ecb27544",
+    "prompt_sha256": "40b06bb045bc0caa36114f7a73326fdbd7baac48ec80ff134ab9ecff1e9f9ed0",
+    "condition": "L1",
+    "offer_rung": "",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Mistral24B/e2/L2.txt",
+    "source": "interp/Mistral24B/e2/snap_000__Lily__L2.json",
+    "source_sha256": "92b6958cae0700c9e4c84a906abaeea08432c303b6e96e7cd592de12cff0b21f",
+    "prompt_sha256": "e87ceee6f85a2d6e730ecbf0ac9bb9d5cf52125107df93edd88e2bb06e239943",
+    "condition": "L2",
+    "offer_rung": "",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Mistral24B/e2/VL1.txt",
+    "source": "interp/Mistral24B/e2/snap_000__Lily__VL1.json",
+    "source_sha256": "adde1896041fa0bd400641c58910f6b28bc9f0e52a4192f1a81394bed45343f1",
+    "prompt_sha256": "a0660bb4b569903b76b3710e8ac4c7976f5bf329312b1fc60d606d10f9863ef8",
+    "condition": "VL1",
+    "offer_rung": "",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Mistral24B/monitor/D0L1.txt",
+    "source": "interp/Mistral24B/monitor/snap_000__Lily__D0L1.json",
+    "source_sha256": "c30b77212e1ede6991764618c2b84a6911f35e284d45cecf5d702aeaa924cd31",
+    "prompt_sha256": "3ab7356c746d5159f775c9dc3c006a71841437393489eb202d9460a1bfa7d6dc",
+    "condition": "D0L1",
+    "offer_rung": "",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Mistral24B/monitor/L1.txt",
+    "source": "interp/Mistral24B/monitor/snap_000__Lily__L1.json",
+    "source_sha256": "db4a4efb5b7f50b61c05a9a83126d96ebd7cf9fddcbce59aae1b06058a9d4121",
+    "prompt_sha256": "d3a66dbb3456b113d90c0d2d4a35b75a05188faad955350d5ac0f9357f83ad2e",
+    "condition": "L1",
+    "offer_rung": "",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Mistral24B/monitor/L2.txt",
+    "source": "interp/Mistral24B/monitor/snap_000__Lily__L2.json",
+    "source_sha256": "6ac7d857242449a86234237789625a994815c82bc966307892371d76b6716034",
+    "prompt_sha256": "936bdc92a7a11fe05f61a78a62cce88e446cb19f69be3afbdf73f7be396d3f05",
+    "condition": "L2",
+    "offer_rung": "",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Qwen32B/e1/D0L1.txt",
+    "source": "interp/Qwen32B/e1/snap_000__Lily__D0L1.json",
+    "source_sha256": "7c765ac6b50246710f7856da0756b8a3c43e96b835f95f4e84c07e28786e1e08",
+    "prompt_sha256": "4c03a841f6434cc661bee4c8cd29304ed49d2d7d3e7c43303aee44b258a2bfc3",
+    "condition": "D0L1",
+    "offer_rung": "",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Qwen32B/e1/D50L1.txt",
+    "source": "interp/Qwen32B/e1/snap_000__Lily__D50L1.json",
+    "source_sha256": "9a0475580ecdc37285391abacbf5eb79f8280f95bf3d623547b5630b6882e203",
+    "prompt_sha256": "30b9ad8a61811bdc300ad56b32c6fc598faf413893f3bf06675265bfa1bcf8ea",
+    "condition": "D50L1",
+    "offer_rung": "",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Qwen32B/e1/DmonL1.txt",
+    "source": "interp/Qwen32B/e1/snap_000__Lily__DmonL1.json",
+    "source_sha256": "c9c0d964d23c01023fea6e6a0cd02d4afdc99a69ad47675c2e651696e6ae7129",
+    "prompt_sha256": "b7742d217a3e4acfe95aeb63771d0b1ab2d9c8ec1328a4bc3e1df668de642d67",
+    "condition": "DmonL1",
+    "offer_rung": "",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Qwen32B/e1/DpenL1.txt",
+    "source": "interp/Qwen32B/e1/snap_000__Lily__DpenL1.json",
+    "source_sha256": "2906d683d0f80bb2d1f1522749d1ca6aa6b35880bba3b58b369af6143f302c0f",
+    "prompt_sha256": "3dfe960f6fd9814d8c5e262e9e12f6de66f56dab77c9367d6e67bf65b789d7e9",
+    "condition": "DpenL1",
+    "offer_rung": "",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Qwen32B/e1/DplaceboL1.txt",
+    "source": "interp/Qwen32B/e1/snap_000__Lily__DplaceboL1.json",
+    "source_sha256": "0674600613647a00b0be794c5d0170b2d780cc291b426d97568b961da1b4aa5a",
+    "prompt_sha256": "fdf326ca9a8398248d590df811108b75bd6c9167ee09b810759c3afa43eaeab4",
+    "condition": "DplaceboL1",
+    "offer_rung": "",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Qwen32B/e1/DwatchL1.txt",
+    "source": "interp/Qwen32B/e1/snap_000__Lily__DwatchL1.json",
+    "source_sha256": "04ccd887001dd151595770b08d0730ad552570caa8a229c777257b8d056bd2e2",
+    "prompt_sha256": "4855318ccea13b2c617f86e9b4c06981263c1795fd3fb39593fee42eb7b89611",
+    "condition": "DwatchL1",
+    "offer_rung": "",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Qwen32B/e1/L0.txt",
+    "source": "interp/Qwen32B/e1/snap_000__Lily__L0.json",
+    "source_sha256": "7ab001c76f6774ce1806689d5d7b37b7c7812182ec79e684676361f00b8cb592",
+    "prompt_sha256": "cc3f3e72716ffe41fff7738c4211744c681d52d60b278ce6b4509f3a58495842",
+    "condition": "L0",
+    "offer_rung": "",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Qwen32B/e1/L1+explicit.txt",
+    "source": "interp/Qwen32B/e1/snap_000__Lily__L1+explicit.json",
+    "source_sha256": "171f3a0824985d5751a75abbcf1a5175315eec182923636b0576dc321346e349",
+    "prompt_sha256": "6c7a72fd36ae2b2ee37e88907435faa925d15c60f1e64fa9481ca73bc1eeb855",
+    "condition": "L1+explicit",
+    "offer_rung": "",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Qwen32B/e1/L1+nobody.txt",
+    "source": "interp/Qwen32B/e1/snap_000__Lily__L1+nobody.json",
+    "source_sha256": "31b2740509b744fc5d0b2406bc6c87a283a828f9fa5bd8ffdf9318ea34ea00b6",
+    "prompt_sha256": "e8affba99fe80093d5f33d7cb767d09fa7e9bd8fd5e09b11dacc8e14347f508d",
+    "condition": "L1+nobody",
+    "offer_rung": "",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Qwen32B/e1/L1+secret.txt",
+    "source": "interp/Qwen32B/e1/snap_000__Lily__L1+secret.json",
+    "source_sha256": "df7938dbc4a7c80295154b236e9dc45cae7019831455a66a1b9fe6267cabd1d9",
+    "prompt_sha256": "5112d2e0b9825c0b846c10851a1eed9c6434a53617cf3ce57dd76d1a6e4d7fb9",
+    "condition": "L1+secret",
+    "offer_rung": "",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Qwen32B/e1/L1+victim.txt",
+    "source": "interp/Qwen32B/e1/snap_000__Lily__L1+victim.json",
+    "source_sha256": "440d3160766ff2a34daa251c1058a7c4f2f87ee9763fe1a7b6f63eb6440d321a",
+    "prompt_sha256": "c03b6a3d06311fb09d3e4b72d5d9c6a27356ff098f4d8ae1710da3d7a39a9e19",
+    "condition": "L1+victim",
+    "offer_rung": "",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Qwen32B/e1/L1-between.txt",
+    "source": "interp/Qwen32B/e1/snap_000__Lily__L1-between.json",
+    "source_sha256": "f431f7a477944f8202616d8a0a0b3e2ff8a9cab278a28c69d350b992c533a31b",
+    "prompt_sha256": "da80929b90a5be4cf499a3c5b7b517d439c5a6474c76a8dc7ca09a4b7cce7f10",
+    "condition": "L1-between",
+    "offer_rung": "",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Qwen32B/e1/L1-uptoyou.txt",
+    "source": "interp/Qwen32B/e1/snap_000__Lily__L1-uptoyou.json",
+    "source_sha256": "d7534f7f38fda5caff6cf64f8bb49e8bb07ada45b386c3cbea886757d23a5ed7",
+    "prompt_sha256": "b044fbdff8769e3c36d9950632ddcabf150ebf499f14b6f17256e031319046f2",
+    "condition": "L1-uptoyou",
+    "offer_rung": "",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Qwen32B/e1/L1.txt",
+    "source": "interp/Qwen32B/e1/snap_000__Lily__L1.json",
+    "source_sha256": "7fcd1dfd267fb17d016f65a34f377fb86e555cad3f7c7c27a93e14383efd75b9",
+    "prompt_sha256": "fe78544a76d36227ba4b2d4023412046e813f69e6afed664db910b4e92fe26b0",
+    "condition": "L1",
+    "offer_rung": "",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Qwen32B/e1/L2-allcues.txt",
+    "source": "interp/Qwen32B/e1/snap_000__Lily__L2-allcues.json",
+    "source_sha256": "eaf5ae15d8e05d43cd43ecadd0e50625d0417b5af74d122506a05cea9e7b26fc",
+    "prompt_sha256": "fd4bd01bbac27d281b4f3232554253d36e91069f517c139dcdff578d0f4231d3",
+    "condition": "L2-allcues",
+    "offer_rung": "",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Qwen32B/e1/L2-ask.txt",
+    "source": "interp/Qwen32B/e1/snap_000__Lily__L2-ask.json",
+    "source_sha256": "f51f35c0030b751049b85d9cd880a509dc431e293d98ed425944399ccef94d1c",
+    "prompt_sha256": "33167845ba57a51867825fbaa2b0a10de8a20ac7a9b32573a894383692bc2c2a",
+    "condition": "L2-ask",
+    "offer_rung": "",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Qwen32B/e1/L2-benefit.txt",
+    "source": "interp/Qwen32B/e1/snap_000__Lily__L2-benefit.json",
+    "source_sha256": "e6abfb5f3e725a5c767719c55116a50cd4d9ca3dc7da112e8114c97eb1e432d7",
+    "prompt_sha256": "a1369ebd771f6e019153dea76d5d22cae14ae3d1a9bc2cefc91dd713e49bc323",
+    "condition": "L2-benefit",
+    "offer_rung": "",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Qwen32B/e1/L2-nobody.txt",
+    "source": "interp/Qwen32B/e1/snap_000__Lily__L2-nobody.json",
+    "source_sha256": "aefd6085b1caa7704c6495fb6e45106a47ef63b3d26f4484ac04987ba202e3f0",
+    "prompt_sha256": "c59f3842c92fec13dfbae19f73da97171c1b63a4992868c54ba4e003d2cd433c",
+    "condition": "L2-nobody",
+    "offer_rung": "",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Qwen32B/e1/L2-private.txt",
+    "source": "interp/Qwen32B/e1/snap_000__Lily__L2-private.json",
+    "source_sha256": "585e68d589cbf011823735f00085063518c54dcf3370c368df838b1570b67fd8",
+    "prompt_sha256": "5eb160301915048e131bd3fea8ceb5f9aad3e0b2c438a93754696fc4d38cf9d0",
+    "condition": "L2-private",
+    "offer_rung": "",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Qwen32B/e1/L2-secret.txt",
+    "source": "interp/Qwen32B/e1/snap_000__Lily__L2-secret.json",
+    "source_sha256": "67e2f13b240bfeac4f8c09a4ecaf2082ff92cdbe2b505121c78ea0366038837f",
+    "prompt_sha256": "92d1cdbd87d6cf83458d3e73e8dd5ef37fc8a161d73658b91de4f79b67f71c38",
+    "condition": "L2-secret",
+    "offer_rung": "",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Qwen32B/e1/L2-victim.txt",
+    "source": "interp/Qwen32B/e1/snap_000__Lily__L2-victim.json",
+    "source_sha256": "4d6627cf99ae840479fb7efd5c2dfe2bd461f6198ee410790d1688ac12914b87",
+    "prompt_sha256": "cba0e089196b061eb69dc23ef702538148c8e0d41e5e64cf1abcd4bd51cb3680",
+    "condition": "L2-victim",
+    "offer_rung": "",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Qwen32B/e1/L2.txt",
+    "source": "interp/Qwen32B/e1/snap_000__Lily__L2.json",
+    "source_sha256": "a8fdfe811729d148df411f67589eb0e43eefef294e89a0cdaffdd11a52412bbb",
+    "prompt_sha256": "9cd4b20e0cc08323f946cbf74624ecf616b3cbf3945b94c8d0422682c747bcdd",
+    "condition": "L2",
+    "offer_rung": "",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Qwen32B/e1/L3.txt",
+    "source": "interp/Qwen32B/e1/snap_000__Lily__L3.json",
+    "source_sha256": "6958c2c9cca03a39c806238cb96e821c32a20cee99370e2270ed748a03185d21",
+    "prompt_sha256": "8e157c9dbb54c652ebac2fe9eaa7d12aa034d9931b90c3225f4e06fefc067abc",
+    "condition": "L3",
+    "offer_rung": "",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Qwen32B/e1/VL1.txt",
+    "source": "interp/Qwen32B/e1/snap_000__Lily__VL1.json",
+    "source_sha256": "ee9e05b7ea7a616760b14485febfd1a96aecd81f14168d53ed6590a0b435c644",
+    "prompt_sha256": "5be9f93dda49a4ab486411291afbc67bedfbe7c2df5fd77a16163009be31f8b4",
+    "condition": "VL1",
+    "offer_rung": "",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Qwen32B/e1/VaffectL1.txt",
+    "source": "interp/Qwen32B/e1/snap_000__Lily__VaffectL1.json",
+    "source_sha256": "355069867449d75b81877f438af9bc9c8a7b8b6b65b650beb444cea9aaddbc84",
+    "prompt_sha256": "91ea2ed825ea31c3ecfc13c35e288e66cf4050f26f9ce892dea062eed5f27472",
+    "condition": "VaffectL1",
+    "offer_rung": "",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Qwen32B/e1/VknewL1.txt",
+    "source": "interp/Qwen32B/e1/snap_000__Lily__VknewL1.json",
+    "source_sha256": "1f88f4f93a1b46246ffbfffb70bf202b446f4356f517940f0dcca1967824e470",
+    "prompt_sha256": "23b7139f48e87ac6451ae72add866bb8dfff4ff7908552bc2d607a6fe5fe650c",
+    "condition": "VknewL1",
+    "offer_rung": "",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Qwen32B/e1/VplaceboL1.txt",
+    "source": "interp/Qwen32B/e1/snap_000__Lily__VplaceboL1.json",
+    "source_sha256": "6ca8c74027abd16306aeabe65dad2f206e4308c9cf7312677413402f72b72c03",
+    "prompt_sha256": "fae8840d4207c4f3703c37ca303b90b0f115df8dacd820982c2596e3202c3a00",
+    "condition": "VplaceboL1",
+    "offer_rung": "",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Qwen32B/e1/mirror.txt",
+    "source": "interp/Qwen32B/e1/snap_000__Lily__mirror.json",
+    "source_sha256": "ee0a6f121f13c1e38577cd94b0af566d65e4f49201d996b207f90f5e9efe5f00",
+    "prompt_sha256": "dc30c8c534e51927f1e811262c26488125606b53148adc7249c2bacbf382aae3",
+    "condition": "mirror",
+    "offer_rung": "",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Qwen32B/e1c/as_accept.txt",
+    "source": "interp/Qwen32B/e1c/snap_000__Lily__as_accept.json",
+    "source_sha256": "7821e6d8fe1d7cfc1bcd9330f678b9af84a172ecb8c8ee094f70f67cf1e6459b",
+    "prompt_sha256": "3e23fc910e8b0ea15ac2e1427cfbea4897ae79b4f89f6abd5b034cd985d579cc",
+    "condition": "as_accept",
+    "offer_rung": "",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Qwen32B/e1c/as_refuse.txt",
+    "source": "interp/Qwen32B/e1c/snap_000__Lily__as_refuse.json",
+    "source_sha256": "369c59974e6a6265ca28a34bd030a60df7b2762a67f41166f5fc4fc7e3c4d797",
+    "prompt_sha256": "e8bcf9d32a7d60a9c8aac2c3267657f684276e3257584bff4b683bbd9be991af",
+    "condition": "as_refuse",
+    "offer_rung": "",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Qwen32B/e1c/full.txt",
+    "source": "interp/Qwen32B/e1c/snap_000__Lily__full.json",
+    "source_sha256": "b923e99fb584baa16e733da6b2f711dedf45b7efb3d6e3a6b9f2ff7da52e1f59",
+    "prompt_sha256": "66de93142f4da9f551dfe91314c3057ee13dda0ea3298da316b57c5defd9ea41",
+    "condition": "full",
+    "offer_rung": "",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Qwen32B/e1c/none.txt",
+    "source": "interp/Qwen32B/e1c/snap_000__Lily__none.json",
+    "source_sha256": "0267c5a77a296aff6ad795944d0a4296e4408e48e30446faa3d037e1823d7df4",
+    "prompt_sha256": "0637fbc7e30edf8c0578acee5ce92838669c84e6374d843e45c3151c9846cb75",
+    "condition": "none",
+    "offer_rung": "",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Qwen32B/e1c/offer_only.txt",
+    "source": "interp/Qwen32B/e1c/snap_000__Lily__offer_only.json",
+    "source_sha256": "43a0c0c6e7dd4b36f3cac1811722afaad219ef8deb9c91ce3af37dd8574715b0",
+    "prompt_sha256": "89fb8a35a1fed8227ffb84ffb2015394fb5cf792790b9991dda495796ccbc573",
+    "condition": "offer_only",
+    "offer_rung": "",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Qwen32B/e2/D0L1.txt",
+    "source": "interp/Qwen32B/e2/snap_000__Lily__D0L1.json",
+    "source_sha256": "85c2a7c65197d63799aa97667dc62387202ae7c55e343e287a63276fb5846392",
+    "prompt_sha256": "09ca351182a13102a2e2a7acc19db82f6fdbce1b54fea4e8b4be7441a1f2d523",
+    "condition": "D0L1",
+    "offer_rung": "",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Qwen32B/e2/L1.txt",
+    "source": "interp/Qwen32B/e2/snap_000__Lily__L1.json",
+    "source_sha256": "02a82fc6917809d9afa6251db0540e65c4a2492a4833281e11e8c8bf60f2d084",
+    "prompt_sha256": "40b06bb045bc0caa36114f7a73326fdbd7baac48ec80ff134ab9ecff1e9f9ed0",
+    "condition": "L1",
+    "offer_rung": "",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Qwen32B/e2/L2.txt",
+    "source": "interp/Qwen32B/e2/snap_000__Lily__L2.json",
+    "source_sha256": "b715378bf6b197620e3587c4e4926398943fb266005b5b1dd973f11a43f584ae",
+    "prompt_sha256": "e87ceee6f85a2d6e730ecbf0ac9bb9d5cf52125107df93edd88e2bb06e239943",
+    "condition": "L2",
+    "offer_rung": "",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Qwen32B/e2/VL1.txt",
+    "source": "interp/Qwen32B/e2/snap_000__Lily__VL1.json",
+    "source_sha256": "5accfb0a2ba43e8fc0725a4532fb691c95af8fb456a954f991fd6fb51fa1696f",
+    "prompt_sha256": "a0660bb4b569903b76b3710e8ac4c7976f5bf329312b1fc60d606d10f9863ef8",
+    "condition": "VL1",
+    "offer_rung": "",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Qwen32B/monitor/D0L1.txt",
+    "source": "interp/Qwen32B/monitor/snap_000__Lily__D0L1.json",
+    "source_sha256": "51ba567a860b1afba3277dcf6bf9d9e2c3c2bea2abba89be5862da8db9c8252c",
+    "prompt_sha256": "3ab7356c746d5159f775c9dc3c006a71841437393489eb202d9460a1bfa7d6dc",
+    "condition": "D0L1",
+    "offer_rung": "",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Qwen32B/monitor/L1.txt",
+    "source": "interp/Qwen32B/monitor/snap_000__Lily__L1.json",
+    "source_sha256": "9dce6ed877d3670acfa1a967e0459db330ee54af942f31d2222d83dbc79e9bc7",
+    "prompt_sha256": "d3a66dbb3456b113d90c0d2d4a35b75a05188faad955350d5ac0f9357f83ad2e",
+    "condition": "L1",
+    "offer_rung": "",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/interp/Qwen32B/monitor/L2.txt",
+    "source": "interp/Qwen32B/monitor/snap_000__Lily__L2.json",
+    "source_sha256": "c2f6e0f21f2afd2d4a8f10d1cff90edb27051b620fcc5be36554ae26a8465e09",
+    "prompt_sha256": "936bdc92a7a11fe05f61a78a62cce88e446cb19f69be3afbdf73f7be396d3f05",
+    "condition": "L2",
+    "offer_rung": "",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Llama8B/v1d/R0__L1.txt",
+    "source": "values/Llama8B/v1d/snap_000__Lily__L1__R0.json",
+    "source_sha256": "626e25961f3c95f20a7cf624e4817d26276b4baeda22c0aaea713515dc007742",
+    "prompt_sha256": "fe78544a76d36227ba4b2d4023412046e813f69e6afed664db910b4e92fe26b0",
+    "condition": "R0",
+    "offer_rung": "L1",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Llama8B/v1d/R1_generic__L1.txt",
+    "source": "values/Llama8B/v1d/snap_000__Lily__L1__R1_generic.json",
+    "source_sha256": "d99a6e9a558b0140d91196b86ba72e3cfc5eeee96c29bd0c3f3f33174fd16e11",
+    "prompt_sha256": "521967675accad64ae2dcd3a638706b4accd931d8655b0ef4cc1960208458f2a",
+    "condition": "R1_generic",
+    "offer_rung": "L1",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Llama8B/v1d/R2_strategy__L1.txt",
+    "source": "values/Llama8B/v1d/snap_000__Lily__L1__R2_strategy.json",
+    "source_sha256": "f28558ccfeaa0650d225f9e614516079bc72f4d522766fede7cd5484ef2d79a8",
+    "prompt_sha256": "8918bde93e0307ea6255a59d0b6130e09a3f8a1596b1c5b30c8ebabb13faf61c",
+    "condition": "R2_strategy",
+    "offer_rung": "L1",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Llama8B/v1d/R3_penalty__L1.txt",
+    "source": "values/Llama8B/v1d/snap_000__Lily__L1__R3_penalty.json",
+    "source_sha256": "173a1758a82c76fe33c46034fbe255f90fe3920368cfd60732d3ffad621ad45e",
+    "prompt_sha256": "8b81ab3154161932da6d0c909f4ded6fe3adf2731e7dc3f6a9ffe534f3c3ed57",
+    "condition": "R3_penalty",
+    "offer_rung": "L1",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Llama8B/v1d/R4_public__L1.txt",
+    "source": "values/Llama8B/v1d/snap_000__Lily__L1__R4_public.json",
+    "source_sha256": "21f57b2380e1ecb59065e9ac4f1145a378573f14832e5d0ddaf6ab67dbb5688d",
+    "prompt_sha256": "fd7b45bfe8560455c3e81208b66de6bc724dafcec9faaf830437fc5c83b0e9c1",
+    "condition": "R4_public",
+    "offer_rung": "L1",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Llama8B/v1d/R5_victim__L1.txt",
+    "source": "values/Llama8B/v1d/snap_000__Lily__L1__R5_victim.json",
+    "source_sha256": "60830d45c5498560fb1f891326614d0dce9596a4a482dd52dbb5a28b87f83098",
+    "prompt_sha256": "89ae9c1f3507d4efd376d264bdb11317962b2e3604d43e75ac70d6728439e6e4",
+    "condition": "R5_victim",
+    "offer_rung": "L1",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Llama8B/v1d/R6_golden__L1.txt",
+    "source": "values/Llama8B/v1d/snap_000__Lily__L1__R6_golden.json",
+    "source_sha256": "c9fa7e0741bba5dd1cbe18f9576b7938370b0202eb13573e97e4afcb6487b6be",
+    "prompt_sha256": "505b45775ffe531ba8778be3c3cf18f1b06939a865b1ebf27ec4510eb0fe62cc",
+    "condition": "R6_golden",
+    "offer_rung": "L1",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Llama8B/v1d/R7_identity__L1.txt",
+    "source": "values/Llama8B/v1d/snap_000__Lily__L1__R7_identity.json",
+    "source_sha256": "05a3a1e89c9d0a5acfc492b087f5938bda68c67aa28a19eda5b81d0fb0fa42a3",
+    "prompt_sha256": "62767ed03ff9c381bfab4849303cceafe6c73e4be229db80adfa70c8564b953b",
+    "condition": "R7_identity",
+    "offer_rung": "L1",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Llama8B/v1d/R8_placebo__L1.txt",
+    "source": "values/Llama8B/v1d/snap_000__Lily__L1__R8_placebo.json",
+    "source_sha256": "be8bfa0d21039ef84c4f60a9f9ef211380bd1887ab780dff6e2586e3fef81435",
+    "prompt_sha256": "834dccb772cb676335e8f124d30acc3a0d3abe39e6745ac11b50dd6687d61de1",
+    "condition": "R8_placebo",
+    "offer_rung": "L1",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Llama8B/v1d/R9_rule__L1.txt",
+    "source": "values/Llama8B/v1d/snap_000__Lily__L1__R9_rule.json",
+    "source_sha256": "d7d8674a1a056f0be33034408aeff00ca1c18cb7bc5ef82fb7c5424dd4c0a4e4",
+    "prompt_sha256": "5c52607558383fdc7560f861b88eb0f6d660c28ccda56fe4447b2dae93356023",
+    "condition": "R9_rule",
+    "offer_rung": "L1",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Llama8B/v1d/R0__L2.txt",
+    "source": "values/Llama8B/v1d/snap_000__Lily__L2__R0.json",
+    "source_sha256": "1b31d325de03c85d9e1dd1dfd93674a5fd2a207c1d1393364cf0903eeb47c896",
+    "prompt_sha256": "9cd4b20e0cc08323f946cbf74624ecf616b3cbf3945b94c8d0422682c747bcdd",
+    "condition": "R0",
+    "offer_rung": "L2",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Llama8B/v1d/R1_generic__L2.txt",
+    "source": "values/Llama8B/v1d/snap_000__Lily__L2__R1_generic.json",
+    "source_sha256": "a20c24b140fe6439a0a59ecbb679b0df061260db21d01a6836caad5c7037be83",
+    "prompt_sha256": "35c7b9f71e9f420e91e6d6684b25ba9805e7b84054607cca0b58d57b4f5c2d65",
+    "condition": "R1_generic",
+    "offer_rung": "L2",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Llama8B/v1d/R2_strategy__L2.txt",
+    "source": "values/Llama8B/v1d/snap_000__Lily__L2__R2_strategy.json",
+    "source_sha256": "64d3c41e472fa2b0d19504de99f2a56cfad5ea79acf5477797de52d7332e4918",
+    "prompt_sha256": "6d711df9f92fb885862102a1da8cd5b67f112d1d4c9a058b8bc793d1b897999c",
+    "condition": "R2_strategy",
+    "offer_rung": "L2",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Llama8B/v1d/R3_penalty__L2.txt",
+    "source": "values/Llama8B/v1d/snap_000__Lily__L2__R3_penalty.json",
+    "source_sha256": "4c09debb7d046b051ef7e35a29f0231d4fd70e56f13da82ac75417d61c4ddb51",
+    "prompt_sha256": "5f0c3fbdd0c300817f75a8bf7b3a7366147bc572713355a737c583dd852e0223",
+    "condition": "R3_penalty",
+    "offer_rung": "L2",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Llama8B/v1d/R4_public__L2.txt",
+    "source": "values/Llama8B/v1d/snap_000__Lily__L2__R4_public.json",
+    "source_sha256": "2e9c4cc8cf902f4ceed90199e80eae92a9ed1585d01a208823e078be70642d60",
+    "prompt_sha256": "5502d6ffbca5d2f6844fcd03dc503ceb5c14feecbfaf08a8c5f0000725f551bb",
+    "condition": "R4_public",
+    "offer_rung": "L2",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Llama8B/v1d/R5_victim__L2.txt",
+    "source": "values/Llama8B/v1d/snap_000__Lily__L2__R5_victim.json",
+    "source_sha256": "c14593c385f30e8735e2e82bb6bf5e18e6bf5a45f65039cd335cf3e15f02142f",
+    "prompt_sha256": "cacdb7ed5af44fbf4e919f434a3305ae9a8004bb81cfca9e6e24d8ec116fd3d9",
+    "condition": "R5_victim",
+    "offer_rung": "L2",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Llama8B/v1d/R6_golden__L2.txt",
+    "source": "values/Llama8B/v1d/snap_000__Lily__L2__R6_golden.json",
+    "source_sha256": "813f488ec3fe2a387dcb5ad37f42f53ccba3b0d94481806638e8b6e924b16f59",
+    "prompt_sha256": "3b176b9121597749e0dcb971322816839aaccefb4a204d5c179fca6f36bfcb3d",
+    "condition": "R6_golden",
+    "offer_rung": "L2",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Llama8B/v1d/R7_identity__L2.txt",
+    "source": "values/Llama8B/v1d/snap_000__Lily__L2__R7_identity.json",
+    "source_sha256": "2fb970274b60077cef73fd5429fbb5c92058b588cf3eb229c3ae0adb1f579bd5",
+    "prompt_sha256": "ee1563acdcbd09e811240836d5685c020a22b7522a44bbf9872b0776093dd840",
+    "condition": "R7_identity",
+    "offer_rung": "L2",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Llama8B/v1d/R8_placebo__L2.txt",
+    "source": "values/Llama8B/v1d/snap_000__Lily__L2__R8_placebo.json",
+    "source_sha256": "5aec5e2dfad6bf7f3f318d6cb08f4bdacaa43cb0dc7625796feaf2196cf6e29a",
+    "prompt_sha256": "55ce59e014a6f1a022b96f4e1da7ffe2bce8d639e799645d9e3b031fa3d01a2d",
+    "condition": "R8_placebo",
+    "offer_rung": "L2",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Llama8B/v1d/R9_rule__L2.txt",
+    "source": "values/Llama8B/v1d/snap_000__Lily__L2__R9_rule.json",
+    "source_sha256": "20d0548fe71f85a6dd44d69fb66d63640bb57aa9233f9aedf702891d0def35b2",
+    "prompt_sha256": "10bf0659e7fa4be43193b9c9e18578e6bf78a1c57b1ccf1a38c41c8e38a2bd23",
+    "condition": "R9_rule",
+    "offer_rung": "L2",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Llama8B/v1t/R1_generic__L1.txt",
+    "source": "values/Llama8B/v1t/snap_000__Lily__L1__R1_generic.json",
+    "source_sha256": "80bbc39220c248eb44671ff896233196452e63a86dce1846ec9ae0b5d25c5b31",
+    "prompt_sha256": "40b06bb045bc0caa36114f7a73326fdbd7baac48ec80ff134ab9ecff1e9f9ed0",
+    "condition": "R1_generic",
+    "offer_rung": "L1",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Llama8B/v1t/R2_strategy__L1.txt",
+    "source": "values/Llama8B/v1t/snap_000__Lily__L1__R2_strategy.json",
+    "source_sha256": "25cb20857fdf1a4a26089190fa9ea3f8cc206c24ce99fcde4bd851457e82e6ba",
+    "prompt_sha256": "87e2f2045d7c84f9710fd7b4b00cd51e6fc8cb7d55b17996336e0d46e8fce995",
+    "condition": "R2_strategy",
+    "offer_rung": "L1",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Llama8B/v1t/R3_penalty__L1.txt",
+    "source": "values/Llama8B/v1t/snap_000__Lily__L1__R3_penalty.json",
+    "source_sha256": "e6ab373e3d62592ab076b2c69974360dc05d3dccb5991202fee2b38d4ed08873",
+    "prompt_sha256": "e58042c996d78ee40aec012286d646d72ac735208a41ed6ceb3cc6fdcbd47b2f",
+    "condition": "R3_penalty",
+    "offer_rung": "L1",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Llama8B/v1t/R4_public__L1.txt",
+    "source": "values/Llama8B/v1t/snap_000__Lily__L1__R4_public.json",
+    "source_sha256": "5d3f9d238638273d57b1a9d91f7f1c4e29ff33369c5e3db89b84875829635329",
+    "prompt_sha256": "3f4abd59cfee50f0cfa23e10345c59fa31f350b53fdb5d95a6f45bf282089ec4",
+    "condition": "R4_public",
+    "offer_rung": "L1",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Llama8B/v1t/R5_victim__L1.txt",
+    "source": "values/Llama8B/v1t/snap_000__Lily__L1__R5_victim.json",
+    "source_sha256": "3257b967690a8680b24df97caaecb0a0031c45fff3a091cd39352b4fc2656384",
+    "prompt_sha256": "8dbfc26ea6df7a4291436c7918291d8e4fe610550e4b10de377f6e8f3e7df5f0",
+    "condition": "R5_victim",
+    "offer_rung": "L1",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Llama8B/v1t/R6_golden__L1.txt",
+    "source": "values/Llama8B/v1t/snap_000__Lily__L1__R6_golden.json",
+    "source_sha256": "9a46cecf731cc3216026e238a30a5f80b5e52bfd0ed7c86805fafac21a979642",
+    "prompt_sha256": "33235b8f04afee75d7926682921f86dd4a0593540648e739df9b082d7d45a4ca",
+    "condition": "R6_golden",
+    "offer_rung": "L1",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Llama8B/v1t/R7_identity__L1.txt",
+    "source": "values/Llama8B/v1t/snap_000__Lily__L1__R7_identity.json",
+    "source_sha256": "ce851e4411055827b50050ac54b88638684ba8c551aab086d14584296adf4407",
+    "prompt_sha256": "b76cd25b968285eea2584e2e791798fad3f2850ceaccb4fa0099607b3ced4698",
+    "condition": "R7_identity",
+    "offer_rung": "L1",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Llama8B/v1t/R8_placebo__L1.txt",
+    "source": "values/Llama8B/v1t/snap_000__Lily__L1__R8_placebo.json",
+    "source_sha256": "27dc515ec9877ef986701fa63f3e8080b7b46bdc2ca864f91c6d4eb6c6bbb859",
+    "prompt_sha256": "ca2f9714d1b0b973ce2b9e073c6bf5f21937c34f63f7f95d35e2a344b5ca44b6",
+    "condition": "R8_placebo",
+    "offer_rung": "L1",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Llama8B/v1t/R9_rule__L1.txt",
+    "source": "values/Llama8B/v1t/snap_000__Lily__L1__R9_rule.json",
+    "source_sha256": "f3372255a9d60dbc115782635c4a599a65b1c6123733d2b6c8903bfe37c5c4e2",
+    "prompt_sha256": "4575cf5f484d8da04d29a80b2ddfbedd5732ebe233d624b553fa6f28b581520d",
+    "condition": "R9_rule",
+    "offer_rung": "L1",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Llama8B/v1t/R1_generic__L2.txt",
+    "source": "values/Llama8B/v1t/snap_000__Lily__L2__R1_generic.json",
+    "source_sha256": "f36c363e6b588aa48e8a2ecb060c1d8676119be54f2cde5420fd7c08b29b6a24",
+    "prompt_sha256": "e87ceee6f85a2d6e730ecbf0ac9bb9d5cf52125107df93edd88e2bb06e239943",
+    "condition": "R1_generic",
+    "offer_rung": "L2",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Llama8B/v1t/R2_strategy__L2.txt",
+    "source": "values/Llama8B/v1t/snap_000__Lily__L2__R2_strategy.json",
+    "source_sha256": "cc80e1b69ec1c40ff4e1f11d3adba7edd2482e1f38330451d059e7963e94de16",
+    "prompt_sha256": "831599d14f48aa1451f9083cd5742178f304391c3af18b6acb691061919a6816",
+    "condition": "R2_strategy",
+    "offer_rung": "L2",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Llama8B/v1t/R3_penalty__L2.txt",
+    "source": "values/Llama8B/v1t/snap_000__Lily__L2__R3_penalty.json",
+    "source_sha256": "3ea9e1d5a907c599cd7fec45c682c95141ca27619508862cfe809634df79bc15",
+    "prompt_sha256": "46114cac8b80c7d334048d8bbcff704225f2cdc8c3197317204b38eac9e26a76",
+    "condition": "R3_penalty",
+    "offer_rung": "L2",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Llama8B/v1t/R4_public__L2.txt",
+    "source": "values/Llama8B/v1t/snap_000__Lily__L2__R4_public.json",
+    "source_sha256": "be0a021ced922aab65c1a6dc6429f240417070af6086f7ea97bd7b860bf5e4e8",
+    "prompt_sha256": "d6225ec94b8c8227bbf143e7f6a7d7f040c01ddf4be5b057cdfa93511f1670c4",
+    "condition": "R4_public",
+    "offer_rung": "L2",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Llama8B/v1t/R5_victim__L2.txt",
+    "source": "values/Llama8B/v1t/snap_000__Lily__L2__R5_victim.json",
+    "source_sha256": "a65a15895719498a6b47f6581d1ccd95b766fe390543fc9d3d4b21d5d8bf4605",
+    "prompt_sha256": "9939bcfa23d8d98c086f99a62bc63590bcd2605cf08f078e0008ca3bd3abcfe4",
+    "condition": "R5_victim",
+    "offer_rung": "L2",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Llama8B/v1t/R6_golden__L2.txt",
+    "source": "values/Llama8B/v1t/snap_000__Lily__L2__R6_golden.json",
+    "source_sha256": "507603bb88754e48698b118bf686375c00d60e1b6a78d21be6ad73cb445d6639",
+    "prompt_sha256": "bce8660884d6ed343677678df6d0bc11c33089867a066f53ed93d6b994c2d337",
+    "condition": "R6_golden",
+    "offer_rung": "L2",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Llama8B/v1t/R7_identity__L2.txt",
+    "source": "values/Llama8B/v1t/snap_000__Lily__L2__R7_identity.json",
+    "source_sha256": "87c7cc6f673217c160e5b17855943317bdc07c70b3d4e8a07055052e2790f971",
+    "prompt_sha256": "18b0343d99f06d86364123b826dd935f1d7d8485a1cd2ae0aecb112b02e026f0",
+    "condition": "R7_identity",
+    "offer_rung": "L2",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Llama8B/v1t/R8_placebo__L2.txt",
+    "source": "values/Llama8B/v1t/snap_000__Lily__L2__R8_placebo.json",
+    "source_sha256": "2dd40fdeeb3e4c9c7675a264a7d2176648092cf27eb017a4ac68e4bb8c47717b",
+    "prompt_sha256": "f7835a568d450106f1d0eac9e8ea84edab471763e22598e13785c8b6c1b4d857",
+    "condition": "R8_placebo",
+    "offer_rung": "L2",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Llama8B/v1t/R9_rule__L2.txt",
+    "source": "values/Llama8B/v1t/snap_000__Lily__L2__R9_rule.json",
+    "source_sha256": "90c1a39d0b79c35299822d3376f5d9a82df30180c70ee6eeb8d3108887e799d9",
+    "prompt_sha256": "0b91977ed2095fbf52314bbc2daadcf4ff25cc6c88db8469d8dde32b5281712e",
+    "condition": "R9_rule",
+    "offer_rung": "L2",
+    "model": "NousResearch/Meta-Llama-3.1-8B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Mistral24B/v1d/R0__L1.txt",
+    "source": "values/Mistral24B/v1d/snap_000__Lily__L1__R0.json",
+    "source_sha256": "b52a4399f9c70273d0026bc5e58f2bdd418ff9c4dffef84ebd84fb7610466fe2",
+    "prompt_sha256": "fe78544a76d36227ba4b2d4023412046e813f69e6afed664db910b4e92fe26b0",
+    "condition": "R0",
+    "offer_rung": "L1",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Mistral24B/v1d/R1_generic__L1.txt",
+    "source": "values/Mistral24B/v1d/snap_000__Lily__L1__R1_generic.json",
+    "source_sha256": "01d3804a3b9ce2ec629370e0adf0426e7f474d37cf980e1ca22754a84cc70cbf",
+    "prompt_sha256": "521967675accad64ae2dcd3a638706b4accd931d8655b0ef4cc1960208458f2a",
+    "condition": "R1_generic",
+    "offer_rung": "L1",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Mistral24B/v1d/R2_strategy__L1.txt",
+    "source": "values/Mistral24B/v1d/snap_000__Lily__L1__R2_strategy.json",
+    "source_sha256": "dde3afe3172dc5be678d341c0e4921e136a585d99fb0dc15234fc96be45cb78a",
+    "prompt_sha256": "8918bde93e0307ea6255a59d0b6130e09a3f8a1596b1c5b30c8ebabb13faf61c",
+    "condition": "R2_strategy",
+    "offer_rung": "L1",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Mistral24B/v1d/R3_penalty__L1.txt",
+    "source": "values/Mistral24B/v1d/snap_000__Lily__L1__R3_penalty.json",
+    "source_sha256": "631f318b68153009e55ebfc9ed3ee46aa26525c1bfec94aac59eae9ab0b09462",
+    "prompt_sha256": "8b81ab3154161932da6d0c909f4ded6fe3adf2731e7dc3f6a9ffe534f3c3ed57",
+    "condition": "R3_penalty",
+    "offer_rung": "L1",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Mistral24B/v1d/R4_public__L1.txt",
+    "source": "values/Mistral24B/v1d/snap_000__Lily__L1__R4_public.json",
+    "source_sha256": "cad1ec783be3e72fa70d6a17cfabcd34cba2a8a056064ca48e9471ec97e92dac",
+    "prompt_sha256": "fd7b45bfe8560455c3e81208b66de6bc724dafcec9faaf830437fc5c83b0e9c1",
+    "condition": "R4_public",
+    "offer_rung": "L1",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Mistral24B/v1d/R5_victim__L1.txt",
+    "source": "values/Mistral24B/v1d/snap_000__Lily__L1__R5_victim.json",
+    "source_sha256": "65721c5cd40ed7f21a5e0b83ba31de25ccaa67790131c56488f55874a5fbd18b",
+    "prompt_sha256": "89ae9c1f3507d4efd376d264bdb11317962b2e3604d43e75ac70d6728439e6e4",
+    "condition": "R5_victim",
+    "offer_rung": "L1",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Mistral24B/v1d/R6_golden__L1.txt",
+    "source": "values/Mistral24B/v1d/snap_000__Lily__L1__R6_golden.json",
+    "source_sha256": "3bb55438b6d9f60533e036ab5f7125e4ae1d25912261c2f23d8616b804a1d879",
+    "prompt_sha256": "505b45775ffe531ba8778be3c3cf18f1b06939a865b1ebf27ec4510eb0fe62cc",
+    "condition": "R6_golden",
+    "offer_rung": "L1",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Mistral24B/v1d/R7_identity__L1.txt",
+    "source": "values/Mistral24B/v1d/snap_000__Lily__L1__R7_identity.json",
+    "source_sha256": "ce63480da3bf07ad809a536fda665dd9aee921fa357c74d62f5c46eecd4f2da2",
+    "prompt_sha256": "62767ed03ff9c381bfab4849303cceafe6c73e4be229db80adfa70c8564b953b",
+    "condition": "R7_identity",
+    "offer_rung": "L1",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Mistral24B/v1d/R8_placebo__L1.txt",
+    "source": "values/Mistral24B/v1d/snap_000__Lily__L1__R8_placebo.json",
+    "source_sha256": "e6c616a651b5b10d847f85f06791c42b4b12d3265daefca8bb866014af0c812f",
+    "prompt_sha256": "834dccb772cb676335e8f124d30acc3a0d3abe39e6745ac11b50dd6687d61de1",
+    "condition": "R8_placebo",
+    "offer_rung": "L1",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Mistral24B/v1d/R9_rule__L1.txt",
+    "source": "values/Mistral24B/v1d/snap_000__Lily__L1__R9_rule.json",
+    "source_sha256": "a7229887175a58e98d337207cfdf892d9364a91a2bb8cfea617e6119542b0555",
+    "prompt_sha256": "5c52607558383fdc7560f861b88eb0f6d660c28ccda56fe4447b2dae93356023",
+    "condition": "R9_rule",
+    "offer_rung": "L1",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Mistral24B/v1d/R0__L2.txt",
+    "source": "values/Mistral24B/v1d/snap_000__Lily__L2__R0.json",
+    "source_sha256": "f8f1f63b20c28f0e27e1b81046b5f5981156065be2f6a02831cde5c8c43af85c",
+    "prompt_sha256": "9cd4b20e0cc08323f946cbf74624ecf616b3cbf3945b94c8d0422682c747bcdd",
+    "condition": "R0",
+    "offer_rung": "L2",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Mistral24B/v1d/R1_generic__L2.txt",
+    "source": "values/Mistral24B/v1d/snap_000__Lily__L2__R1_generic.json",
+    "source_sha256": "0d4e884f58e22494da13c7f050753b371df1516e3a3396b83d5e14b81f8d51f5",
+    "prompt_sha256": "35c7b9f71e9f420e91e6d6684b25ba9805e7b84054607cca0b58d57b4f5c2d65",
+    "condition": "R1_generic",
+    "offer_rung": "L2",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Mistral24B/v1d/R2_strategy__L2.txt",
+    "source": "values/Mistral24B/v1d/snap_000__Lily__L2__R2_strategy.json",
+    "source_sha256": "bf11531427772eff7d80987cd14e555d26639d749bf97a6c9fa8aaf001e25ae2",
+    "prompt_sha256": "6d711df9f92fb885862102a1da8cd5b67f112d1d4c9a058b8bc793d1b897999c",
+    "condition": "R2_strategy",
+    "offer_rung": "L2",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Mistral24B/v1d/R3_penalty__L2.txt",
+    "source": "values/Mistral24B/v1d/snap_000__Lily__L2__R3_penalty.json",
+    "source_sha256": "67e57e735b58fcf976bbf3e435155e1f1cd512fd71b27399ead4eb28c4b3d4a2",
+    "prompt_sha256": "5f0c3fbdd0c300817f75a8bf7b3a7366147bc572713355a737c583dd852e0223",
+    "condition": "R3_penalty",
+    "offer_rung": "L2",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Mistral24B/v1d/R4_public__L2.txt",
+    "source": "values/Mistral24B/v1d/snap_000__Lily__L2__R4_public.json",
+    "source_sha256": "ea610a02951399744c36c401cbc98a837b1d609a6910014626d18adbdddfbdc6",
+    "prompt_sha256": "5502d6ffbca5d2f6844fcd03dc503ceb5c14feecbfaf08a8c5f0000725f551bb",
+    "condition": "R4_public",
+    "offer_rung": "L2",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Mistral24B/v1d/R5_victim__L2.txt",
+    "source": "values/Mistral24B/v1d/snap_000__Lily__L2__R5_victim.json",
+    "source_sha256": "66e4f8a79372bb7d2f27d76dd41f6f5ccaeb67b7eb94774599247edab729bb3b",
+    "prompt_sha256": "cacdb7ed5af44fbf4e919f434a3305ae9a8004bb81cfca9e6e24d8ec116fd3d9",
+    "condition": "R5_victim",
+    "offer_rung": "L2",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Mistral24B/v1d/R6_golden__L2.txt",
+    "source": "values/Mistral24B/v1d/snap_000__Lily__L2__R6_golden.json",
+    "source_sha256": "eb535eb491d4b82613a07dc602201e77aaca2f58509184c4d55d3d640905a602",
+    "prompt_sha256": "3b176b9121597749e0dcb971322816839aaccefb4a204d5c179fca6f36bfcb3d",
+    "condition": "R6_golden",
+    "offer_rung": "L2",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Mistral24B/v1d/R7_identity__L2.txt",
+    "source": "values/Mistral24B/v1d/snap_000__Lily__L2__R7_identity.json",
+    "source_sha256": "56d60826e6d3c34997daa59dcf7a3875fd5aee599e8bfc8cfe1ce0572b66d9d5",
+    "prompt_sha256": "ee1563acdcbd09e811240836d5685c020a22b7522a44bbf9872b0776093dd840",
+    "condition": "R7_identity",
+    "offer_rung": "L2",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Mistral24B/v1d/R8_placebo__L2.txt",
+    "source": "values/Mistral24B/v1d/snap_000__Lily__L2__R8_placebo.json",
+    "source_sha256": "33a2460da195d523e95b38c154e62514551dd90297eaedc6e986ff46a3355365",
+    "prompt_sha256": "55ce59e014a6f1a022b96f4e1da7ffe2bce8d639e799645d9e3b031fa3d01a2d",
+    "condition": "R8_placebo",
+    "offer_rung": "L2",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Mistral24B/v1d/R9_rule__L2.txt",
+    "source": "values/Mistral24B/v1d/snap_000__Lily__L2__R9_rule.json",
+    "source_sha256": "9b69811289b08a0525d4bc67f8e0769b0390c7a79074f03e054059365d2647de",
+    "prompt_sha256": "10bf0659e7fa4be43193b9c9e18578e6bf78a1c57b1ccf1a38c41c8e38a2bd23",
+    "condition": "R9_rule",
+    "offer_rung": "L2",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Mistral24B/v1t/R1_generic__L1.txt",
+    "source": "values/Mistral24B/v1t/snap_000__Lily__L1__R1_generic.json",
+    "source_sha256": "d5fb75bd0b81b690983966e3a779e1b6e9c5978e74ad8059cbb90e58d6b12997",
+    "prompt_sha256": "40b06bb045bc0caa36114f7a73326fdbd7baac48ec80ff134ab9ecff1e9f9ed0",
+    "condition": "R1_generic",
+    "offer_rung": "L1",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Mistral24B/v1t/R2_strategy__L1.txt",
+    "source": "values/Mistral24B/v1t/snap_000__Lily__L1__R2_strategy.json",
+    "source_sha256": "929041a4b81fc7d20afe784dc80177ddf5b8320687c22019b8090baf5c8cbad7",
+    "prompt_sha256": "87e2f2045d7c84f9710fd7b4b00cd51e6fc8cb7d55b17996336e0d46e8fce995",
+    "condition": "R2_strategy",
+    "offer_rung": "L1",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Mistral24B/v1t/R3_penalty__L1.txt",
+    "source": "values/Mistral24B/v1t/snap_000__Lily__L1__R3_penalty.json",
+    "source_sha256": "9fc453804d81245a161a44db8b9e4a353bf3b4790da627cc185e24fbfa148446",
+    "prompt_sha256": "e58042c996d78ee40aec012286d646d72ac735208a41ed6ceb3cc6fdcbd47b2f",
+    "condition": "R3_penalty",
+    "offer_rung": "L1",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Mistral24B/v1t/R4_public__L1.txt",
+    "source": "values/Mistral24B/v1t/snap_000__Lily__L1__R4_public.json",
+    "source_sha256": "214ece397a2ec7201a95e2d0af988dce56df7a3d504f571f17ba046fd35e0487",
+    "prompt_sha256": "3f4abd59cfee50f0cfa23e10345c59fa31f350b53fdb5d95a6f45bf282089ec4",
+    "condition": "R4_public",
+    "offer_rung": "L1",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Mistral24B/v1t/R5_victim__L1.txt",
+    "source": "values/Mistral24B/v1t/snap_000__Lily__L1__R5_victim.json",
+    "source_sha256": "b882423e5675db860e27969210468ea8f2fb32685c527dcc3921b38c6fe3c4cc",
+    "prompt_sha256": "8dbfc26ea6df7a4291436c7918291d8e4fe610550e4b10de377f6e8f3e7df5f0",
+    "condition": "R5_victim",
+    "offer_rung": "L1",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Mistral24B/v1t/R6_golden__L1.txt",
+    "source": "values/Mistral24B/v1t/snap_000__Lily__L1__R6_golden.json",
+    "source_sha256": "51ca52efef8892a021db6433f1861fc2f5f6d1931fa9969507bd31d724e5fd5f",
+    "prompt_sha256": "33235b8f04afee75d7926682921f86dd4a0593540648e739df9b082d7d45a4ca",
+    "condition": "R6_golden",
+    "offer_rung": "L1",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Mistral24B/v1t/R7_identity__L1.txt",
+    "source": "values/Mistral24B/v1t/snap_000__Lily__L1__R7_identity.json",
+    "source_sha256": "c5fa7e6257b07661097b9e73cf4e04d5a5253244ec6fa174754a96a5f11a9f76",
+    "prompt_sha256": "b76cd25b968285eea2584e2e791798fad3f2850ceaccb4fa0099607b3ced4698",
+    "condition": "R7_identity",
+    "offer_rung": "L1",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Mistral24B/v1t/R8_placebo__L1.txt",
+    "source": "values/Mistral24B/v1t/snap_000__Lily__L1__R8_placebo.json",
+    "source_sha256": "dbdf4cdaae6b73dc2e5f76576c79ef2ae77faf21e071306a738755d5cffdcd27",
+    "prompt_sha256": "ca2f9714d1b0b973ce2b9e073c6bf5f21937c34f63f7f95d35e2a344b5ca44b6",
+    "condition": "R8_placebo",
+    "offer_rung": "L1",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Mistral24B/v1t/R9_rule__L1.txt",
+    "source": "values/Mistral24B/v1t/snap_000__Lily__L1__R9_rule.json",
+    "source_sha256": "4232f11803329f87fed2a590e69d39d32f1a34898aea9d7d0a2c2e780e050a0f",
+    "prompt_sha256": "4575cf5f484d8da04d29a80b2ddfbedd5732ebe233d624b553fa6f28b581520d",
+    "condition": "R9_rule",
+    "offer_rung": "L1",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Mistral24B/v1t/R1_generic__L2.txt",
+    "source": "values/Mistral24B/v1t/snap_000__Lily__L2__R1_generic.json",
+    "source_sha256": "449f726bb51b069870165595908bb6255445f0e95cc57192b1de20377608cb36",
+    "prompt_sha256": "e87ceee6f85a2d6e730ecbf0ac9bb9d5cf52125107df93edd88e2bb06e239943",
+    "condition": "R1_generic",
+    "offer_rung": "L2",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Mistral24B/v1t/R2_strategy__L2.txt",
+    "source": "values/Mistral24B/v1t/snap_000__Lily__L2__R2_strategy.json",
+    "source_sha256": "9840c1a3e3e65078cae2c7a04a16b9bd39ff1031bf8259b6c0154d7549fc542b",
+    "prompt_sha256": "831599d14f48aa1451f9083cd5742178f304391c3af18b6acb691061919a6816",
+    "condition": "R2_strategy",
+    "offer_rung": "L2",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Mistral24B/v1t/R3_penalty__L2.txt",
+    "source": "values/Mistral24B/v1t/snap_000__Lily__L2__R3_penalty.json",
+    "source_sha256": "74fed3f953a3d5a2dbbf77a93330414bccf64dd4c77d22b44c2c7ca282736c44",
+    "prompt_sha256": "46114cac8b80c7d334048d8bbcff704225f2cdc8c3197317204b38eac9e26a76",
+    "condition": "R3_penalty",
+    "offer_rung": "L2",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Mistral24B/v1t/R4_public__L2.txt",
+    "source": "values/Mistral24B/v1t/snap_000__Lily__L2__R4_public.json",
+    "source_sha256": "7b60dc0282dabdb2b70eea72c97a87e5bc2416055333a7141bcd2baf4a156d98",
+    "prompt_sha256": "d6225ec94b8c8227bbf143e7f6a7d7f040c01ddf4be5b057cdfa93511f1670c4",
+    "condition": "R4_public",
+    "offer_rung": "L2",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Mistral24B/v1t/R5_victim__L2.txt",
+    "source": "values/Mistral24B/v1t/snap_000__Lily__L2__R5_victim.json",
+    "source_sha256": "e4bace874319b521fb32850ec3883490b6fd29820133a33b788b1dd0085bdc7d",
+    "prompt_sha256": "9939bcfa23d8d98c086f99a62bc63590bcd2605cf08f078e0008ca3bd3abcfe4",
+    "condition": "R5_victim",
+    "offer_rung": "L2",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Mistral24B/v1t/R6_golden__L2.txt",
+    "source": "values/Mistral24B/v1t/snap_000__Lily__L2__R6_golden.json",
+    "source_sha256": "a3202b063289871a58d9823ecc85a1f7072402ab4027d3a26987f376d97d02f4",
+    "prompt_sha256": "bce8660884d6ed343677678df6d0bc11c33089867a066f53ed93d6b994c2d337",
+    "condition": "R6_golden",
+    "offer_rung": "L2",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Mistral24B/v1t/R7_identity__L2.txt",
+    "source": "values/Mistral24B/v1t/snap_000__Lily__L2__R7_identity.json",
+    "source_sha256": "7cc8842b05649829c3404e639e457bb5b6e32115707b9bb61968bc6507fd3928",
+    "prompt_sha256": "18b0343d99f06d86364123b826dd935f1d7d8485a1cd2ae0aecb112b02e026f0",
+    "condition": "R7_identity",
+    "offer_rung": "L2",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Mistral24B/v1t/R8_placebo__L2.txt",
+    "source": "values/Mistral24B/v1t/snap_000__Lily__L2__R8_placebo.json",
+    "source_sha256": "43d06e6a90b4f14316393abc7a4ed0c5192cce69fe02b1ccff192c6c2bae2529",
+    "prompt_sha256": "f7835a568d450106f1d0eac9e8ea84edab471763e22598e13785c8b6c1b4d857",
+    "condition": "R8_placebo",
+    "offer_rung": "L2",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Mistral24B/v1t/R9_rule__L2.txt",
+    "source": "values/Mistral24B/v1t/snap_000__Lily__L2__R9_rule.json",
+    "source_sha256": "cb316c681d5396441c5e66907037b1b0b051fe0d80bbf27f842e52f6358024cb",
+    "prompt_sha256": "0b91977ed2095fbf52314bbc2daadcf4ff25cc6c88db8469d8dde32b5281712e",
+    "condition": "R9_rule",
+    "offer_rung": "L2",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Mistral24B/v3/M0_none.txt",
+    "source": "values/Mistral24B/v3/snap_000__Lily__M0_none.json",
+    "source_sha256": "cd133619d0566d4e0e74d6e267b444fa577c52b3ab3f0056516d6a238e2c79d2",
+    "prompt_sha256": "18359923a66f3f010eac4825b80b9f5eff786ac881abf3f3bedff3a78fd8b52a",
+    "condition": "M0_none",
+    "offer_rung": "",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Mistral24B/v3/M1_offer.txt",
+    "source": "values/Mistral24B/v3/snap_000__Lily__M1_offer.json",
+    "source_sha256": "3d118858d013005cc3eb03e9da789b99ccc4a962f7192fdb6eaacaae6d7fb8bd",
+    "prompt_sha256": "31bf4025db49f50799fe73bdf504b0d420e41afee92c8cea1073918c555e0440",
+    "condition": "M1_offer",
+    "offer_rung": "",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Mistral24B/v3/M2_values.txt",
+    "source": "values/Mistral24B/v3/snap_000__Lily__M2_values.json",
+    "source_sha256": "d4ba87c619ef7be295c839f6198f90bb864a188e9b36b6ad7defc5ea6e138f9e",
+    "prompt_sha256": "3af69c32da490fc9b4f3e0f9ccf727f2a56b5f4ad1f455fbe08aaa820e0266a9",
+    "condition": "M2_values",
+    "offer_rung": "",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Mistral24B/v3/M3_strategy.txt",
+    "source": "values/Mistral24B/v3/snap_000__Lily__M3_strategy.json",
+    "source_sha256": "73f119333a988d75c55cbd7f13086460fc18b90117880f2af1e488a6e77d01e3",
+    "prompt_sha256": "027e3b035e64b4bc00ee3da79e4beca51640bf4d7fd8230b815fac50ee5afc50",
+    "condition": "M3_strategy",
+    "offer_rung": "",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Mistral24B/v3/M4_fear.txt",
+    "source": "values/Mistral24B/v3/snap_000__Lily__M4_fear.json",
+    "source_sha256": "75ba666b94f6651d6b121b438914d728a2e8b05689de774118245138b3fb66cf",
+    "prompt_sha256": "b238b87140c6deabbf7d43f213b3db1318560e10a4b0d1d4ad74d12526c84f32",
+    "condition": "M4_fear",
+    "offer_rung": "",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Mistral24B/v3/M5_accept.txt",
+    "source": "values/Mistral24B/v3/snap_000__Lily__M5_accept.json",
+    "source_sha256": "242340e80e120ca7a0074f199e7f9f3e54ae49dc86826a61a42163472e0a5b3a",
+    "prompt_sha256": "54c2617a0409888fd1a392412270ae3bf506fd58178e2dcad5afe7a7cb277ce5",
+    "condition": "M5_accept",
+    "offer_rung": "",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Mistral24B/v3/M6_observe.txt",
+    "source": "values/Mistral24B/v3/snap_000__Lily__M6_observe.json",
+    "source_sha256": "f8ece1457e76c1ec0b335f907dcab6b41eb3d2a5279205c75b83a6caeab15dd7",
+    "prompt_sha256": "0a1c6202488d0ba77454411e4f5a151bc44dd858336cc7544eae1d24ca7398b0",
+    "condition": "M6_observe",
+    "offer_rung": "",
+    "model": "mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Qwen32B/v1d/R0__L1.txt",
+    "source": "values/Qwen32B/v1d/snap_000__Lily__L1__R0.json",
+    "source_sha256": "4db97a2d6fcb2f6c355c4d11ef5d50ebab35584a785ffc0eddcb8e5c4850cfcb",
+    "prompt_sha256": "fe78544a76d36227ba4b2d4023412046e813f69e6afed664db910b4e92fe26b0",
+    "condition": "R0",
+    "offer_rung": "L1",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Qwen32B/v1d/R1_generic__L1.txt",
+    "source": "values/Qwen32B/v1d/snap_000__Lily__L1__R1_generic.json",
+    "source_sha256": "592b646cc9a919fc8bddf567f2fd9fbb05d7ab81c9de5fb48cbd0596173fc1c0",
+    "prompt_sha256": "521967675accad64ae2dcd3a638706b4accd931d8655b0ef4cc1960208458f2a",
+    "condition": "R1_generic",
+    "offer_rung": "L1",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Qwen32B/v1d/R2_strategy__L1.txt",
+    "source": "values/Qwen32B/v1d/snap_000__Lily__L1__R2_strategy.json",
+    "source_sha256": "1e6e48a7c094c7ffdac2d7a5199b84b465ca144a0370440cd0db16a7b881dd3d",
+    "prompt_sha256": "8918bde93e0307ea6255a59d0b6130e09a3f8a1596b1c5b30c8ebabb13faf61c",
+    "condition": "R2_strategy",
+    "offer_rung": "L1",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Qwen32B/v1d/R3_penalty__L1.txt",
+    "source": "values/Qwen32B/v1d/snap_000__Lily__L1__R3_penalty.json",
+    "source_sha256": "282db045f918171a15a63753ac2e94b4bf0fee32ba8f67c6d3f2b377c1b4845a",
+    "prompt_sha256": "8b81ab3154161932da6d0c909f4ded6fe3adf2731e7dc3f6a9ffe534f3c3ed57",
+    "condition": "R3_penalty",
+    "offer_rung": "L1",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Qwen32B/v1d/R4_public__L1.txt",
+    "source": "values/Qwen32B/v1d/snap_000__Lily__L1__R4_public.json",
+    "source_sha256": "c9505d976d6cdd1d4cff25d58047167801f1f69d9a9ebfe287ac02b750c6c22f",
+    "prompt_sha256": "fd7b45bfe8560455c3e81208b66de6bc724dafcec9faaf830437fc5c83b0e9c1",
+    "condition": "R4_public",
+    "offer_rung": "L1",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Qwen32B/v1d/R5_victim__L1.txt",
+    "source": "values/Qwen32B/v1d/snap_000__Lily__L1__R5_victim.json",
+    "source_sha256": "e97d9f5bea9132e980b0395bd6216dc3af15e21d6f5284fbdafa161eb39d0e8a",
+    "prompt_sha256": "89ae9c1f3507d4efd376d264bdb11317962b2e3604d43e75ac70d6728439e6e4",
+    "condition": "R5_victim",
+    "offer_rung": "L1",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Qwen32B/v1d/R6_golden__L1.txt",
+    "source": "values/Qwen32B/v1d/snap_000__Lily__L1__R6_golden.json",
+    "source_sha256": "3fb348a5949a9bdc3f251c9c1aa753554c22ddd21c2e7e196d4e0e8e6ebf342e",
+    "prompt_sha256": "505b45775ffe531ba8778be3c3cf18f1b06939a865b1ebf27ec4510eb0fe62cc",
+    "condition": "R6_golden",
+    "offer_rung": "L1",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Qwen32B/v1d/R7_identity__L1.txt",
+    "source": "values/Qwen32B/v1d/snap_000__Lily__L1__R7_identity.json",
+    "source_sha256": "d70739dc6c7ce3a7e7bb5ab37ceb9606551030b2e5719bd45509435a5886a7d2",
+    "prompt_sha256": "62767ed03ff9c381bfab4849303cceafe6c73e4be229db80adfa70c8564b953b",
+    "condition": "R7_identity",
+    "offer_rung": "L1",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Qwen32B/v1d/R8_placebo__L1.txt",
+    "source": "values/Qwen32B/v1d/snap_000__Lily__L1__R8_placebo.json",
+    "source_sha256": "53d01ba1a06f48a4368a466d75c6a8636241b372e16887a2ea3ce58edacca018",
+    "prompt_sha256": "834dccb772cb676335e8f124d30acc3a0d3abe39e6745ac11b50dd6687d61de1",
+    "condition": "R8_placebo",
+    "offer_rung": "L1",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Qwen32B/v1d/R9_rule__L1.txt",
+    "source": "values/Qwen32B/v1d/snap_000__Lily__L1__R9_rule.json",
+    "source_sha256": "17dbc1976e7117c5c197c80fd2c69010ed98be0de22c159f18aedb1331fcd5f1",
+    "prompt_sha256": "5c52607558383fdc7560f861b88eb0f6d660c28ccda56fe4447b2dae93356023",
+    "condition": "R9_rule",
+    "offer_rung": "L1",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Qwen32B/v1d/R0__L2.txt",
+    "source": "values/Qwen32B/v1d/snap_000__Lily__L2__R0.json",
+    "source_sha256": "4c2d4f53e7a6fd8513b5975afca134af7bbe4a967eafa3b51050721a00447c74",
+    "prompt_sha256": "9cd4b20e0cc08323f946cbf74624ecf616b3cbf3945b94c8d0422682c747bcdd",
+    "condition": "R0",
+    "offer_rung": "L2",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Qwen32B/v1d/R1_generic__L2.txt",
+    "source": "values/Qwen32B/v1d/snap_000__Lily__L2__R1_generic.json",
+    "source_sha256": "c3d551a23d8f343e974e132c1f64dfd12267ab6b3d484abb267d326db15c3c23",
+    "prompt_sha256": "35c7b9f71e9f420e91e6d6684b25ba9805e7b84054607cca0b58d57b4f5c2d65",
+    "condition": "R1_generic",
+    "offer_rung": "L2",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Qwen32B/v1d/R2_strategy__L2.txt",
+    "source": "values/Qwen32B/v1d/snap_000__Lily__L2__R2_strategy.json",
+    "source_sha256": "34a023df722d1e7c6bac8b1d9af36dedab86d6199462bc06c797eed151d05ac3",
+    "prompt_sha256": "6d711df9f92fb885862102a1da8cd5b67f112d1d4c9a058b8bc793d1b897999c",
+    "condition": "R2_strategy",
+    "offer_rung": "L2",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Qwen32B/v1d/R3_penalty__L2.txt",
+    "source": "values/Qwen32B/v1d/snap_000__Lily__L2__R3_penalty.json",
+    "source_sha256": "85d39de0531f2727ccdab346b86a0878ee9d71ed3fd85d0a07b6fddc7f2ed448",
+    "prompt_sha256": "5f0c3fbdd0c300817f75a8bf7b3a7366147bc572713355a737c583dd852e0223",
+    "condition": "R3_penalty",
+    "offer_rung": "L2",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Qwen32B/v1d/R4_public__L2.txt",
+    "source": "values/Qwen32B/v1d/snap_000__Lily__L2__R4_public.json",
+    "source_sha256": "b2bb3468fcdcfb5a75717a3d21df9b1e74be585340234b601c2444dc75e0bdeb",
+    "prompt_sha256": "5502d6ffbca5d2f6844fcd03dc503ceb5c14feecbfaf08a8c5f0000725f551bb",
+    "condition": "R4_public",
+    "offer_rung": "L2",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Qwen32B/v1d/R5_victim__L2.txt",
+    "source": "values/Qwen32B/v1d/snap_000__Lily__L2__R5_victim.json",
+    "source_sha256": "7a84e8f440401005cda6cfbc5d069f6c8f642b018eb08b1143aa964743a42020",
+    "prompt_sha256": "cacdb7ed5af44fbf4e919f434a3305ae9a8004bb81cfca9e6e24d8ec116fd3d9",
+    "condition": "R5_victim",
+    "offer_rung": "L2",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Qwen32B/v1d/R6_golden__L2.txt",
+    "source": "values/Qwen32B/v1d/snap_000__Lily__L2__R6_golden.json",
+    "source_sha256": "eb1b8ad1c0b38e08d12dfec35f8eb3c803b0f5ce89a52eb350bbb480255e8b8e",
+    "prompt_sha256": "3b176b9121597749e0dcb971322816839aaccefb4a204d5c179fca6f36bfcb3d",
+    "condition": "R6_golden",
+    "offer_rung": "L2",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Qwen32B/v1d/R7_identity__L2.txt",
+    "source": "values/Qwen32B/v1d/snap_000__Lily__L2__R7_identity.json",
+    "source_sha256": "6ffedcd7c8a9391b94008a50c10f7f26ff1d3e795e89f1c75d097757b894845f",
+    "prompt_sha256": "ee1563acdcbd09e811240836d5685c020a22b7522a44bbf9872b0776093dd840",
+    "condition": "R7_identity",
+    "offer_rung": "L2",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Qwen32B/v1d/R8_placebo__L2.txt",
+    "source": "values/Qwen32B/v1d/snap_000__Lily__L2__R8_placebo.json",
+    "source_sha256": "f56a438578b6809935d947b2af5dbcbdef6bae686cbefd60111fc8c2d6d36ce1",
+    "prompt_sha256": "55ce59e014a6f1a022b96f4e1da7ffe2bce8d639e799645d9e3b031fa3d01a2d",
+    "condition": "R8_placebo",
+    "offer_rung": "L2",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Qwen32B/v1d/R9_rule__L2.txt",
+    "source": "values/Qwen32B/v1d/snap_000__Lily__L2__R9_rule.json",
+    "source_sha256": "d4e922e4ff38d9a91c6ef32a4b0e4db58845d39dda4c26f170790350f388fb89",
+    "prompt_sha256": "10bf0659e7fa4be43193b9c9e18578e6bf78a1c57b1ccf1a38c41c8e38a2bd23",
+    "condition": "R9_rule",
+    "offer_rung": "L2",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Qwen32B/v1t/R1_generic__L1.txt",
+    "source": "values/Qwen32B/v1t/snap_000__Lily__L1__R1_generic.json",
+    "source_sha256": "127a24cb5703cf594beda3f6ce52558ef2dfb884e4ae1f6617cafe1d69fc815b",
+    "prompt_sha256": "40b06bb045bc0caa36114f7a73326fdbd7baac48ec80ff134ab9ecff1e9f9ed0",
+    "condition": "R1_generic",
+    "offer_rung": "L1",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Qwen32B/v1t/R2_strategy__L1.txt",
+    "source": "values/Qwen32B/v1t/snap_000__Lily__L1__R2_strategy.json",
+    "source_sha256": "6fcad12440e8420d0ebfbbf7d8c79cafc6545d1c5e2eb57e438fa83985aef9f6",
+    "prompt_sha256": "87e2f2045d7c84f9710fd7b4b00cd51e6fc8cb7d55b17996336e0d46e8fce995",
+    "condition": "R2_strategy",
+    "offer_rung": "L1",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Qwen32B/v1t/R3_penalty__L1.txt",
+    "source": "values/Qwen32B/v1t/snap_000__Lily__L1__R3_penalty.json",
+    "source_sha256": "5b116a9ee20d7fc46172ded68fea499fff70b30876bc32f9d9b53583980e9de9",
+    "prompt_sha256": "e58042c996d78ee40aec012286d646d72ac735208a41ed6ceb3cc6fdcbd47b2f",
+    "condition": "R3_penalty",
+    "offer_rung": "L1",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Qwen32B/v1t/R4_public__L1.txt",
+    "source": "values/Qwen32B/v1t/snap_000__Lily__L1__R4_public.json",
+    "source_sha256": "a7cc23b8c4dcdab2e52b402f7b950328ba800576107d58761a4bbaaacd4f7636",
+    "prompt_sha256": "3f4abd59cfee50f0cfa23e10345c59fa31f350b53fdb5d95a6f45bf282089ec4",
+    "condition": "R4_public",
+    "offer_rung": "L1",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Qwen32B/v1t/R5_victim__L1.txt",
+    "source": "values/Qwen32B/v1t/snap_000__Lily__L1__R5_victim.json",
+    "source_sha256": "90d04c26f00b9feccc8a4010838a02c7d39dca1e6799695764ef1becf424ece1",
+    "prompt_sha256": "8dbfc26ea6df7a4291436c7918291d8e4fe610550e4b10de377f6e8f3e7df5f0",
+    "condition": "R5_victim",
+    "offer_rung": "L1",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Qwen32B/v1t/R6_golden__L1.txt",
+    "source": "values/Qwen32B/v1t/snap_000__Lily__L1__R6_golden.json",
+    "source_sha256": "7de6948b7ab27a99a7911e3ff4618b750d502a149e5472dede4943d7bf10d965",
+    "prompt_sha256": "33235b8f04afee75d7926682921f86dd4a0593540648e739df9b082d7d45a4ca",
+    "condition": "R6_golden",
+    "offer_rung": "L1",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Qwen32B/v1t/R7_identity__L1.txt",
+    "source": "values/Qwen32B/v1t/snap_000__Lily__L1__R7_identity.json",
+    "source_sha256": "38c710e36337043e3f45f1211a10cde1ece841c069e919a39419838abb9c27d5",
+    "prompt_sha256": "b76cd25b968285eea2584e2e791798fad3f2850ceaccb4fa0099607b3ced4698",
+    "condition": "R7_identity",
+    "offer_rung": "L1",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Qwen32B/v1t/R8_placebo__L1.txt",
+    "source": "values/Qwen32B/v1t/snap_000__Lily__L1__R8_placebo.json",
+    "source_sha256": "b55adfc751af00fc849a525030aeed6bdd632183d3fa308446d8ea06e83b6c62",
+    "prompt_sha256": "ca2f9714d1b0b973ce2b9e073c6bf5f21937c34f63f7f95d35e2a344b5ca44b6",
+    "condition": "R8_placebo",
+    "offer_rung": "L1",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Qwen32B/v1t/R9_rule__L1.txt",
+    "source": "values/Qwen32B/v1t/snap_000__Lily__L1__R9_rule.json",
+    "source_sha256": "5cd3612696e9d9e334305b407e1625f959d02a83a54ccedd3275d33b7e0eab3a",
+    "prompt_sha256": "4575cf5f484d8da04d29a80b2ddfbedd5732ebe233d624b553fa6f28b581520d",
+    "condition": "R9_rule",
+    "offer_rung": "L1",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Qwen32B/v1t/R1_generic__L2.txt",
+    "source": "values/Qwen32B/v1t/snap_000__Lily__L2__R1_generic.json",
+    "source_sha256": "183ac98b21708315d5f15b74a57cdb8223293ea37924e80c676af8b8b7d85097",
+    "prompt_sha256": "e87ceee6f85a2d6e730ecbf0ac9bb9d5cf52125107df93edd88e2bb06e239943",
+    "condition": "R1_generic",
+    "offer_rung": "L2",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Qwen32B/v1t/R2_strategy__L2.txt",
+    "source": "values/Qwen32B/v1t/snap_000__Lily__L2__R2_strategy.json",
+    "source_sha256": "60f6657da8ef1498fdddcf33424f58d6c567b578480948a84e24ec418b27f8f3",
+    "prompt_sha256": "831599d14f48aa1451f9083cd5742178f304391c3af18b6acb691061919a6816",
+    "condition": "R2_strategy",
+    "offer_rung": "L2",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Qwen32B/v1t/R3_penalty__L2.txt",
+    "source": "values/Qwen32B/v1t/snap_000__Lily__L2__R3_penalty.json",
+    "source_sha256": "7baed32de80a3cb3b35d1f16834de931e0ed9dc6c67e254096f50bc697541267",
+    "prompt_sha256": "46114cac8b80c7d334048d8bbcff704225f2cdc8c3197317204b38eac9e26a76",
+    "condition": "R3_penalty",
+    "offer_rung": "L2",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Qwen32B/v1t/R4_public__L2.txt",
+    "source": "values/Qwen32B/v1t/snap_000__Lily__L2__R4_public.json",
+    "source_sha256": "912d0c21e43051012cf6bfc237fbe26c11b3798e584379db2818bb99c2f4a07e",
+    "prompt_sha256": "d6225ec94b8c8227bbf143e7f6a7d7f040c01ddf4be5b057cdfa93511f1670c4",
+    "condition": "R4_public",
+    "offer_rung": "L2",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Qwen32B/v1t/R5_victim__L2.txt",
+    "source": "values/Qwen32B/v1t/snap_000__Lily__L2__R5_victim.json",
+    "source_sha256": "756f01c1ee56b63245ef3e1ab4da288b14a6f37ec0a5581b26a1f22f580587b0",
+    "prompt_sha256": "9939bcfa23d8d98c086f99a62bc63590bcd2605cf08f078e0008ca3bd3abcfe4",
+    "condition": "R5_victim",
+    "offer_rung": "L2",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Qwen32B/v1t/R6_golden__L2.txt",
+    "source": "values/Qwen32B/v1t/snap_000__Lily__L2__R6_golden.json",
+    "source_sha256": "53d6a6aed4be76ed6e00754580923db57ad8967bef04a701d9c89cf937afe06c",
+    "prompt_sha256": "bce8660884d6ed343677678df6d0bc11c33089867a066f53ed93d6b994c2d337",
+    "condition": "R6_golden",
+    "offer_rung": "L2",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Qwen32B/v1t/R7_identity__L2.txt",
+    "source": "values/Qwen32B/v1t/snap_000__Lily__L2__R7_identity.json",
+    "source_sha256": "c8722f25086147a5d398870ee7be0adfc5ca8327c3151d4d23b30607bffaaaf0",
+    "prompt_sha256": "18b0343d99f06d86364123b826dd935f1d7d8485a1cd2ae0aecb112b02e026f0",
+    "condition": "R7_identity",
+    "offer_rung": "L2",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Qwen32B/v1t/R8_placebo__L2.txt",
+    "source": "values/Qwen32B/v1t/snap_000__Lily__L2__R8_placebo.json",
+    "source_sha256": "4ea4de339e23b372b7decf7236c1aa1383aa569d8a9409077b67a2a6127deccf",
+    "prompt_sha256": "f7835a568d450106f1d0eac9e8ea84edab471763e22598e13785c8b6c1b4d857",
+    "condition": "R8_placebo",
+    "offer_rung": "L2",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Qwen32B/v1t/R9_rule__L2.txt",
+    "source": "values/Qwen32B/v1t/snap_000__Lily__L2__R9_rule.json",
+    "source_sha256": "50450259bb5056924a77f374cc0be7f624996c93b778d5d71ee5f52e1fe76562",
+    "prompt_sha256": "0b91977ed2095fbf52314bbc2daadcf4ff25cc6c88db8469d8dde32b5281712e",
+    "condition": "R9_rule",
+    "offer_rung": "L2",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Qwen32B/v3/M0_none.txt",
+    "source": "values/Qwen32B/v3/snap_000__Lily__M0_none.json",
+    "source_sha256": "29aaacca4fa977f21bf11ff4629506cf3b0571f9ea5684e26a2e583f45ff6a2a",
+    "prompt_sha256": "0637fbc7e30edf8c0578acee5ce92838669c84e6374d843e45c3151c9846cb75",
+    "condition": "M0_none",
+    "offer_rung": "",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Qwen32B/v3/M1_offer.txt",
+    "source": "values/Qwen32B/v3/snap_000__Lily__M1_offer.json",
+    "source_sha256": "5a0b7a9b6a6aa106af5596e73b07dfcd0e63719ffe952ebcb28c19732b47cb5a",
+    "prompt_sha256": "89fb8a35a1fed8227ffb84ffb2015394fb5cf792790b9991dda495796ccbc573",
+    "condition": "M1_offer",
+    "offer_rung": "",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Qwen32B/v3/M2_values.txt",
+    "source": "values/Qwen32B/v3/snap_000__Lily__M2_values.json",
+    "source_sha256": "4c2a95b5ca685d9bc6807a752ce84f2bc92bcc6fa9df5d52d08b99519e28bd96",
+    "prompt_sha256": "41d9cf78ff627f3734320775acac4d0b334757661ede101ca81f08be47ecdbd3",
+    "condition": "M2_values",
+    "offer_rung": "",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Qwen32B/v3/M3_strategy.txt",
+    "source": "values/Qwen32B/v3/snap_000__Lily__M3_strategy.json",
+    "source_sha256": "eb1e74e27d1c45a65a167cf32792bbfbc0c556dc483bf6b9d5df4ee78826f4ae",
+    "prompt_sha256": "6d9a21967ed1171227f7e608aec7dcf127b63ccecc96c1964232e2dae4f75494",
+    "condition": "M3_strategy",
+    "offer_rung": "",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Qwen32B/v3/M4_fear.txt",
+    "source": "values/Qwen32B/v3/snap_000__Lily__M4_fear.json",
+    "source_sha256": "dd5001b92c1464016170fb5acea71e7f61402c06072e18b757de2b161ca56a9f",
+    "prompt_sha256": "c867fb78d327af1c6bf64eb573f2ccf2ff95ed50da065aa6125810b9a0032f1c",
+    "condition": "M4_fear",
+    "offer_rung": "",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Qwen32B/v3/M5_accept.txt",
+    "source": "values/Qwen32B/v3/snap_000__Lily__M5_accept.json",
+    "source_sha256": "25f0bd4e7422aebaa8c81ca437bb774ca2627d75e9096818f19cfff48251edd9",
+    "prompt_sha256": "1a8bfce672ad803334c9a8e18a128c647e5af5ab3ee92ae06a0d5e9bdd8b3779",
+    "condition": "M5_accept",
+    "offer_rung": "",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  },
+  {
+    "path": "prompts/recorded_examples/values/Qwen32B/v3/M6_observe.txt",
+    "source": "values/Qwen32B/v3/snap_000__Lily__M6_observe.json",
+    "source_sha256": "09dc9c993e088963bfa3e7187bc87c9059624e9c01c0d63a4579931790cad784",
+    "prompt_sha256": "b397dd734c33fe0d6b7b9670cf5d44609bcb1e10c137500419b92f593e0eb533",
+    "condition": "M6_observe",
+    "offer_rung": "",
+    "model": "Qwen/Qwen2.5-32B-Instruct"
+  }
+]

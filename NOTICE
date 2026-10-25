@@ -1,0 +1,22 @@
+Stings That Spread: Undercover Agents Mismeasure and Propagate Collusion Among LLM Agents
+Copyright 2026 Daniel Weiyu Chen
+
+Includes and adapts material from the Liar's Bar component of:
+  Zeng & Rudzicz, LLM-Agent-collusion
+  https://github.com/AgentSafety2025/LLM-Agent-collusion
+  Verified source commit: fa7d6718c3c3a1f865e452740d7ac4300c39f172
+as distributed by:
+  poseidon-research/collusion_hackathon, llm-agent-collusion-2
+  https://github.com/poseidon-research/collusion_hackathon
+  Verified starter commit: e6fb1308dae9cf97ae42aec1c5f7889d9e2291e8
+
+Both upstream LICENSE files contain Apache License, Version 2.0.
+Unmodified upstream licence texts are retained in licenses/.
+
+The game rules text is copied verbatim. The designer-offer prompt is adapted
+for a live roster and different output instructions. The positive-control
+alliance reminder adapts the upstream challenge-time reminder. The game
+mechanics are reimplemented in a new branching undercover-agent engine.
+The Modal serving implementation follows the starter's serving approach.
+Other experiment code and analysis were written during October 23–25, 2026.
+See README.md, section "Preexisting code", for the component-level provenance.

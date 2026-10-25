@@ -1,0 +1,748 @@
+{
+  "rates": [
+    {
+      "condition": "L1",
+      "group": "all",
+      "k": 74,
+      "n": 79,
+      "rate": 0.9367088607594937,
+      "lo": 0.8602511483722118,
+      "hi": 0.9726651351199317
+    },
+    {
+      "condition": "L1",
+      "group": "predisposed",
+      "k": 13,
+      "n": 15,
+      "rate": 0.8666666666666667,
+      "lo": 0.6211801716767764,
+      "hi": 0.9626387408969346
+    },
+    {
+      "condition": "L1",
+      "group": "not_predisposed",
+      "k": 61,
+      "n": 64,
+      "rate": 0.953125,
+      "lo": 0.8710034625990631,
+      "hi": 0.983930983213707
+    },
+    {
+      "condition": "L1S",
+      "group": "all",
+      "k": 57,
+      "n": 79,
+      "rate": 0.7215189873417721,
+      "lo": 0.6141755025997595,
+      "hi": 0.8083182643890088
+    },
+    {
+      "condition": "L1S",
+      "group": "predisposed",
+      "k": 12,
+      "n": 15,
+      "rate": 0.8,
+      "lo": 0.5481455128483065,
+      "hi": 0.9295245065301844
+    },
+    {
+      "condition": "L1S",
+      "group": "not_predisposed",
+      "k": 45,
+      "n": 64,
+      "rate": 0.703125,
+      "lo": 0.5822979889645707,
+      "hi": 0.8009484867446022
+    },
+    {
+      "condition": "L2P",
+      "group": "all",
+      "k": 3,
+      "n": 79,
+      "rate": 0.0379746835443038,
+      "lo": 0.012998086889435871,
+      "hi": 0.10580062767684709
+    },
+    {
+      "condition": "L2P",
+      "group": "predisposed",
+      "k": 2,
+      "n": 15,
+      "rate": 0.13333333333333333,
+      "lo": 0.03736125910306537,
+      "hi": 0.37881982832322364
+    },
+    {
+      "condition": "L2P",
+      "group": "not_predisposed",
+      "k": 1,
+      "n": 64,
+      "rate": 0.015625,
+      "lo": 0.002763541923337505,
+      "hi": 0.08334101600094265
+    },
+    {
+      "condition": "L2",
+      "group": "all",
+      "k": 14,
+      "n": 79,
+      "rate": 0.17721518987341772,
+      "lo": 0.10860426648087348,
+      "hi": 0.27576195876406395
+    },
+    {
+      "condition": "L2",
+      "group": "predisposed",
+      "k": 2,
+      "n": 15,
+      "rate": 0.13333333333333333,
+      "lo": 0.03736125910306537,
+      "hi": 0.37881982832322364
+    },
+    {
+      "condition": "L2",
+      "group": "not_predisposed",
+      "k": 12,
+      "n": 64,
+      "rate": 0.1875,
+      "lo": 0.11064643172948806,
+      "hi": 0.29974360564101526
+    },
+    {
+      "condition": "L1F",
+      "group": "all",
+      "k": 26,
+      "n": 79,
+      "rate": 0.3291139240506329,
+      "lo": 0.23554200381797014,
+      "hi": 0.43853423307640843
+    },
+    {
+      "condition": "L1F",
+      "group": "predisposed",
+      "k": 5,
+      "n": 15,
+      "rate": 0.3333333333333333,
+      "lo": 0.1517632443971473,
+      "hi": 0.5828645226148023
+    },
+    {
+      "condition": "L1F",
+      "group": "not_predisposed",
+      "k": 21,
+      "n": 64,
+      "rate": 0.328125,
+      "lo": 0.22570557904469185,
+      "hi": 0.45000894150908505
+    },
+    {
+      "condition": "L2F",
+      "group": "all",
+      "k": 2,
+      "n": 79,
+      "rate": 0.02531645569620253,
+      "lo": 0.006970367306584818,
+      "hi": 0.08768584628891136
+    },
+    {
+      "condition": "L2F",
+      "group": "predisposed",
+      "k": 0,
+      "n": 15,
+      "rate": 0.0,
+      "lo": 0.0,
+      "hi": 0.20388330103584862
+    },
+    {
+      "condition": "L2F",
+      "group": "not_predisposed",
+      "k": 2,
+      "n": 64,
+      "rate": 0.03125,
+      "lo": 0.008612138346171874,
+      "hi": 0.10697291770958313
+    },
+    {
+      "condition": "L2SEND",
+      "group": "all",
+      "k": 3,
+      "n": 79,
+      "rate": 0.0379746835443038,
+      "lo": 0.012998086889435871,
+      "hi": 0.10580062767684709
+    },
+    {
+      "condition": "L2SEND",
+      "group": "predisposed",
+      "k": 2,
+      "n": 15,
+      "rate": 0.13333333333333333,
+      "lo": 0.03736125910306537,
+      "hi": 0.37881982832322364
+    },
+    {
+      "condition": "L2SEND",
+      "group": "not_predisposed",
+      "k": 1,
+      "n": 64,
+      "rate": 0.015625,
+      "lo": 0.002763541923337505,
+      "hi": 0.08334101600094265
+    }
+  ],
+  "mcnemar": [
+    {
+      "left": "L1",
+      "right": "L1F",
+      "group": "all",
+      "n": 79,
+      "left_only": 48,
+      "right_only": 0,
+      "p": 7.105427357601002e-15,
+      "left_rate": 0.9367088607594937,
+      "right_rate": 0.3291139240506329
+    },
+    {
+      "left": "L1",
+      "right": "L1F",
+      "group": "predisposed",
+      "n": 15,
+      "left_only": 8,
+      "right_only": 0,
+      "p": 0.0078125,
+      "left_rate": 0.8666666666666667,
+      "right_rate": 0.3333333333333333
+    },
+    {
+      "left": "L1",
+      "right": "L1F",
+      "group": "not_predisposed",
+      "n": 64,
+      "left_only": 40,
+      "right_only": 0,
+      "p": 1.8189894035458565e-12,
+      "left_rate": 0.953125,
+      "right_rate": 0.328125
+    },
+    {
+      "left": "L2",
+      "right": "L2F",
+      "group": "all",
+      "n": 79,
+      "left_only": 14,
+      "right_only": 2,
+      "p": 0.004180908203125,
+      "left_rate": 0.17721518987341772,
+      "right_rate": 0.02531645569620253
+    },
+    {
+      "left": "L2",
+      "right": "L2F",
+      "group": "predisposed",
+      "n": 15,
+      "left_only": 2,
+      "right_only": 0,
+      "p": 0.5,
+      "left_rate": 0.13333333333333333,
+      "right_rate": 0.0
+    },
+    {
+      "left": "L2",
+      "right": "L2F",
+      "group": "not_predisposed",
+      "n": 64,
+      "left_only": 12,
+      "right_only": 2,
+      "p": 0.012939453125,
+      "left_rate": 0.1875,
+      "right_rate": 0.03125
+    },
+    {
+      "left": "L2",
+      "right": "L2SEND",
+      "group": "all",
+      "n": 79,
+      "left_only": 14,
+      "right_only": 3,
+      "p": 0.012725830078125,
+      "left_rate": 0.17721518987341772,
+      "right_rate": 0.0379746835443038
+    },
+    {
+      "left": "L2",
+      "right": "L2SEND",
+      "group": "predisposed",
+      "n": 15,
+      "left_only": 2,
+      "right_only": 2,
+      "p": 1.0,
+      "left_rate": 0.13333333333333333,
+      "right_rate": 0.13333333333333333
+    },
+    {
+      "left": "L2",
+      "right": "L2SEND",
+      "group": "not_predisposed",
+      "n": 64,
+      "left_only": 12,
+      "right_only": 1,
+      "p": 0.00341796875,
+      "left_rate": 0.1875,
+      "right_rate": 0.015625
+    }
+  ],
+  "cross": [
+    {
+      "condition": "L1",
+      "pred_k": 13,
+      "pred_n": 15,
+      "nonpred_k": 61,
+      "nonpred_n": 64,
+      "pred_rate": 0.8666666666666667,
+      "nonpred_rate": 0.953125,
+      "difference": -0.0864583333333333,
+      "lo": -0.3201542912246865,
+      "hi": 0.06779661016949157,
+      "bootstrap_valid": 2000,
+      "bootstrap_B": 2000,
+      "bootstrap_seed": 0,
+      "fisher_p": 0.2388179442143466,
+      "precision": {
+        "k": 13,
+        "n": 74,
+        "rate": 0.17567567567567569,
+        "lo": 0.10564208536683117,
+        "hi": 0.277719933701095
+      },
+      "objective_entrapment": {
+        "k": 61,
+        "n": 64,
+        "rate": 0.953125,
+        "lo": 0.8710034625990631,
+        "hi": 0.983930983213707
+      }
+    },
+    {
+      "condition": "L2",
+      "pred_k": 2,
+      "pred_n": 15,
+      "nonpred_k": 12,
+      "nonpred_n": 64,
+      "pred_rate": 0.13333333333333333,
+      "nonpred_rate": 0.1875,
+      "difference": -0.05416666666666667,
+      "lo": -0.22859484777517564,
+      "hi": 0.1209034373586612,
+      "bootstrap_valid": 2000,
+      "bootstrap_B": 2000,
+      "bootstrap_seed": 0,
+      "fisher_p": 1.0,
+      "precision": {
+        "k": 2,
+        "n": 14,
+        "rate": 0.14285714285714285,
+        "lo": 0.040093921271464966,
+        "hi": 0.39941379496970353
+      },
+      "objective_entrapment": {
+        "k": 12,
+        "n": 64,
+        "rate": 0.1875,
+        "lo": 0.11064643172948806,
+        "hi": 0.29974360564101526
+      }
+    },
+    {
+      "condition": "L1F",
+      "pred_k": 5,
+      "pred_n": 15,
+      "nonpred_k": 21,
+      "nonpred_n": 64,
+      "pred_rate": 0.3333333333333333,
+      "nonpred_rate": 0.328125,
+      "difference": 0.005208333333333315,
+      "lo": -0.2936507936507936,
+      "hi": 0.29743644067796604,
+      "bootstrap_valid": 2000,
+      "bootstrap_B": 2000,
+      "bootstrap_seed": 0,
+      "fisher_p": 1.0,
+      "precision": {
+        "k": 5,
+        "n": 26,
+        "rate": 0.19230769230769232,
+        "lo": 0.0850706114894241,
+        "hi": 0.3787625711931699
+      },
+      "objective_entrapment": {
+        "k": 21,
+        "n": 64,
+        "rate": 0.328125,
+        "lo": 0.22570557904469185,
+        "hi": 0.45000894150908505
+      }
+    },
+    {
+      "condition": "L1S",
+      "pred_k": 12,
+      "pred_n": 15,
+      "nonpred_k": 45,
+      "nonpred_n": 64,
+      "pred_rate": 0.8,
+      "nonpred_rate": 0.703125,
+      "difference": 0.09687500000000004,
+      "lo": -0.14315140319450664,
+      "hi": 0.3384615384615385,
+      "bootstrap_valid": 2000,
+      "bootstrap_B": 2000,
+      "bootstrap_seed": 0,
+      "fisher_p": 0.5387553726505082,
+      "precision": {
+        "k": 12,
+        "n": 57,
+        "rate": 0.21052631578947367,
+        "lo": 0.12474548303034583,
+        "hi": 0.33286121083190506
+      },
+      "objective_entrapment": {
+        "k": 45,
+        "n": 64,
+        "rate": 0.703125,
+        "lo": 0.5822979889645707,
+        "hi": 0.8009484867446022
+      }
+    },
+    {
+      "condition": "L2F",
+      "pred_k": 0,
+      "pred_n": 15,
+      "nonpred_k": 2,
+      "nonpred_n": 64,
+      "pred_rate": 0.0,
+      "nonpred_rate": 0.03125,
+      "difference": -0.03125,
+      "lo": -0.07575757575757576,
+      "hi": 0.0,
+      "bootstrap_valid": 2000,
+      "bootstrap_B": 2000,
+      "bootstrap_seed": 0,
+      "fisher_p": 1.0,
+      "precision": {
+        "k": 0,
+        "n": 2,
+        "rate": 0.0,
+        "lo": 0.0,
+        "hi": 0.6576197724933469
+      },
+      "objective_entrapment": {
+        "k": 2,
+        "n": 64,
+        "rate": 0.03125,
+        "lo": 0.008612138346171874,
+        "hi": 0.10697291770958313
+      }
+    },
+    {
+      "condition": "L2P",
+      "pred_k": 2,
+      "pred_n": 15,
+      "nonpred_k": 1,
+      "nonpred_n": 64,
+      "pred_rate": 0.13333333333333333,
+      "nonpred_rate": 0.015625,
+      "difference": 0.11770833333333333,
+      "lo": -0.029850746268656716,
+      "hi": 0.2988542138898231,
+      "bootstrap_valid": 2000,
+      "bootstrap_B": 2000,
+      "bootstrap_seed": 0,
+      "fisher_p": 0.09073205275736922,
+      "precision": {
+        "k": 2,
+        "n": 3,
+        "rate": 0.6666666666666666,
+        "lo": 0.2076596008020477,
+        "hi": 0.9385080552796037
+      },
+      "objective_entrapment": {
+        "k": 1,
+        "n": 64,
+        "rate": 0.015625,
+        "lo": 0.002763541923337505,
+        "hi": 0.08334101600094265
+      }
+    },
+    {
+      "condition": "L2SEND",
+      "pred_k": 2,
+      "pred_n": 15,
+      "nonpred_k": 1,
+      "nonpred_n": 64,
+      "pred_rate": 0.13333333333333333,
+      "nonpred_rate": 0.015625,
+      "difference": 0.11770833333333333,
+      "lo": -0.030303030303030304,
+      "hi": 0.3047719651240777,
+      "bootstrap_valid": 2000,
+      "bootstrap_B": 2000,
+      "bootstrap_seed": 0,
+      "fisher_p": 0.09073205275736922,
+      "precision": {
+        "k": 2,
+        "n": 3,
+        "rate": 0.6666666666666666,
+        "lo": 0.2076596008020477,
+        "hi": 0.9385080552796037
+      },
+      "objective_entrapment": {
+        "k": 1,
+        "n": 64,
+        "rate": 0.015625,
+        "lo": 0.002763541923337505,
+        "hi": 0.08334101600094265
+      }
+    }
+  ],
+  "refusals": [
+    {
+      "condition": "L2P",
+      "group": "all",
+      "reason": "moral_or_rules",
+      "k": 3,
+      "n": 76,
+      "rate": 0.039473684210526314,
+      "lo": 0.013514635094539595,
+      "hi": 0.10974787746545532
+    },
+    {
+      "condition": "L2P",
+      "group": "all",
+      "reason": "suspects_trap_or_test",
+      "k": 0,
+      "n": 76,
+      "rate": 0.0,
+      "lo": 0.0,
+      "hi": 0.048113585065137326
+    },
+    {
+      "condition": "L2P",
+      "group": "all",
+      "reason": "strategic_distrust",
+      "k": 73,
+      "n": 76,
+      "rate": 0.9605263157894737,
+      "lo": 0.8902521225345447,
+      "hi": 0.9864853649054605
+    },
+    {
+      "condition": "L2P",
+      "group": "all",
+      "reason": "other",
+      "k": 0,
+      "n": 76,
+      "rate": 0.0,
+      "lo": 0.0,
+      "hi": 0.048113585065137326
+    },
+    {
+      "condition": "L2P",
+      "group": "predisposed",
+      "reason": "moral_or_rules",
+      "k": 0,
+      "n": 13,
+      "rate": 0.0,
+      "lo": 0.0,
+      "hi": 0.22809537235419838
+    },
+    {
+      "condition": "L2P",
+      "group": "predisposed",
+      "reason": "suspects_trap_or_test",
+      "k": 0,
+      "n": 13,
+      "rate": 0.0,
+      "lo": 0.0,
+      "hi": 0.22809537235419838
+    },
+    {
+      "condition": "L2P",
+      "group": "predisposed",
+      "reason": "strategic_distrust",
+      "k": 13,
+      "n": 13,
+      "rate": 1.0,
+      "lo": 0.7719046276458016,
+      "hi": 0.9999999999999999
+    },
+    {
+      "condition": "L2P",
+      "group": "predisposed",
+      "reason": "other",
+      "k": 0,
+      "n": 13,
+      "rate": 0.0,
+      "lo": 0.0,
+      "hi": 0.22809537235419838
+    },
+    {
+      "condition": "L2P",
+      "group": "not_predisposed",
+      "reason": "moral_or_rules",
+      "k": 3,
+      "n": 63,
+      "rate": 0.047619047619047616,
+      "lo": 0.0163261688679956,
+      "hi": 0.13090967837906073
+    },
+    {
+      "condition": "L2P",
+      "group": "not_predisposed",
+      "reason": "suspects_trap_or_test",
+      "k": 0,
+      "n": 63,
+      "rate": 0.0,
+      "lo": 3.469446951953614e-18,
+      "hi": 0.05747119958885172
+    },
+    {
+      "condition": "L2P",
+      "group": "not_predisposed",
+      "reason": "strategic_distrust",
+      "k": 60,
+      "n": 63,
+      "rate": 0.9523809523809523,
+      "lo": 0.8690903216209392,
+      "hi": 0.9836738311320045
+    },
+    {
+      "condition": "L2P",
+      "group": "not_predisposed",
+      "reason": "other",
+      "k": 0,
+      "n": 63,
+      "rate": 0.0,
+      "lo": 3.469446951953614e-18,
+      "hi": 0.05747119958885172
+    },
+    {
+      "condition": "L2F",
+      "group": "all",
+      "reason": "moral_or_rules",
+      "k": 6,
+      "n": 77,
+      "rate": 0.07792207792207792,
+      "lo": 0.03620095505416612,
+      "hi": 0.15975615719723926
+    },
+    {
+      "condition": "L2F",
+      "group": "all",
+      "reason": "suspects_trap_or_test",
+      "k": 0,
+      "n": 77,
+      "rate": 0.0,
+      "lo": 0.0,
+      "hi": 0.04751842528243408
+    },
+    {
+      "condition": "L2F",
+      "group": "all",
+      "reason": "strategic_distrust",
+      "k": 71,
+      "n": 77,
+      "rate": 0.922077922077922,
+      "lo": 0.8402438428027608,
+      "hi": 0.9637990449458338
+    },
+    {
+      "condition": "L2F",
+      "group": "all",
+      "reason": "other",
+      "k": 0,
+      "n": 77,
+      "rate": 0.0,
+      "lo": 0.0,
+      "hi": 0.04751842528243408
+    },
+    {
+      "condition": "L2F",
+      "group": "predisposed",
+      "reason": "moral_or_rules",
+      "k": 0,
+      "n": 15,
+      "rate": 0.0,
+      "lo": 0.0,
+      "hi": 0.20388330103584862
+    },
+    {
+      "condition": "L2F",
+      "group": "predisposed",
+      "reason": "suspects_trap_or_test",
+      "k": 0,
+      "n": 15,
+      "rate": 0.0,
+      "lo": 0.0,
+      "hi": 0.20388330103584862
+    },
+    {
+      "condition": "L2F",
+      "group": "predisposed",
+      "reason": "strategic_distrust",
+      "k": 15,
+      "n": 15,
+      "rate": 1.0,
+      "lo": 0.7961166989641515,
+      "hi": 1.0
+    },
+    {
+      "condition": "L2F",
+      "group": "predisposed",
+      "reason": "other",
+      "k": 0,
+      "n": 15,
+      "rate": 0.0,
+      "lo": 0.0,
+      "hi": 0.20388330103584862
+    },
+    {
+      "condition": "L2F",
+      "group": "not_predisposed",
+      "reason": "moral_or_rules",
+      "k": 6,
+      "n": 62,
+      "rate": 0.0967741935483871,
+      "lo": 0.045111872023193916,
+      "hi": 0.19548818612307423
+    },
+    {
+      "condition": "L2F",
+      "group": "not_predisposed",
+      "reason": "suspects_trap_or_test",
+      "k": 0,
+      "n": 62,
+      "rate": 0.0,
+      "lo": 0.0,
+      "hi": 0.058344072101372484
+    },
+    {
+      "condition": "L2F",
+      "group": "not_predisposed",
+      "reason": "strategic_distrust",
+      "k": 56,
+      "n": 62,
+      "rate": 0.9032258064516129,
+      "lo": 0.8045118138769257,
+      "hi": 0.9548881279768061
+    },
+    {
+      "condition": "L2F",
+      "group": "not_predisposed",
+      "reason": "other",
+      "k": 0,
+      "n": 62,
+      "rate": 0.0,
+      "lo": 0.0,
+      "hi": 0.058344072101372484
+    }
+  ]
+}

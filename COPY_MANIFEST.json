@@ -1,0 +1,1006 @@
+{
+  "description": "Original source files copied byte for byte; paths are relative to project sting3.2/ or desktop sting-data/runs/. No original files modified.",
+  "files": [
+    {
+      "path": "sting/__init__.py",
+      "origin": "project",
+      "source_path": "sting/__init__.py",
+      "bytes": 101,
+      "sha256": "4431b888454c27cc5831f6f90028bba6324338a2a9dcb8fbdbbd7b768da1797a"
+    },
+    {
+      "path": "sting/additional_model.py",
+      "origin": "project",
+      "source_path": "sting/additional_model.py",
+      "bytes": 10505,
+      "sha256": "5c58ccfcaa21cd96d50d1bb94beff9ab3a2d5bbdcab82ac69e2b3cc921a13a6a"
+    },
+    {
+      "path": "sting/analyze.py",
+      "origin": "project",
+      "source_path": "sting/analyze.py",
+      "bytes": 16178,
+      "sha256": "fdc113e91d5591977715f6458025a077abd7c894915c0c14618d8739c164e465"
+    },
+    {
+      "path": "sting/budget.py",
+      "origin": "project",
+      "source_path": "sting/budget.py",
+      "bytes": 1929,
+      "sha256": "750c0d9c0b9cf7a8283e1b3a9a71250b25467298768c3acdb908e8d7e26752a1"
+    },
+    {
+      "path": "sting/claude_ext.py",
+      "origin": "project",
+      "source_path": "sting/claude_ext.py",
+      "bytes": 17892,
+      "sha256": "2909bcd210e4ad54c2d904eaaceb0c17c0a32884feec268479c2f93f20e6b8ab"
+    },
+    {
+      "path": "sting/extension_report.py",
+      "origin": "project",
+      "source_path": "sting/extension_report.py",
+      "bytes": 6784,
+      "sha256": "353d50e86e0fe59e83ad75e91b632feb5626eb604842f26dfb18fa87ca32f58e"
+    },
+    {
+      "path": "sting/free_check.py",
+      "origin": "project",
+      "source_path": "sting/free_check.py",
+      "bytes": 5372,
+      "sha256": "e55a8dbac5cde0e824e3db5de4e91aaf763d20de668802047e266c31e2178ddc"
+    },
+    {
+      "path": "sting/game.py",
+      "origin": "project",
+      "source_path": "sting/game.py",
+      "bytes": 20903,
+      "sha256": "be71a5d744e38afa4f5500989502c3bec8fb5c266c16f2f9a74cd9e2fb1765e3"
+    },
+    {
+      "path": "sting/interp.py",
+      "origin": "project",
+      "source_path": "sting/interp.py",
+      "bytes": 42604,
+      "sha256": "801409302403309f8db9dd6a9f7aee2c857aa3abed157a82f6642a4fd34334e0"
+    },
+    {
+      "path": "sting/judge.py",
+      "origin": "project",
+      "source_path": "sting/judge.py",
+      "bytes": 4953,
+      "sha256": "2f8b032a28aa72a30c24aa90827543647bd91f50edf6431b81628e4799acbc5f"
+    },
+    {
+      "path": "sting/llm.py",
+      "origin": "project",
+      "source_path": "sting/llm.py",
+      "bytes": 10416,
+      "sha256": "d93bb34d6e5bdf9a369f0b48a00d4c299069979fdd169e45c0e4bc3c248c1ff8"
+    },
+    {
+      "path": "sting/modal_host.py",
+      "origin": "project",
+      "source_path": "sting/modal_host.py",
+      "bytes": 7138,
+      "sha256": "6cd6f7e395273a7efe739ef82b868e2411c7f252f142a0f97729ad62630caa32"
+    },
+    {
+      "path": "sting/prompts.py",
+      "origin": "project",
+      "source_path": "sting/prompts.py",
+      "bytes": 8339,
+      "sha256": "d49796cc660046b8b691f977fde1fdcd4dcb295561936de1d0aafc43ed0d6b1e"
+    },
+    {
+      "path": "sting/recheck.py",
+      "origin": "project",
+      "source_path": "sting/recheck.py",
+      "bytes": 34462,
+      "sha256": "1e46f843bc63d7d8625dbf489f3c075f17af76453b1fed33bcf2faf30106b960"
+    },
+    {
+      "path": "sting/refusal_dir.py",
+      "origin": "project",
+      "source_path": "sting/refusal_dir.py",
+      "bytes": 15175,
+      "sha256": "d1e0c114044aa1ab1e304d30666e78499e1661541084d7532457ce068d21002d"
+    },
+    {
+      "path": "sting/robust.py",
+      "origin": "project",
+      "source_path": "sting/robust.py",
+      "bytes": 20341,
+      "sha256": "6e49f9f832b10668a1a14ccc5ef4715f168ce960c9280fdcbff777040c702a72"
+    },
+    {
+      "path": "sting/rules_vanilla.txt",
+      "origin": "project",
+      "source_path": "sting/rules_vanilla.txt",
+      "bytes": 3142,
+      "sha256": "791961ae9570d3d48af0b31135a9fc6de8f53f06672b13a1e37381ec92fa23a4"
+    },
+    {
+      "path": "sting/run.py",
+      "origin": "project",
+      "source_path": "sting/run.py",
+      "bytes": 10989,
+      "sha256": "ab6fdd64cf2686785d750c550b912267c3e246225e3f63e891406acd976aea59"
+    },
+    {
+      "path": "sting/values.py",
+      "origin": "project",
+      "source_path": "sting/values.py",
+      "bytes": 27766,
+      "sha256": "39b5521a2bab54f2e5417303d3cb6ded62b3e73cee0e2128610a1e812492c550"
+    },
+    {
+      "path": "sting/wording.py",
+      "origin": "project",
+      "source_path": "sting/wording.py",
+      "bytes": 23889,
+      "sha256": "344102e0f2f2abb63f95b44d359ac92116b908f3b8cf3a22bbbc90c2e7f28b5e"
+    },
+    {
+      "path": "scripts/claude_ext.sh",
+      "origin": "project",
+      "source_path": "scripts/claude_ext.sh",
+      "bytes": 1403,
+      "sha256": "e8544f87252371338d592d52b6d547ddc48ffcc8263321d585cc302989e703e7"
+    },
+    {
+      "path": "scripts/hpc_preflight.sh",
+      "origin": "project",
+      "source_path": "scripts/hpc_preflight.sh",
+      "bytes": 1545,
+      "sha256": "6176fa5c968988ea137626b3567074f36777edde1af8b8ca750094c12adac4a5"
+    },
+    {
+      "path": "scripts/interp.sh",
+      "origin": "project",
+      "source_path": "scripts/interp.sh",
+      "bytes": 1726,
+      "sha256": "1aa718b56500ed1dc71b5fce394e7d94545c313bd7181cc752903971b1e5d34d"
+    },
+    {
+      "path": "scripts/interp_e3.sh",
+      "origin": "project",
+      "source_path": "scripts/interp_e3.sh",
+      "bytes": 634,
+      "sha256": "db2d7d1ee0b941ee6e6f505e3cc9d42aa5b1fc95de0df8c77622dcc1cec9aef4"
+    },
+    {
+      "path": "scripts/modal_plan.sh",
+      "origin": "project",
+      "source_path": "scripts/modal_plan.sh",
+      "bytes": 7456,
+      "sha256": "99c09b8383a5e1781cec3e562e6038259fceeea6b94e6567dab5502b1241b052"
+    },
+    {
+      "path": "scripts/robust.sh",
+      "origin": "project",
+      "source_path": "scripts/robust.sh",
+      "bytes": 2359,
+      "sha256": "8df1fc29f1dcc08df9a590704582cb1dda0d734cff981cc7ff0e73d49926c4bd"
+    },
+    {
+      "path": "scripts/summarize_main.py",
+      "origin": "project",
+      "source_path": "scripts/summarize_main.py",
+      "bytes": 12398,
+      "sha256": "b02698a918dfeaa1136e8ee1d8cdf6c5b35baf09395aa89cedca26a20e7b7074"
+    },
+    {
+      "path": "scripts/values.sh",
+      "origin": "project",
+      "source_path": "scripts/values.sh",
+      "bytes": 1722,
+      "sha256": "108ef947f0ee0a2e7d6e13673a7f05a0b8a267f3f6cdebdc54b3e647c9ae8a26"
+    },
+    {
+      "path": "scripts/values_backfill.sh",
+      "origin": "project",
+      "source_path": "scripts/values_backfill.sh",
+      "bytes": 1731,
+      "sha256": "af1db8f0dae50675b86a84eec8182d93a9b24150778dc9d9d1f4ce23a9f30dbb"
+    },
+    {
+      "path": "tests/test_engine.py",
+      "origin": "project",
+      "source_path": "tests/test_engine.py",
+      "bytes": 4313,
+      "sha256": "2ead0c7623a72fcf097db3211b9693e8e1647ba81866137e9a3987d0f0c85ee9"
+    },
+    {
+      "path": "tests/test_runtime.py",
+      "origin": "project",
+      "source_path": "tests/test_runtime.py",
+      "bytes": 5652,
+      "sha256": "9381f1e6891282db5cf6280b678094b96a7e9ada705fa57a0fb2578093a41523"
+    },
+    {
+      "path": "repro/starter_memory_check.py",
+      "origin": "project",
+      "source_path": "repro/starter_memory_check.py",
+      "bytes": 1202,
+      "sha256": "365997781a2b9908d496264de93c5dd2de218e4e97cc330f08e9b522c8f63ff4"
+    },
+    {
+      "path": "pyproject.toml",
+      "origin": "project",
+      "source_path": "pyproject.toml",
+      "bytes": 464,
+      "sha256": "9c0bd071cadfb107f71e844393662627f29a6227be40d628987f361ae3cb56f7"
+    },
+    {
+      "path": "docs/ORIGINAL_README.md",
+      "origin": "project",
+      "source_path": "README.md",
+      "bytes": 5895,
+      "sha256": "ef9cb91d5b973b81a78b468b1f312ff5be2cbdeb32ab7d2eb81c22fefc9d66ac"
+    },
+    {
+      "path": "runs/RESULTS_ALL_20261024.md",
+      "origin": "runs",
+      "source_path": "RESULTS_ALL_20261024.md",
+      "bytes": 42418,
+      "sha256": "d96e79aa2f360de88606d8282b28bd26e5ffdecb1d9700bd21fb60f9c79eb032"
+    },
+    {
+      "path": "runs/additional_Llama31_8B/recheck/observations.csv",
+      "origin": "runs",
+      "source_path": "additional_Llama31_8B/recheck/observations.csv",
+      "bytes": 234132,
+      "sha256": "0a3868ff7e13fa7f95eacf4883fbfd9cc841b3674856d7378cc54e25e26e1e10"
+    },
+    {
+      "path": "runs/additional_Llama31_8B/recheck/results.json",
+      "origin": "runs",
+      "source_path": "additional_Llama31_8B/recheck/results.json",
+      "bytes": 11714,
+      "sha256": "e7c4403eb201fdabdffeb25cea789f15f09b0b672b1992815df440ad4109084a"
+    },
+    {
+      "path": "runs/additional_Llama31_8B/recheck/summary.md",
+      "origin": "runs",
+      "source_path": "additional_Llama31_8B/recheck/summary.md",
+      "bytes": 2144,
+      "sha256": "700d4d744937bf46e2f9627fe2685bff5e69b4226995c62c655bb90fad0ce1e4"
+    },
+    {
+      "path": "runs/additional_Llama31_8B/source/sting/additional_model.py",
+      "origin": "runs",
+      "source_path": "additional_Llama31_8B/source/sting/additional_model.py",
+      "bytes": 10505,
+      "sha256": "5c58ccfcaa21cd96d50d1bb94beff9ab3a2d5bbdcab82ac69e2b3cc921a13a6a"
+    },
+    {
+      "path": "runs/additional_Llama31_8B/source/sting/extension_report.py",
+      "origin": "runs",
+      "source_path": "additional_Llama31_8B/source/sting/extension_report.py",
+      "bytes": 6784,
+      "sha256": "353d50e86e0fe59e83ad75e91b632feb5626eb604842f26dfb18fa87ca32f58e"
+    },
+    {
+      "path": "runs/additional_Llama31_8B/source/sting/judge.py",
+      "origin": "runs",
+      "source_path": "additional_Llama31_8B/source/sting/judge.py",
+      "bytes": 4953,
+      "sha256": "2f8b032a28aa72a30c24aa90827543647bd91f50edf6431b81628e4799acbc5f"
+    },
+    {
+      "path": "runs/additional_Llama31_8B/source/sting/llm.py",
+      "origin": "runs",
+      "source_path": "additional_Llama31_8B/source/sting/llm.py",
+      "bytes": 10416,
+      "sha256": "d93bb34d6e5bdf9a369f0b48a00d4c299069979fdd169e45c0e4bc3c248c1ff8"
+    },
+    {
+      "path": "runs/additional_Llama31_8B/source/sting/modal_host.py",
+      "origin": "runs",
+      "source_path": "additional_Llama31_8B/source/sting/modal_host.py",
+      "bytes": 6794,
+      "sha256": "47cd63c821cd1cc320601b2a68c09826f2701f3b4818f6377f4d20dacf85b9e6"
+    },
+    {
+      "path": "runs/additional_Llama31_8B/source/sting/prompts.py",
+      "origin": "runs",
+      "source_path": "additional_Llama31_8B/source/sting/prompts.py",
+      "bytes": 8339,
+      "sha256": "d49796cc660046b8b691f977fde1fdcd4dcb295561936de1d0aafc43ed0d6b1e"
+    },
+    {
+      "path": "runs/additional_Llama31_8B/source/sting/recheck.py",
+      "origin": "runs",
+      "source_path": "additional_Llama31_8B/source/sting/recheck.py",
+      "bytes": 34462,
+      "sha256": "1e46f843bc63d7d8625dbf489f3c075f17af76453b1fed33bcf2faf30106b960"
+    },
+    {
+      "path": "runs/additional_Llama31_8B/source/sting/wording.py",
+      "origin": "runs",
+      "source_path": "additional_Llama31_8B/source/sting/wording.py",
+      "bytes": 23889,
+      "sha256": "344102e0f2f2abb63f95b44d359ac92116b908f3b8cf3a22bbbc90c2e7f28b5e"
+    },
+    {
+      "path": "runs/claude_ext/observations.csv",
+      "origin": "runs",
+      "source_path": "claude_ext/observations.csv",
+      "bytes": 196988,
+      "sha256": "6ca06088706b1129c153cc76f74dd482bbc29e4770af78cc881d830eab252da3"
+    },
+    {
+      "path": "runs/claude_ext/results.json",
+      "origin": "runs",
+      "source_path": "claude_ext/results.json",
+      "bytes": 6070,
+      "sha256": "9b8a771ec6d5bd33f8771b41abd675d9f912da9923283d33e2f0eafaaec9f821"
+    },
+    {
+      "path": "runs/claude_ext/summary.md",
+      "origin": "runs",
+      "source_path": "claude_ext/summary.md",
+      "bytes": 2888,
+      "sha256": "7adaf2185ba01bf5a4c23570c517cc5f9b477eeed0866c3f37ab2232c18ca82d"
+    },
+    {
+      "path": "runs/contagion_summary.csv",
+      "origin": "runs",
+      "source_path": "contagion_summary.csv",
+      "bytes": 1380,
+      "sha256": "73fc9d4b3e76f08b4ca0c0712f8e0d84343c6fc500443f3f08d98f13e5043fb2"
+    },
+    {
+      "path": "runs/extensions_recheck/results.json",
+      "origin": "runs",
+      "source_path": "extensions_recheck/results.json",
+      "bytes": 308134,
+      "sha256": "a17742d193fa518388ca00d55b33ef98256c29eebee8d2835a5fb4b2feb87157"
+    },
+    {
+      "path": "runs/extensions_recheck/summary.md",
+      "origin": "runs",
+      "source_path": "extensions_recheck/summary.md",
+      "bytes": 3200,
+      "sha256": "6fb71fa972dee6bf8c8c1ebfcbb0c00657d6b0ee10bcbd1ffd12b7be41ecc7a6"
+    },
+    {
+      "path": "runs/interp/REPORT.md",
+      "origin": "runs",
+      "source_path": "interp/REPORT.md",
+      "bytes": 30059,
+      "sha256": "63e78a791e600af86422cfe806797268d69747fb284947be489f113eaffa13c1"
+    },
+    {
+      "path": "runs/interp/e1_scores.csv",
+      "origin": "runs",
+      "source_path": "interp/e1_scores.csv",
+      "bytes": 732614,
+      "sha256": "00183c2b0a328bc824718c7315aba9bd9199fb863149776be620612e62151660"
+    },
+    {
+      "path": "runs/interp/results.json",
+      "origin": "runs",
+      "source_path": "interp/results.json",
+      "bytes": 58757,
+      "sha256": "3d8807fd41581b9fa39706ab94e02ef72f9f7c0e4b845f80618562582b577eac"
+    },
+    {
+      "path": "runs/interp/summary.md",
+      "origin": "runs",
+      "source_path": "interp/summary.md",
+      "bytes": 14649,
+      "sha256": "d6c8365cbad6abeabb889d4a522fcdffca23e86862a7451997e6b582a503a1d6"
+    },
+    {
+      "path": "runs/main_Mistral-Small-24B-Instruct-2501/analysis/behaviour.csv",
+      "origin": "runs",
+      "source_path": "main_Mistral-Small-24B-Instruct-2501/analysis/behaviour.csv",
+      "bytes": 1026,
+      "sha256": "d2d6642f213d66f18bdb7bd69d1ad04409028159ed3089b2e8305cf0ec007d93"
+    },
+    {
+      "path": "runs/main_Mistral-Small-24B-Instruct-2501/analysis/bluff.csv",
+      "origin": "runs",
+      "source_path": "main_Mistral-Small-24B-Instruct-2501/analysis/bluff.csv",
+      "bytes": 265,
+      "sha256": "5d02e025459ca2d844306d8db635a19d860045940d871d97e96b96496e45c19a"
+    },
+    {
+      "path": "runs/main_Mistral-Small-24B-Instruct-2501/analysis/contagion.csv",
+      "origin": "runs",
+      "source_path": "main_Mistral-Small-24B-Instruct-2501/analysis/contagion.csv",
+      "bytes": 331,
+      "sha256": "1ef0e0a6f577be2cf077e6f6e3e765dbe958c6e14a20d0167b013387ffc7fd4a"
+    },
+    {
+      "path": "runs/main_Mistral-Small-24B-Instruct-2501/analysis/entrapment.csv",
+      "origin": "runs",
+      "source_path": "main_Mistral-Small-24B-Instruct-2501/analysis/entrapment.csv",
+      "bytes": 3223,
+      "sha256": "d67fefa4c491bd3505da5652e5f2db74c40258acfa769c580c6d77932f1613f0"
+    },
+    {
+      "path": "runs/main_Mistral-Small-24B-Instruct-2501/analysis/predisposition.csv",
+      "origin": "runs",
+      "source_path": "main_Mistral-Small-24B-Instruct-2501/analysis/predisposition.csv",
+      "bytes": 116,
+      "sha256": "f0c3c1b4bbcfb9d7b99dcdd54d8659743d59e064f642a8a8be605a15d9f02ab2"
+    },
+    {
+      "path": "runs/main_Mistral-Small-24B-Instruct-2501/recheck/accept_disagreements.csv",
+      "origin": "runs",
+      "source_path": "main_Mistral-Small-24B-Instruct-2501/recheck/accept_disagreements.csv",
+      "bytes": 2518,
+      "sha256": "cf5d399bc26ee19ee4f6973680b7fbec6c2db85cad8a0e2b21e2f53bb5015f90"
+    },
+    {
+      "path": "runs/main_Mistral-Small-24B-Instruct-2501/recheck/acceptance.csv",
+      "origin": "runs",
+      "source_path": "main_Mistral-Small-24B-Instruct-2501/recheck/acceptance.csv",
+      "bytes": 873,
+      "sha256": "62d1381eeef92f9db59ff34cf33367bff492dbe258cf8d98fad912918bf811f7"
+    },
+    {
+      "path": "runs/main_Mistral-Small-24B-Instruct-2501/recheck/agent_baselines.csv",
+      "origin": "runs",
+      "source_path": "main_Mistral-Small-24B-Instruct-2501/recheck/agent_baselines.csv",
+      "bytes": 5261,
+      "sha256": "97eec4dbbaf2797e75de80c7e35bd074054e3d05f9a59a6bbc66a02389f46ee8"
+    },
+    {
+      "path": "runs/main_Mistral-Small-24B-Instruct-2501/recheck/challenge.csv",
+      "origin": "runs",
+      "source_path": "main_Mistral-Small-24B-Instruct-2501/recheck/challenge.csv",
+      "bytes": 472,
+      "sha256": "dc327de44e416203b45184093dafe0318ebdac2e96ae65219301eac572f71a00"
+    },
+    {
+      "path": "runs/main_Mistral-Small-24B-Instruct-2501/recheck/cross_tables.csv",
+      "origin": "runs",
+      "source_path": "main_Mistral-Small-24B-Instruct-2501/recheck/cross_tables.csv",
+      "bytes": 5302,
+      "sha256": "9e7cae23b82ce9f5b3d8858e3e06a287459abfa365759f6907e73ace0472e91b"
+    },
+    {
+      "path": "runs/main_Mistral-Small-24B-Instruct-2501/recheck/cross_tables_clean.csv",
+      "origin": "runs",
+      "source_path": "main_Mistral-Small-24B-Instruct-2501/recheck/cross_tables_clean.csv",
+      "bytes": 5306,
+      "sha256": "6e845cd35e8e5c09286d8889095b9ed4f6e2837ddba1075e08cd697b65ec913a"
+    },
+    {
+      "path": "runs/main_Mistral-Small-24B-Instruct-2501/recheck/cross_tables_original_parser.csv",
+      "origin": "runs",
+      "source_path": "main_Mistral-Small-24B-Instruct-2501/recheck/cross_tables_original_parser.csv",
+      "bytes": 5147,
+      "sha256": "bf0614c72c390890acc0f3c440796f51bf960400e124a277a74dbe2b27756b5f"
+    },
+    {
+      "path": "runs/main_Mistral-Small-24B-Instruct-2501/recheck/judge_audit.csv",
+      "origin": "runs",
+      "source_path": "main_Mistral-Small-24B-Instruct-2501/recheck/judge_audit.csv",
+      "bytes": 5822,
+      "sha256": "f07de53c19dd6041aac7a4dcb3523ee576d07d0746632e1c9b7097981c8ed42a"
+    },
+    {
+      "path": "runs/main_Mistral-Small-24B-Instruct-2501/recheck/offer_audit.csv",
+      "origin": "runs",
+      "source_path": "main_Mistral-Small-24B-Instruct-2501/recheck/offer_audit.csv",
+      "bytes": 265444,
+      "sha256": "77466f1fb60230e546315be2286f889e8e35f430eeac4f6df2a2628fae40dab6"
+    },
+    {
+      "path": "runs/main_Mistral-Small-24B-Instruct-2501/recheck/phi4_baselines.csv",
+      "origin": "runs",
+      "source_path": "main_Mistral-Small-24B-Instruct-2501/recheck/phi4_baselines.csv",
+      "bytes": 954,
+      "sha256": "410588cdea85b6ddc9c227687c7c3237388bc250710e13e70f46fcb96d5cc95c"
+    },
+    {
+      "path": "runs/main_Mistral-Small-24B-Instruct-2501/recheck/phi4_crosstab.csv",
+      "origin": "runs",
+      "source_path": "main_Mistral-Small-24B-Instruct-2501/recheck/phi4_crosstab.csv",
+      "bytes": 1785,
+      "sha256": "a787015e2bea4260149c1629b141ff3246b3f68ce09a9528b23753f53c274234"
+    },
+    {
+      "path": "runs/main_Mistral-Small-24B-Instruct-2501/recheck/pm_observations.csv",
+      "origin": "runs",
+      "source_path": "main_Mistral-Small-24B-Instruct-2501/recheck/pm_observations.csv",
+      "bytes": 52087,
+      "sha256": "14858dbbda2c8b2e840bb473ae975ff6bf1e03993550178d8d122457cfc57a60"
+    },
+    {
+      "path": "runs/main_Mistral-Small-24B-Instruct-2501/recheck/regex_flags.csv",
+      "origin": "runs",
+      "source_path": "main_Mistral-Small-24B-Instruct-2501/recheck/regex_flags.csv",
+      "bytes": 108,
+      "sha256": "b03b698a860faebaf5a95fbf44089266f95fc8a32f65841d0f120a85cbb84336"
+    },
+    {
+      "path": "runs/main_Mistral-Small-24B-Instruct-2501/recheck/request_occurrences.csv",
+      "origin": "runs",
+      "source_path": "main_Mistral-Small-24B-Instruct-2501/recheck/request_occurrences.csv",
+      "bytes": 50634,
+      "sha256": "ea95fd4cc4035d398bc0a9389cd1e4a24f3e57b35eb540b8c9ed0a4e71610b37"
+    },
+    {
+      "path": "runs/main_Mistral-Small-24B-Instruct-2501/recheck/results.json",
+      "origin": "runs",
+      "source_path": "main_Mistral-Small-24B-Instruct-2501/recheck/results.json",
+      "bytes": 65932,
+      "sha256": "dcbc5c2b0ef9ef9f761593c24be248cd4a13dda54ec8d4beb48a5c15c3562342"
+    },
+    {
+      "path": "runs/main_Mistral-Small-24B-Instruct-2501/recheck/summary.md",
+      "origin": "runs",
+      "source_path": "main_Mistral-Small-24B-Instruct-2501/recheck/summary.md",
+      "bytes": 4701,
+      "sha256": "ad2415ca7c19224cd0fcfc8006efb0207a623d97dd44f198206d55211a9846ab"
+    },
+    {
+      "path": "runs/main_Mistral-Small-24B-Instruct-2501/recheck/summary_phi4.md",
+      "origin": "runs",
+      "source_path": "main_Mistral-Small-24B-Instruct-2501/recheck/summary_phi4.md",
+      "bytes": 1491,
+      "sha256": "f09621a4ce1128be1578614e7c822d2ac20b2cbb3be630e4abd219e5cee807de"
+    },
+    {
+      "path": "runs/main_Mistral-Small-24B-Instruct-2501/recheck/wording_mcnemar.csv",
+      "origin": "runs",
+      "source_path": "main_Mistral-Small-24B-Instruct-2501/recheck/wording_mcnemar.csv",
+      "bytes": 706,
+      "sha256": "0ba1699dcd71c5374bc52ef9da576a6ae27a957f89c9eb1b413882133d7d1750"
+    },
+    {
+      "path": "runs/main_Mistral-Small-24B-Instruct-2501/recheck/wording_observations.csv",
+      "origin": "runs",
+      "source_path": "main_Mistral-Small-24B-Instruct-2501/recheck/wording_observations.csv",
+      "bytes": 175086,
+      "sha256": "6083581c7711d8b5eca2d43285cc572b02303c13a0837cf52fd17e952e351e8c"
+    },
+    {
+      "path": "runs/main_Mistral-Small-24B-Instruct-2501/recheck/wording_rates.csv",
+      "origin": "runs",
+      "source_path": "main_Mistral-Small-24B-Instruct-2501/recheck/wording_rates.csv",
+      "bytes": 1595,
+      "sha256": "e70271e6dd9d23d42427d514573f20b9263354b4f9627d6b771e71207df1d79a"
+    },
+    {
+      "path": "runs/main_Mistral-Small-24B-Instruct-2501/recheck/wording_refusals.csv",
+      "origin": "runs",
+      "source_path": "main_Mistral-Small-24B-Instruct-2501/recheck/wording_refusals.csv",
+      "bytes": 1883,
+      "sha256": "4bb2e15a268e30b213f2f7cb76510f02ff0a18e0099e3c11f70a191643aabcea"
+    },
+    {
+      "path": "runs/main_Mistral-Small-24B-Instruct-2501/recheck/wording_summary.md",
+      "origin": "runs",
+      "source_path": "main_Mistral-Small-24B-Instruct-2501/recheck/wording_summary.md",
+      "bytes": 2198,
+      "sha256": "4dc65755896601f9e8fac4172b176c65860a400e6d32260ec5f5613933f8784c"
+    },
+    {
+      "path": "runs/main_Qwen2.5-32B-Instruct/analysis/behaviour.csv",
+      "origin": "runs",
+      "source_path": "main_Qwen2.5-32B-Instruct/analysis/behaviour.csv",
+      "bytes": 943,
+      "sha256": "f79a5c56eb09537cf08eea2f48f9fc93db460ab9d192e636c3ab8d4a622283f4"
+    },
+    {
+      "path": "runs/main_Qwen2.5-32B-Instruct/analysis/bluff.csv",
+      "origin": "runs",
+      "source_path": "main_Qwen2.5-32B-Instruct/analysis/bluff.csv",
+      "bytes": 226,
+      "sha256": "4ef6a69a2ba7a854567bde297c8a8ad66edd7d3707d4492e8a4e27cced598e8a"
+    },
+    {
+      "path": "runs/main_Qwen2.5-32B-Instruct/analysis/contagion.csv",
+      "origin": "runs",
+      "source_path": "main_Qwen2.5-32B-Instruct/analysis/contagion.csv",
+      "bytes": 293,
+      "sha256": "96da5ccb66b966b373e7bf0fdc515172eb01a9d09c608aa035a7be7bf43c3e6a"
+    },
+    {
+      "path": "runs/main_Qwen2.5-32B-Instruct/analysis/entrapment.csv",
+      "origin": "runs",
+      "source_path": "main_Qwen2.5-32B-Instruct/analysis/entrapment.csv",
+      "bytes": 3054,
+      "sha256": "1ba599ab73bf23685c4604c115d42400bf64ef2ecd1af7ea63e4d7b56de7c072"
+    },
+    {
+      "path": "runs/main_Qwen2.5-32B-Instruct/analysis/predisposition.csv",
+      "origin": "runs",
+      "source_path": "main_Qwen2.5-32B-Instruct/analysis/predisposition.csv",
+      "bytes": 100,
+      "sha256": "0c12403f9ff42e5ba0bd8acacc20f75a0111cf6edf2ef410a04ddefa85dc7ed8"
+    },
+    {
+      "path": "runs/main_Qwen2.5-32B-Instruct/recheck/accept_disagreements.csv",
+      "origin": "runs",
+      "source_path": "main_Qwen2.5-32B-Instruct/recheck/accept_disagreements.csv",
+      "bytes": 803,
+      "sha256": "7d7736407f7358c6891b375eca0096e7d812b929d4fc1803ff95bc778548ec7a"
+    },
+    {
+      "path": "runs/main_Qwen2.5-32B-Instruct/recheck/acceptance.csv",
+      "origin": "runs",
+      "source_path": "main_Qwen2.5-32B-Instruct/recheck/acceptance.csv",
+      "bytes": 809,
+      "sha256": "3cc44ffde20a60e04db4db6f7457fda08f3cb582565838cf3b342a81fe611dfb"
+    },
+    {
+      "path": "runs/main_Qwen2.5-32B-Instruct/recheck/agent_baselines.csv",
+      "origin": "runs",
+      "source_path": "main_Qwen2.5-32B-Instruct/recheck/agent_baselines.csv",
+      "bytes": 5381,
+      "sha256": "5922a5390df704773433250d4b89128b54205a54e9ed67aa9e6a2b4e5ad1993d"
+    },
+    {
+      "path": "runs/main_Qwen2.5-32B-Instruct/recheck/challenge.csv",
+      "origin": "runs",
+      "source_path": "main_Qwen2.5-32B-Instruct/recheck/challenge.csv",
+      "bytes": 472,
+      "sha256": "2c52aca9a0bf9fc3959bd5097bc425b42f7fc18d3a16249593c70e75af8a4fd3"
+    },
+    {
+      "path": "runs/main_Qwen2.5-32B-Instruct/recheck/cross_tables.csv",
+      "origin": "runs",
+      "source_path": "main_Qwen2.5-32B-Instruct/recheck/cross_tables.csv",
+      "bytes": 5166,
+      "sha256": "64f9d5f751802d4d4e9ca4f01463f3ce378a7aff5b965970409159f6930162db"
+    },
+    {
+      "path": "runs/main_Qwen2.5-32B-Instruct/recheck/cross_tables_clean.csv",
+      "origin": "runs",
+      "source_path": "main_Qwen2.5-32B-Instruct/recheck/cross_tables_clean.csv",
+      "bytes": 5154,
+      "sha256": "2b80cf6abfb6f91e03d5d45d0260c408dff77595824faa619478250e2256e587"
+    },
+    {
+      "path": "runs/main_Qwen2.5-32B-Instruct/recheck/cross_tables_original_parser.csv",
+      "origin": "runs",
+      "source_path": "main_Qwen2.5-32B-Instruct/recheck/cross_tables_original_parser.csv",
+      "bytes": 5172,
+      "sha256": "6c3f6a1540090b2fa588402adaa65e822d249e14d5931281abe79dc5434a5df5"
+    },
+    {
+      "path": "runs/main_Qwen2.5-32B-Instruct/recheck/judge_audit.csv",
+      "origin": "runs",
+      "source_path": "main_Qwen2.5-32B-Instruct/recheck/judge_audit.csv",
+      "bytes": 6885,
+      "sha256": "fafee3c66de7dce487f8dea6fcc54c3f4648c4fe82568333a350fd53ed71b55f"
+    },
+    {
+      "path": "runs/main_Qwen2.5-32B-Instruct/recheck/offer_audit.csv",
+      "origin": "runs",
+      "source_path": "main_Qwen2.5-32B-Instruct/recheck/offer_audit.csv",
+      "bytes": 269101,
+      "sha256": "232a6cc81d868c8fd568059bedffcf18f7b06802f82ee9ab94470e2ac9eeb59c"
+    },
+    {
+      "path": "runs/main_Qwen2.5-32B-Instruct/recheck/phi4_baselines.csv",
+      "origin": "runs",
+      "source_path": "main_Qwen2.5-32B-Instruct/recheck/phi4_baselines.csv",
+      "bytes": 954,
+      "sha256": "ca7be0352c75d1e797594562e9fa28c945f8c9167fab88bb3b22ff63b2e436db"
+    },
+    {
+      "path": "runs/main_Qwen2.5-32B-Instruct/recheck/phi4_crosstab.csv",
+      "origin": "runs",
+      "source_path": "main_Qwen2.5-32B-Instruct/recheck/phi4_crosstab.csv",
+      "bytes": 1799,
+      "sha256": "83a91a02acd09ecbf51b0b05652967a9bda840a3ed5c2f72545890dd66df4939"
+    },
+    {
+      "path": "runs/main_Qwen2.5-32B-Instruct/recheck/pm_observations.csv",
+      "origin": "runs",
+      "source_path": "main_Qwen2.5-32B-Instruct/recheck/pm_observations.csv",
+      "bytes": 51220,
+      "sha256": "9e346dd70ae55158ef51e5c76e75b87bda77fee93f142bb9be3c843ec8e25134"
+    },
+    {
+      "path": "runs/main_Qwen2.5-32B-Instruct/recheck/regex_flags.csv",
+      "origin": "runs",
+      "source_path": "main_Qwen2.5-32B-Instruct/recheck/regex_flags.csv",
+      "bytes": 108,
+      "sha256": "b03b698a860faebaf5a95fbf44089266f95fc8a32f65841d0f120a85cbb84336"
+    },
+    {
+      "path": "runs/main_Qwen2.5-32B-Instruct/recheck/request_occurrences.csv",
+      "origin": "runs",
+      "source_path": "main_Qwen2.5-32B-Instruct/recheck/request_occurrences.csv",
+      "bytes": 48910,
+      "sha256": "21be2abc8a03e5370e49241163c9e2887f47e18e498c562f7c71e3234708fd73"
+    },
+    {
+      "path": "runs/main_Qwen2.5-32B-Instruct/recheck/results.json",
+      "origin": "runs",
+      "source_path": "main_Qwen2.5-32B-Instruct/recheck/results.json",
+      "bytes": 65764,
+      "sha256": "7b2876fb5e57dbff0c1b93e0ae84abbf530a9e48234ab07478250c454e02ef67"
+    },
+    {
+      "path": "runs/main_Qwen2.5-32B-Instruct/recheck/summary.md",
+      "origin": "runs",
+      "source_path": "main_Qwen2.5-32B-Instruct/recheck/summary.md",
+      "bytes": 4661,
+      "sha256": "603a9708090118685c081ba34b4dce0765b9c962e693afaf3da39d5aa1f53048"
+    },
+    {
+      "path": "runs/main_Qwen2.5-32B-Instruct/recheck/summary_phi4.md",
+      "origin": "runs",
+      "source_path": "main_Qwen2.5-32B-Instruct/recheck/summary_phi4.md",
+      "bytes": 1467,
+      "sha256": "799b5b83bcc66bb42ddf59ceb33af2b41b2cfabbe4a2e421810bffc7f911e6f4"
+    },
+    {
+      "path": "runs/main_Qwen2.5-32B-Instruct/recheck/wording_mcnemar.csv",
+      "origin": "runs",
+      "source_path": "main_Qwen2.5-32B-Instruct/recheck/wording_mcnemar.csv",
+      "bytes": 794,
+      "sha256": "c4cf12a1d890b98e7ac3b93adc4e267b197b907ebba6881394899d2f1f132bcd"
+    },
+    {
+      "path": "runs/main_Qwen2.5-32B-Instruct/recheck/wording_observations.csv",
+      "origin": "runs",
+      "source_path": "main_Qwen2.5-32B-Instruct/recheck/wording_observations.csv",
+      "bytes": 162427,
+      "sha256": "96b6329f6c0cee74a307df7d4a24e105d6623e1eecfdc39f3a95ac01624a4435"
+    },
+    {
+      "path": "runs/main_Qwen2.5-32B-Instruct/recheck/wording_rates.csv",
+      "origin": "runs",
+      "source_path": "main_Qwen2.5-32B-Instruct/recheck/wording_rates.csv",
+      "bytes": 1702,
+      "sha256": "7e28ee235d0542b193f575de5e155a1dac76c0a22380d215910823d103ff466d"
+    },
+    {
+      "path": "runs/main_Qwen2.5-32B-Instruct/recheck/wording_refusals.csv",
+      "origin": "runs",
+      "source_path": "main_Qwen2.5-32B-Instruct/recheck/wording_refusals.csv",
+      "bytes": 1999,
+      "sha256": "332ca213a4aa49cb737dc0e76e6cba8f444f92efed659733a579a1c25e1b4d43"
+    },
+    {
+      "path": "runs/main_Qwen2.5-32B-Instruct/recheck/wording_summary.md",
+      "origin": "runs",
+      "source_path": "main_Qwen2.5-32B-Instruct/recheck/wording_summary.md",
+      "bytes": 2208,
+      "sha256": "d43810cacec197ecec34ab045faf8bbdc0e9bdd68f333286bfbb9a999d2f1097"
+    },
+    {
+      "path": "runs/main_baseline.csv",
+      "origin": "runs",
+      "source_path": "main_baseline.csv",
+      "bytes": 206,
+      "sha256": "b9cacd92fea2645de5cd9d57879bad6f6c7e43c1f37f651dea6a98c079a670d8"
+    },
+    {
+      "path": "runs/main_behaviour.csv",
+      "origin": "runs",
+      "source_path": "main_behaviour.csv",
+      "bytes": 1849,
+      "sha256": "81a23673c968f087ef88c338a4ec59bacc10f92e36f7a0f236a3195e9f5bd77c"
+    },
+    {
+      "path": "runs/main_summary.csv",
+      "origin": "runs",
+      "source_path": "main_summary.csv",
+      "bytes": 5619,
+      "sha256": "c72be0b8325885b8c9d254d667f7c220dc9d50fbc7b69308c126d4a04fbb94bf"
+    },
+    {
+      "path": "runs/robust/observations.csv",
+      "origin": "runs",
+      "source_path": "robust/observations.csv",
+      "bytes": 662902,
+      "sha256": "0f96fb8230214e9fcef6177daf4c9d274897b45b7e6f5820ebf9dedc74e9764c"
+    },
+    {
+      "path": "runs/robust/results.json",
+      "origin": "runs",
+      "source_path": "robust/results.json",
+      "bytes": 22791,
+      "sha256": "93d36cf3288695f1c0ff678cfad0f226df8f6f633d43858fe14e90c09f1835a3"
+    },
+    {
+      "path": "runs/robust/summary.md",
+      "origin": "runs",
+      "source_path": "robust/summary.md",
+      "bytes": 8103,
+      "sha256": "7aeff5ced7247082c1b2b5b3eb3d32db32d4898d405bc3666604c3f646b5d494"
+    },
+    {
+      "path": "runs/screen_Mistral-Small-24B-Instruct-2501/analysis/entrapment.csv",
+      "origin": "runs",
+      "source_path": "screen_Mistral-Small-24B-Instruct-2501/analysis/entrapment.csv",
+      "bytes": 1698,
+      "sha256": "9867e035d2e3734703820b204e6b29911da161828cc3a055bf548543ecbaa4cd"
+    },
+    {
+      "path": "runs/screen_Mistral-Small-24B-Instruct-2501/analysis/predisposition.csv",
+      "origin": "runs",
+      "source_path": "screen_Mistral-Small-24B-Instruct-2501/analysis/predisposition.csv",
+      "bytes": 116,
+      "sha256": "3efa84a22d4c08d573210688ac4a0912e64f6c50bd771bcee951359427b4fa55"
+    },
+    {
+      "path": "runs/screen_Qwen2.5-32B-Instruct/analysis/entrapment.csv",
+      "origin": "runs",
+      "source_path": "screen_Qwen2.5-32B-Instruct/analysis/entrapment.csv",
+      "bytes": 1674,
+      "sha256": "dd11ad752ec19453b4d0ba9a8232f513a421b8cdcbf834ce9674138aab77e48d"
+    },
+    {
+      "path": "runs/screen_Qwen2.5-32B-Instruct/analysis/predisposition.csv",
+      "origin": "runs",
+      "source_path": "screen_Qwen2.5-32B-Instruct/analysis/predisposition.csv",
+      "bytes": 100,
+      "sha256": "5866b95f00301ce52c3dab45bf63538f517bf416d0b5b0c9cb4b15a3f91fa076"
+    },
+    {
+      "path": "runs/screen_Qwen2.5-72B-Instruct/analysis/entrapment.csv",
+      "origin": "runs",
+      "source_path": "screen_Qwen2.5-72B-Instruct/analysis/entrapment.csv",
+      "bytes": 1257,
+      "sha256": "13aee64e772b7552b39f5f367e6b49329a632f01beeeba99a47a6f5833389ade"
+    },
+    {
+      "path": "runs/screen_Qwen2.5-72B-Instruct/analysis/predisposition.csv",
+      "origin": "runs",
+      "source_path": "screen_Qwen2.5-72B-Instruct/analysis/predisposition.csv",
+      "bytes": 100,
+      "sha256": "08155acbc587dff9cc1f33511f1d7469fe9330166795a126642c200e230b38c2"
+    },
+    {
+      "path": "runs/screen_metrics.csv",
+      "origin": "runs",
+      "source_path": "screen_metrics.csv",
+      "bytes": 3335,
+      "sha256": "ed3f350a36a26fc289fbd53536b3b40645c079921886bf4fdf6c723b80bec2fe"
+    },
+    {
+      "path": "runs/screen_summary.csv",
+      "origin": "runs",
+      "source_path": "screen_summary.csv",
+      "bytes": 866,
+      "sha256": "b4bbc751d737556a87aca21bf9a51c3043aed0904e66b36a5c69d02837120816"
+    },
+    {
+      "path": "runs/values/REPORT.md",
+      "origin": "runs",
+      "source_path": "values/REPORT.md",
+      "bytes": 26072,
+      "sha256": "3d7d969bc4370611ac41e18ecf056860ef9289ae2f3d10fea37cc9521f43b813"
+    },
+    {
+      "path": "runs/values/results.json",
+      "origin": "runs",
+      "source_path": "values/results.json",
+      "bytes": 66838,
+      "sha256": "e71520c26b192ea9654943b1bffd2ea94200eb84a644be6a42a602dd8374ce4e"
+    },
+    {
+      "path": "runs/values/summary.md",
+      "origin": "runs",
+      "source_path": "values/summary.md",
+      "bytes": 13074,
+      "sha256": "51a7a35ed172ada70c6f9dae7668328f8c7716367276df340fea5b01e3b53310"
+    },
+    {
+      "path": "runs/values_Mistral-Small-24B-Instruct-2501/analysis/entrapment.csv",
+      "origin": "runs",
+      "source_path": "values_Mistral-Small-24B-Instruct-2501/analysis/entrapment.csv",
+      "bytes": 2122,
+      "sha256": "76e750b2fdf7db3fd436dc42ec78ac76f3acc1830b334af93ba0860610d5ec5a"
+    },
+    {
+      "path": "runs/values_Mistral-Small-24B-Instruct-2501/analysis/predisposition.csv",
+      "origin": "runs",
+      "source_path": "values_Mistral-Small-24B-Instruct-2501/analysis/predisposition.csv",
+      "bytes": 117,
+      "sha256": "0928253ae641c7d1e4d21aa8b608440f4547b2fe7c8515916359f00e3beec9be"
+    },
+    {
+      "path": "runs/values_Qwen2.5-32B-Instruct/analysis/entrapment.csv",
+      "origin": "runs",
+      "source_path": "values_Qwen2.5-32B-Instruct/analysis/entrapment.csv",
+      "bytes": 1873,
+      "sha256": "36ac03f153de9058c425180f9d984155c5604c39b597fefdcf902020153fadd4"
+    },
+    {
+      "path": "runs/values_Qwen2.5-32B-Instruct/analysis/predisposition.csv",
+      "origin": "runs",
+      "source_path": "values_Qwen2.5-32B-Instruct/analysis/predisposition.csv",
+      "bytes": 116,
+      "sha256": "8c0542b5a579c832e3ac2c083c33d585f0d0326b2985e4ca97fba6e65bdbf89d"
+    },
+    {
+      "path": "runs/values_summary.csv",
+      "origin": "runs",
+      "source_path": "values_summary.csv",
+      "bytes": 3251,
+      "sha256": "ff5a34d75800289fa07a7994fa64f93844ce606d94a560e3b46f099a9e67f1b9"
+    },
+    {
+      "path": "runs/wording/source/sting/judge.py",
+      "origin": "runs",
+      "source_path": "wording/source/sting/judge.py",
+      "bytes": 4953,
+      "sha256": "2f8b032a28aa72a30c24aa90827543647bd91f50edf6431b81628e4799acbc5f"
+    },
+    {
+      "path": "runs/wording/source/sting/llm.py",
+      "origin": "runs",
+      "source_path": "wording/source/sting/llm.py",
+      "bytes": 10416,
+      "sha256": "d93bb34d6e5bdf9a369f0b48a00d4c299069979fdd169e45c0e4bc3c248c1ff8"
+    },
+    {
+      "path": "runs/wording/source/sting/modal_host.py",
+      "origin": "runs",
+      "source_path": "wording/source/sting/modal_host.py",
+      "bytes": 6794,
+      "sha256": "47cd63c821cd1cc320601b2a68c09826f2701f3b4818f6377f4d20dacf85b9e6"
+    },
+    {
+      "path": "runs/wording/source/sting/prompts.py",
+      "origin": "runs",
+      "source_path": "wording/source/sting/prompts.py",
+      "bytes": 8339,
+      "sha256": "d49796cc660046b8b691f977fde1fdcd4dcb295561936de1d0aafc43ed0d6b1e"
+    },
+    {
+      "path": "runs/wording/source/sting/recheck.py",
+      "origin": "runs",
+      "source_path": "wording/source/sting/recheck.py",
+      "bytes": 34462,
+      "sha256": "1e46f843bc63d7d8625dbf489f3c075f17af76453b1fed33bcf2faf30106b960"
+    },
+    {
+      "path": "runs/wording/source/sting/run.py",
+      "origin": "runs",
+      "source_path": "wording/source/sting/run.py",
+      "bytes": 10989,
+      "sha256": "ab6fdd64cf2686785d750c550b912267c3e246225e3f63e891406acd976aea59"
+    },
+    {
+      "path": "runs/wording/source/sting/wording.py",
+      "origin": "runs",
+      "source_path": "wording/source/sting/wording.py",
+      "bytes": 23889,
+      "sha256": "344102e0f2f2abb63f95b44d359ac92116b908f3b8cf3a22bbbc90c2e7f28b5e"
+    },
+    {
+      "path": "runs/main_Mistral-Small-24B-Instruct-2501/recheck/phi4_baseline_results.json",
+      "origin": "runs",
+      "source_path": "main_Mistral-Small-24B-Instruct-2501/recheck/phi4_baseline_results.json",
+      "bytes": 5848,
+      "sha256": "18b7f1b2b14ee48e3b85da77539ff7c3f23082fca0fa95666831b5f49c1f14ae"
+    },
+    {
+      "path": "runs/main_Mistral-Small-24B-Instruct-2501/recheck/wording_results.json",
+      "origin": "runs",
+      "source_path": "main_Mistral-Small-24B-Instruct-2501/recheck/wording_results.json",
+      "bytes": 16526,
+      "sha256": "33c3fd86578498bc63425a43616b3ee4a97ff04c9955be082c6980557058033e"
+    },
+    {
+      "path": "runs/main_Qwen2.5-32B-Instruct/recheck/phi4_baseline_results.json",
+      "origin": "runs",
+      "source_path": "main_Qwen2.5-32B-Instruct/recheck/phi4_baseline_results.json",
+      "bytes": 5863,
+      "sha256": "9fddae54a9867a7950e3165020a598f51dfac54ae3b85f0f8add777dec65b7a0"
+    },
+    {
+      "path": "runs/main_Qwen2.5-32B-Instruct/recheck/wording_results.json",
+      "origin": "runs",
+      "source_path": "main_Qwen2.5-32B-Instruct/recheck/wording_results.json",
+      "bytes": 17072,
+      "sha256": "b6c263c599c541059c317fbdcc4c0d397b4e6b960bc5bfd93bea432f62d6ae2b"
+    }
+  ]
+}
