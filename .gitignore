@@ -27,3 +27,5 @@ compute.env
 *.npy
 *.npz
 .DS_Store
+
+figures/generated/

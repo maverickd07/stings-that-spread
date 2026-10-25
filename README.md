@@ -105,6 +105,19 @@ The E3 script expects harmful/harmless training and harmful validation instructi
 
 **Reproduction limits:** the public summary release supports inspecting results and regenerating experiments from the code, but the original stochastic histories and pickle snapshots are not shipped. The raw-data-dependent analysis commands cannot rerun on summary files alone. Recreate their input stages first, in a separate checkout/output tree; the launchers can otherwise skip existing filenames. Engine seeds, prompt text, model IDs, and server settings are provided, but per-request sampling was not fully seeded and model downloads are not revision-locked everywhere, so new generations need not match the published numbers exactly. No paid inference is required to view results or run the mock tests.
 
+## Final paper figures
+
+`figures/make_figures.py` regenerates all final main-text and appendix plots from frozen, derived summary inputs embedded in the script. It includes the corrected distinctions between first-token probabilities and generated acceptance, the joint PC intervention, and the continuing values cue. The inputs correspond to `runs/RESULTS_ALL_20261024.md`, `runs/interp/results.json`, and `runs/values/results.json`; they are not new experimental runs.
+
+```bash
+python -m pip install matplotlib
+python figures/make_figures.py --out figures/generated
+```
+
+The script writes PDF/PNG figures, derived tables and a font audit. It uses Python's standard library for the exact Fisher calculation, so SciPy is not required. Labels are sized for full-width (6.3-inch) inclusion in the paper. This plotting script was adapted from the author's final figure source for this release; the older engine and run-specific source copies listed in `COPY_MANIFEST.json` remain unchanged.
+
+The public release contains derived summaries, selected observation/audit tables and prompt examples, rather than complete raw logs or serialized states. Full raw logs are available from the author on request.
+
 ## Prompts
 
 [The prompt catalogue](prompts/README.md) maps every condition family to its exact source text and builder. `prompts/source_templates.json` exports literal constants and dynamic string fragments from current and archived source without paraphrasing. `prompts/recorded_examples/` contains representative **exact stored request prompts**, including their game context, for each available directory × condition × offer rung. These are prompt-only extracts, not raw response logs. Multi-turn V2 prompt examples in `prompts/reconstructed_v2/` are reconstructed by replaying the exact builder with saved turns and trusted snapshots, without inference; reconstructed turns were checked against their saved originals. Both indices record source and prompt SHA-256 hashes.
@@ -114,6 +127,7 @@ The E3 script expects harmful/harmless training and harmful validation instructi
 ```text
 sting/                    Engine, inference, judges, rechecks and experiment modules
 scripts/                  Original launch/analysis scripts and publication verification/export tools
+figures/make_figures.py    Final paper figure generator from frozen summary inputs
 repro/                    Offline probe of the starter's alliance-memory path
 tests/                    Original mock and runtime regression tests
 runs/                     Published reports, derived CSV tables and summary JSON
@@ -145,6 +159,6 @@ The upstream **LICENSE files contain Apache License 2.0**, verified in both the 
 
 ## Publication scope
 
-Included: all Python/Shell/text code from the local sprint engine and run-specific source folders, original tests and launchers, exact prompts, and selected derived results. All copied files are byte-identical to their originals; the manifest distinguishes project files from desktop run files. The original project README is preserved in `docs/ORIGINAL_README.md`.
+Included: all Python/Shell/text code from the local sprint engine and run-specific source folders, original tests and launchers, exact prompts, and selected derived results. All original copies listed in `COPY_MANIFEST.json` are byte-identical to their originals; the manifest distinguishes project files from desktop run files. The original project README is preserved in `docs/ORIGINAL_README.md`.
 
 Excluded: all raw API/console logs (even small ones), full per-request generation/response JSON, pickle snapshots and branch states, model weights/activation tensors, archives, virtual environments, caches, credential files, billing/account dumps, local machine/HPC handoff notes, and external instruction datasets. No file of 50 MiB or larger is included. Generic environment-variable names in code are configuration references; credentials are not supplied. The publication was scanned for credential patterns and hard-coded key assignments before committing.
